@@ -3,6 +3,9 @@
     <h1>BOUBA</h1>
     <Navigation :routes="router.options.routes" />
   </header>
+  <main>
+    <RouterView />
+  </main>
 </template>
 
 <script setup lang="ts">
