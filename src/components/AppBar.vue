@@ -2,8 +2,7 @@
   <header>
     <h1>BOUBA</h1>
     <button command="show-modal" commandfor="nav-dialog">Navigation</button>
-    <dialog id="nav-dialog">
-      <button commandfor="nav-dialog" command="close">Close Navigation</button>
+    <dialog id="nav-dialog" closedby="any">
       <Navigation :routes="router.options.routes" />
     </dialog>
   </header>
@@ -25,6 +24,14 @@ header {
   height: var(--appbar-height);
 }
 
+dialog {
+  background: var(--color-base);
+  border: none;
+  inset: auto 0 var(--appbar-height);
+  max-width: none;
+  width: 100%;
+}
+
 @media (max-width: 767px) {
   header {
     bottom: 0;
@@ -36,12 +43,11 @@ header {
     top: 0;
   }
 
-  button[command="close"],
-  button[command="show-modal"] {
+  button {
     display: none;
   }
 
-  dialog#nav-dialog {
+  dialog {
     background: transparent;
     display: block;
     position: static;
