@@ -5,6 +5,7 @@
   --color-spielen: rgb(184, 166, 249);
   --color-trainieren: rgb(242, 165, 140);
   --color-geniessen: rgb(234, 207, 113);
+  --appbar-height: 72px;
 }
 
 * {

@@ -20,3 +20,28 @@ defineProps<{
   routes: RouteRecordRaw[];
 }>();
 </script>
+
+<style scoped>
+@media (min-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 0;
+    width: auto;
+  }
+
+  nav ul li {
+    text-align: center;
+    width: 122px;
+  }
+
+  nav ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+  }
+}
+</style>

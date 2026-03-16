@@ -15,7 +15,28 @@ import router from "@/router";
 </script>
 
 <style scoped>
+header {
+  background: var(--color-base);
+  justify-content: space-between;
+  display: flex;
+  position: fixed;
+  left: 0;
+  right: 0;
+  height: var(--appbar-height);
+}
+
+@media (max-width: 767px) {
+  header {
+    bottom: 0;
+  }
+}
+
 @media (min-width: 768px) {
+  header {
+    top: 0;
+  }
+
+  button[command="close"],
   button[command="show-modal"] {
     display: none;
   }
@@ -24,18 +45,8 @@ import router from "@/router";
     display: block;
     position: static;
     border: none;
-    padding: 0;
-    margin: 0;
-    background: transparent;
-    overflow: visible;
-  }
-
-  dialog#nav-dialog nav ul {
-    display: flex;
-  }
-
-  button[command="close"] {
-    display: none;
+    margin-left: auto;
+    width: fit-content;
   }
 }
 </style>

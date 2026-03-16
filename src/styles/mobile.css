@@ -1,0 +1,5 @@
+@media (max-width: 767px) {
+  div#app {
+    padding: 0 0 var(--appbar-height);
+  }
+}
