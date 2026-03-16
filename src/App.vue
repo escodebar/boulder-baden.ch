@@ -1,14 +1,10 @@
 <template>
-  <header>
-    <h1>BOUBA</h1>
-    <Navigation :routes="router.options.routes" />
-  </header>
+  <AppBar />
   <main>
     <RouterView />
   </main>
 </template>
 
 <script setup lang="ts">
-import Navigation from "@/components/Navigation.vue";
-import router from "@/router";
+import AppBar from "@/components/AppBar.vue";
 </script>
