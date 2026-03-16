@@ -25,7 +25,7 @@ defineProps<{
 @media (min-width: 768px) {
   nav ul {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -33,8 +33,16 @@ defineProps<{
     width: auto;
   }
 
+  nav.header ul {
+    flex-direction: row-reverse;
+  }
+
   nav ul li {
+    flex: auto;
     text-align: center;
+  }
+
+  nav.header ul li {
     width: 122px;
   }
 

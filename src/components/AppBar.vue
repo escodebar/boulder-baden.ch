@@ -3,7 +3,7 @@
     <h1>BOUBA</h1>
     <button command="show-modal" commandfor="nav-dialog">Navigation</button>
     <dialog id="nav-dialog" closedby="any">
-      <Navigation :routes="router.options.routes" />
+      <Navigation class="header" :routes="router.options.routes" />
     </dialog>
   </header>
 </template>
