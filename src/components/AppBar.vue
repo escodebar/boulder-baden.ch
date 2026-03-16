@@ -32,6 +32,10 @@ dialog {
   width: 100%;
 }
 
+dialog::backdrop {
+  background: transparent;
+}
+
 @media (max-width: 767px) {
   header {
     bottom: 0;
