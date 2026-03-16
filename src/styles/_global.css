@@ -1,8 +1,4 @@
 :root {
-  --mobile-breakpoint: 576px;
-  --tablet-breakpoint: 768px;
-  --desktop-breakpoint: 1440px;
-
   --color-base: rgb(250, 245, 237);
   --color-neu-hier: rgb(191, 221, 173);
   --color-bouldern: rgb(242, 230, 210);
@@ -20,16 +16,4 @@
 html {
   font-size: 18pt;
   font-family: sans-serif;
-}
-
-@media (min-width: 768px) {
-  body {
-    max-width: var(--tablet-breakpoint);
-  }
-}
-
-@media (min-width: 1440px) {
-  body {
-    max-width: var(--desktop-breakpoint);
-  }
 }
