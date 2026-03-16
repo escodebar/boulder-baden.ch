@@ -42,6 +42,7 @@ header {
   }
 
   dialog#nav-dialog {
+    background: transparent;
     display: block;
     position: static;
     border: none;
