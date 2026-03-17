@@ -26,3 +26,12 @@ html {
 body {
   background: var(--color-base);
 }
+
+dt,
+dd {
+  font-size: 24pt;
+}
+
+p {
+  font-size: 24pt;
+}
