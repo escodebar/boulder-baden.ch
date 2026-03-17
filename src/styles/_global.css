@@ -1,10 +1,11 @@
 :root {
   --color-base: #f8f4ef;
-  --color-neu-hier: #b4dfdf;
   --color-bouldern: #f3e5c7;
-  --color-spielen: #d2a7ff;
-  --color-trainieren: #ffb491;
   --color-geniessen: #ffe48d;
+  --color-neu-hier: #b4dfdf;
+  --color-spielen: #d2a7ff;
+  --color-text: #000;
+  --color-trainieren: #ffb491;
   --appbar-height: 72px;
 
   --logo-width: 200px;

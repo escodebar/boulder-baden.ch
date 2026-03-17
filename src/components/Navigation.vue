@@ -22,6 +22,35 @@ defineProps<{
 </script>
 
 <style scoped>
+@media (max-width: 767px) {
+  nav ul li {
+    height: 81px;
+  }
+  nav ul li a {
+    align-items: center;
+    color: var(--color-text);
+    display: flex;
+    height: 81px;
+    justify-content: center;
+    text-decoration: none;
+  }
+  nav ul li a[href="/neu-hier"] {
+    background-color: var(--color-neu-hier);
+  }
+  nav ul li a[href="/bouldern"] {
+    background-color: var(--color-bouldern);
+  }
+  nav ul li a[href="/trainieren"] {
+    background-color: var(--color-trainieren);
+  }
+  nav ul li a[href="/spielen"] {
+    background-color: var(--color-spielen);
+  }
+  nav ul li a[href="/geniessen"] {
+    background-color: var(--color-geniessen);
+  }
+}
+
 @media (min-width: 768px) {
   nav ul {
     display: flex;
