@@ -1,6 +1,6 @@
 <template>
   <header>
-    <h1>BOUBA</h1>
+    <Logo />
     <button command="show-modal" commandfor="nav-dialog">Navigation</button>
     <dialog id="nav-dialog" closedby="any">
       <Navigation class="header" :routes="router.options.routes" />
@@ -9,6 +9,7 @@
 </template>
 
 <script setup lang="ts">
+import Logo from "@/components/Logo.vue";
 import Navigation from "@/components/Navigation.vue";
 import router from "@/router";
 </script>

@@ -6,6 +6,9 @@
   --color-trainieren: #ffb491;
   --color-geniessen: #ffe48d;
   --appbar-height: 72px;
+
+  --logo-width: 200px;
+  --logo-height: 80px;
 }
 
 * {
