@@ -25,6 +25,21 @@ defineProps<{
 nav ul li a {
   color: var(--color-text);
 }
+nav ul li a[href="/neu-hier"] {
+  background-color: var(--color-neu-hier);
+}
+nav ul li a[href="/bouldern"] {
+  background-color: var(--color-bouldern);
+}
+nav ul li a[href="/trainieren"] {
+  background-color: var(--color-trainieren);
+}
+nav ul li a[href="/spielen"] {
+  background-color: var(--color-spielen);
+}
+nav ul li a[href="/geniessen"] {
+  background-color: var(--color-geniessen);
+}
 
 @media (max-width: 767px) {
   nav ul li a {
@@ -33,21 +48,6 @@ nav ul li a {
     height: 81px;
     justify-content: center;
     text-decoration: none;
-  }
-  nav ul li a[href="/neu-hier"] {
-    background-color: var(--color-neu-hier);
-  }
-  nav ul li a[href="/bouldern"] {
-    background-color: var(--color-bouldern);
-  }
-  nav ul li a[href="/trainieren"] {
-    background-color: var(--color-trainieren);
-  }
-  nav ul li a[href="/spielen"] {
-    background-color: var(--color-spielen);
-  }
-  nav ul li a[href="/geniessen"] {
-    background-color: var(--color-geniessen);
   }
 }
 
@@ -88,6 +88,7 @@ nav ul li a {
   }
 
   nav.header ul li a {
+    background-color: var(--color-base);
     display: flex;
     justify-content: center;
     align-items: end;
