@@ -22,13 +22,13 @@ defineProps<{
 </script>
 
 <style scoped>
+nav ul li a {
+  color: var(--color-text);
+}
+
 @media (max-width: 767px) {
-  nav ul li {
-    height: 81px;
-  }
   nav ul li a {
     align-items: center;
-    color: var(--color-text);
     display: flex;
     height: 81px;
     justify-content: center;
@@ -62,23 +62,58 @@ defineProps<{
     width: auto;
   }
 
-  nav.header ul {
-    flex-direction: row-reverse;
-  }
-
   nav ul li {
     flex: auto;
     text-align: center;
-  }
-
-  nav.header ul li {
-    width: 122px;
   }
 
   nav ul li a {
     display: block;
     width: 100%;
     text-decoration: none;
+  }
+
+  nav.header ul {
+    flex-direction: row;
+  }
+
+  nav.header ul li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: var(--appbar-height);
+    overflow: hidden;
+    width: 122px;
+  }
+
+  nav.header ul li a {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    transform: translateY(calc(-100% + 6px));
+    transition: transform 0.3s ease;
+  }
+
+  nav.header ul li:hover a {
+    transform: translateY(0);
+  }
+
+  nav.header ul li a[href="/neu-hier"] {
+    border-bottom: 6px solid var(--color-neu-hier);
+  }
+  nav.header ul li a[href="/bouldern"] {
+    border-bottom: 6px solid var(--color-bouldern);
+  }
+  nav.header ul li a[href="/trainieren"] {
+    border-bottom: 6px solid var(--color-trainieren);
+  }
+  nav.header ul li a[href="/spielen"] {
+    border-bottom: 6px solid var(--color-spielen);
+  }
+  nav.header ul li a[href="/geniessen"] {
+    border-bottom: 6px solid var(--color-geniessen);
   }
 }
 </style>
