@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 :root {
   --color-base: #f8f4ef;
   --color-bouldern: #f3e5c7;
@@ -20,7 +22,7 @@
 
 html {
   font-size: 18pt;
-  font-family: sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
