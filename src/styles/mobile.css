@@ -6,4 +6,12 @@
   div#app {
     padding: 0 0 var(--appbar-height);
   }
+
+  h1 {
+    font-size: var(--font-size-h1-mobile);
+  }
+
+  h2 {
+    font-size: var(--font-size-h2-mobile);
+  }
 }

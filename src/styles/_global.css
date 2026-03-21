@@ -17,6 +17,15 @@
 
   --logo-width: 200px;
   --logo-height: 80px;
+
+  --font-size-h1-desktop: 90pt;
+  --font-size-h2-desktop: 45pt;
+
+  --font-size-h1-mobile: 45pt;
+  --font-size-h2-mobile: 30pt;
+
+  --font-size-text-big: 24pt;
+  --font-size-text: 18pt;
 }
 
 * {
@@ -26,7 +35,7 @@
 }
 
 html {
-  font-size: 18pt;
+  font-size: var(--font-size-text);
   font-family: "Roboto", sans-serif;
 }
 
@@ -39,13 +48,4 @@ h2,
 h3,
 h4 {
   font-family: "ABCCamera", sans-serif;
-}
-
-dt,
-dd {
-  font-size: 24pt;
-}
-
-p {
-  font-size: 24pt;
 }

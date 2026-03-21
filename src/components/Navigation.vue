@@ -74,7 +74,7 @@ nav ul li a[href="/geniessen"] {
     text-decoration: none;
     justify-content: center;
     align-items: center;
-    font-size: 45pt;
+    font-size: var(--font-size-h2-desktop);
   }
 
   nav.header ul {
@@ -99,7 +99,7 @@ nav ul li a[href="/geniessen"] {
     height: 100%;
     transform: translateY(calc(-100% + 6px));
     transition: transform 0.3s ease;
-    font-size: 18pt;
+    font-size: var(--font-size-text);
   }
 
   nav.header ul li:hover a {

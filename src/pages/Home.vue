@@ -49,3 +49,29 @@
 import Navigation from "@/components/Navigation.vue";
 import router from "@/router";
 </script>
+
+<style scoped>
+dt,
+dd,
+p {
+  font-size: var(--font-size-text-big);
+}
+
+@media (max-width: 767px) {
+  h2 {
+    font-size: var(--font-size-h1-mobile);
+  }
+  h3 {
+    font-size: var(--font-size-h2-mobile);
+  }
+}
+
+@media (min-width: 768px) {
+  h2 {
+    font-size: var(--font-size-h1-desktop);
+  }
+  h3 {
+    font-size: var(--font-size-h2-desktop);
+  }
+}
+</style>

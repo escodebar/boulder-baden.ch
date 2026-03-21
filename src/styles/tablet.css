@@ -2,4 +2,12 @@
   div#app {
     padding: var(--appbar-height) 0 0;
   }
+
+  h1 {
+    font-size: var(--font-size-h1-desktop);
+  }
+
+  h2 {
+    font-size: var(--font-size-h2-desktop);
+  }
 }
