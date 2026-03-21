@@ -65,6 +65,7 @@ nav ul li a[href="/geniessen"] {
   nav ul li {
     flex: auto;
     text-align: center;
+    width: 0;
   }
 
   nav ul li a {
