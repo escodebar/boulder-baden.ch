@@ -76,9 +76,9 @@ nav ul li a[href="/geniessen"] {
     justify-content: center;
     align-items: center;
     font-size: clamp(
-      24pt,
-      calc(24pt + (45 - 24) * (100vw - 768px) / (1440 - 768)),
-      45pt
+      var(--font-size-text-big),
+      calc(100vw / 24),
+      var(--font-size-h2-desktop)
     );
   }
 
