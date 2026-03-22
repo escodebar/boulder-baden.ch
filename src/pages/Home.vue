@@ -2,7 +2,7 @@
   <header>
     <Logo class="hero" />
   </header>
-  <Navigation :routes="router.options.routes" />
+  <Navigation />
 
   <section>
     <h2>Öffnungszeiten & Preise</h2>
@@ -44,13 +44,12 @@
   <section>
     <h2>Unsere Partner</h2>
   </section>
-  <Navigation :routes="router.options.routes" />
+  <Navigation />
 </template>
 
 <script setup lang="ts">
 import Logo from "@/components/Logo.vue";
 import Navigation from "@/components/Navigation.vue";
-import router from "@/router";
 </script>
 
 <style scoped>

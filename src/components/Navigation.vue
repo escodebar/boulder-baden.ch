@@ -1,7 +1,7 @@
 <template>
-  <nav v-if="routes.length">
+  <nav v-if="navItems.length">
     <ul>
-      <template v-for="route in routes">
+      <template v-for="route in navItems">
         <li v-if="route.name" :key="route.name">
           <RouterLink :to="{ name: route.name }">
             {{ route.name }}
@@ -13,12 +13,23 @@
 </template>
 
 <script setup lang="ts">
-import type { RouteRecordRaw } from "vue-router";
-import { RouterLink } from "vue-router";
+import { RouterLink, useRouter } from "vue-router";
 
-defineProps<{
-  routes: RouteRecordRaw[];
+const router = useRouter();
+
+const props = defineProps<{
+  routes?: (
+    | { path: string; name: string }
+    | { path: string; name: undefined }
+  )[];
 }>();
+
+const navItems =
+  props.routes ??
+  router.getRoutes().map(({ name, path }) => ({
+    name,
+    path,
+  }));
 </script>
 
 <style scoped>

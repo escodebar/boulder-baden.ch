@@ -1,10 +1,9 @@
 import { mount } from "@vue/test-utils";
 import { describe, it, expect } from "vitest";
 import Navigation from "@/components/Navigation.vue";
-import type { RouteRecordRaw } from "vue-router";
 
 describe("Navigation Component", () => {
-  const mockRoutes: RouteRecordRaw[] = [
+  const mockRoutes = [
     { path: "/home", name: "Home" },
     { path: "/about", name: "About" },
     { path: "/contact", name: "Contact" },

@@ -3,7 +3,7 @@
     <Logo />
     <button command="show-modal" commandfor="nav-dialog">Navigation</button>
     <dialog id="nav-dialog" closedby="any">
-      <Navigation class="header" :routes="router.options.routes" />
+      <Navigation class="header" />
     </dialog>
   </header>
 </template>
