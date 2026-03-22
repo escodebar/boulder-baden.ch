@@ -1,5 +1,7 @@
 <template>
-  <header></header>
+  <header>
+    <Logo class="hero" />
+  </header>
   <Navigation :routes="router.options.routes" />
 
   <section>
@@ -46,6 +48,7 @@
 </template>
 
 <script setup lang="ts">
+import Logo from "@/components/Logo.vue";
 import Navigation from "@/components/Navigation.vue";
 import router from "@/router";
 </script>
