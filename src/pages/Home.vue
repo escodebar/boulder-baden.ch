@@ -68,7 +68,11 @@ p {
 
 @media (min-width: 768px) {
   h2 {
-    font-size: var(--font-size-h1-desktop);
+    font-size: clamp(
+      var(--font-size-h1-tablet),
+      calc(100vw / 12),
+      var(--font-size-h1-desktop)
+    );
   }
   h3 {
     font-size: var(--font-size-h2-desktop);
