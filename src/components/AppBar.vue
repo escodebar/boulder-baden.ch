@@ -1,8 +1,20 @@
 <template>
   <header>
     <Logo />
-    <button command="show-modal" commandfor="nav-dialog">Navigation</button>
-    <dialog id="nav-dialog" closedby="any">
+    <button
+      @click="isOpen = !isOpen"
+      aria-controls="nav-dialog"
+      :aria-expanded="isOpen"
+    >
+      Navigation
+    </button>
+    <dialog
+      id="nav-dialog"
+      aria-label="Navigation"
+      :open="isOpen"
+      @close="isOpen = false"
+      @click.self="isOpen = false"
+    >
       <Navigation class="header" />
     </dialog>
   </header>
@@ -11,7 +23,9 @@
 <script setup lang="ts">
 import Logo from "@/components/Logo.vue";
 import Navigation from "@/components/Navigation.vue";
-import router from "@/router";
+import { ref } from "vue";
+
+const isOpen = ref(false);
 </script>
 
 <style scoped>

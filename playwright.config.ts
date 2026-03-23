@@ -23,18 +23,21 @@ export default defineConfig({
       name: "chromium",
       use: {
         ...devices["Desktop Chrome"],
+        isMobile: false,
       },
     },
     {
       name: "firefox",
       use: {
         ...devices["Desktop Firefox"],
+        isMobile: false,
       },
     },
     {
       name: "webkit",
       use: {
         ...devices["Desktop Safari"],
+        isMobile: false,
       },
     },
     {
