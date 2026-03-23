@@ -5,16 +5,11 @@
       @click="isOpen = !isOpen"
       aria-controls="nav-dialog"
       :aria-expanded="isOpen"
+      ref="dialogRef"
     >
       Navigation
     </button>
-    <dialog
-      id="nav-dialog"
-      aria-label="Navigation"
-      :open="isOpen"
-      @close="isOpen = false"
-      @click.self="isOpen = false"
-    >
+    <dialog id="nav-dialog" aria-label="Navigation" :open="isOpen">
       <Navigation class="header" />
     </dialog>
   </header>
@@ -23,9 +18,26 @@
 <script setup lang="ts">
 import Logo from "@/components/Logo.vue";
 import Navigation from "@/components/Navigation.vue";
-import { ref } from "vue";
+import { ref, onMounted, onUnmounted } from "vue";
 
 const isOpen = ref(false);
+const dialogRef = ref<HTMLDialogElement | null>(null);
+
+const handleGlobalClick = (event: MouseEvent) => {
+  if (!isOpen.value) return;
+  if (dialogRef.value && dialogRef.value.contains(event.target as Node)) {
+    return;
+  }
+  isOpen.value = false;
+};
+
+onMounted(() => {
+  document.addEventListener("click", handleGlobalClick);
+});
+
+onUnmounted(() => {
+  document.removeEventListener("click", handleGlobalClick);
+});
 </script>
 
 <style scoped>
