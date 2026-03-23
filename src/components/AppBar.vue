@@ -60,6 +60,8 @@ dialog::backdrop {
 @media (min-width: 768px) {
   header {
     top: 0;
+    max-width: var(--max-width);
+    margin: 0 auto;
   }
 
   button {
