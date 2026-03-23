@@ -40,15 +40,10 @@ header {
 }
 
 dialog {
-  background: var(--color-base);
   border: none;
   inset: auto 0 var(--appbar-height);
   max-width: none;
   width: 100%;
-}
-
-dialog::backdrop {
-  background: transparent;
 }
 
 @media (max-width: 767px) {
