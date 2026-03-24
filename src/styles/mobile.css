@@ -8,7 +8,11 @@
   }
 
   h1 {
-    font-size: var(--font-size-h1-mobile);
+    font-size: clamp(
+      var(--font-size-text-big),
+      calc(5vw / 64),
+      var(--font-size-h1-mobile)
+    );
   }
 
   h2 {

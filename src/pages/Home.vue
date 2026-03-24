@@ -61,7 +61,11 @@ p {
 
 @media (max-width: 767px) {
   h2 {
-    font-size: var(--font-size-h1-mobile);
+    font-size: clamp(
+      var(--font-size-text-big),
+      calc(500vw / 64),
+      var(--font-size-h1-mobile)
+    );
   }
   h3 {
     font-size: var(--font-size-h2-mobile);
