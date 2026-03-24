@@ -20,16 +20,16 @@
   --logo-width: 200px;
   --logo-height: 80px;
 
-  --font-size-h1-desktop: 90pt;
-  --font-size-h2-desktop: 45pt;
+  --font-size-h1-desktop: 90px;
+  --font-size-h2-desktop: 45px;
 
-  --font-size-h1-tablet: 48pt;
+  --font-size-h1-tablet: 48px;
 
-  --font-size-h1-mobile: 45pt;
-  --font-size-h2-mobile: 30pt;
+  --font-size-h1-mobile: 45px;
+  --font-size-h2-mobile: 30px;
 
-  --font-size-text-big: 24pt;
-  --font-size-text: 18pt;
+  --font-size-text-big: 24px;
+  --font-size-text: 18px;
 }
 
 * {
