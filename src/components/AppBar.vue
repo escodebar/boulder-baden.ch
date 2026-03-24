@@ -42,7 +42,6 @@ onUnmounted(() => {
 
 <style scoped>
 header {
-  background: var(--color-base);
   justify-content: space-between;
   display: flex;
   position: fixed;
