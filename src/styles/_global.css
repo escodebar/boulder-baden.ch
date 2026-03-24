@@ -55,3 +55,12 @@ h4 {
   font-family: "ABCCamera", sans-serif;
   font-weight: 100;
 }
+
+section {
+  border: 1px solid #000;
+  border-style: solid none;
+}
+
+section + section {
+  border-style: none none solid;
+}
