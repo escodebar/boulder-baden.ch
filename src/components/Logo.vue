@@ -4,12 +4,13 @@
 
 <style scoped>
 h1 {
-  background-image: url("@/assets/logo.svg");
+  background-image: url("@/assets/logo-small.svg");
   background-repeat: no-repeat;
   background-size: contain;
   display: block;
-  height: var(--logo-height);
-  width: var(--logo-width);
+  margin: auto 0;
+  height: 44px;
+  width: 219px;
   text-indent: -9999px;
   overflow: hidden;
   white-space: nowrap;
