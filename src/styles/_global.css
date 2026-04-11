@@ -54,6 +54,11 @@ h4 {
   font-weight: 100;
 }
 
+hr {
+  border: 1px solid #000;
+  border-style: solid none none;
+}
+
 section {
   border: 1px solid #000;
   border-style: solid none;
