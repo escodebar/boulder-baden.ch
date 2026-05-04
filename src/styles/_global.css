@@ -57,6 +57,7 @@ h4 {
 hr {
   border: 1px solid #000;
   border-style: solid none none;
+  margin: 40px auto;
 }
 
 section {

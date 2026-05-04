@@ -12,11 +12,6 @@
 </template>
 
 <style scoped>
-hr {
-  margin: 0 auto;
-  width: 900px;
-}
-
 dl {
   display: grid;
   grid-template-columns: 1fr 1fr;

@@ -15,4 +15,8 @@
   h2 {
     font-size: var(--font-size-h2-desktop);
   }
+
+  hr {
+    width: 900px;
+  }
 }
