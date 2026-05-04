@@ -9,6 +9,12 @@
     <dt>Samstag & Sonntag</dt>
     <dd>10 bis 19</dd>
   </dl>
+
+  <hr />
+
+  <a href=""> Spezielle Öffnungszeiten </a>
+
+  <a href=""> Preise </a>
 </template>
 
 <style scoped>
@@ -29,5 +35,20 @@ dt {
 
 dd {
   text-align: left;
+}
+
+a {
+  border: 1px solid #000;
+  display: block;
+  margin: 40px auto;
+  text-decoration: none;
+  line-height: 72px;
+  width: 360px;
+  height: 72px;
+  color: var(--color-text);
+}
+
+a::after {
+  content: "→";
 }
 </style>
