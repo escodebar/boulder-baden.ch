@@ -4,7 +4,9 @@
       <template v-for="route in navItems">
         <li v-if="route.name" :key="route.name">
           <RouterLink :to="{ name: route.name }">
-            {{ route.name }}
+            <span>
+              {{ route.name }}
+            </span>
           </RouterLink>
         </li>
       </template>
@@ -81,8 +83,10 @@ nav ul li a[href="/geniessen"] {
 
   nav ul li a {
     display: flex;
+    flex-direction: column;
     height: 360px;
     width: 100%;
+    font-family: "ABCCamera";
     text-decoration: none;
     justify-content: center;
     align-items: center;
@@ -91,6 +95,44 @@ nav ul li a[href="/geniessen"] {
       calc(100vw / 24),
       var(--font-size-h2-desktop)
     );
+  }
+
+  nav ul li a::before {
+    width: 90px;
+    height: 90px;
+    border: 1px solid #000;
+    border-radius: 45px;
+    display: block;
+    font-size: var(--font-size-h1-desktop);
+    line-height: 1;
+  }
+
+  nav ul li a span {
+    display: block;
+  }
+
+  nav.header ul li a {
+    flex-direction: row;
+  }
+
+  nav.header ul li a::before {
+    display: none;
+  }
+
+  nav ul li a[href="/neu-hier"]::before {
+    content: "N";
+  }
+  nav ul li a[href="/bouldern"]::before {
+    content: "B";
+  }
+  nav ul li a[href="/trainieren"]::before {
+    content: "T";
+  }
+  nav ul li a[href="/spielen"]::before {
+    content: "S";
+  }
+  nav ul li a[href="/geniessen"]::before {
+    content: "G";
   }
 
   nav.header ul {
@@ -115,6 +157,7 @@ nav ul li a[href="/geniessen"] {
     height: 100%;
     transform: translateY(calc(-100% + 6px));
     transition: transform 0.3s ease;
+    font-family: "Manrope";
     font-size: var(--font-size-text);
   }
 
