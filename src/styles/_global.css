@@ -67,3 +67,7 @@ section {
 section + section {
   border-style: none none solid;
 }
+
+address {
+  font-style: normal;
+}

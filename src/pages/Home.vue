@@ -34,6 +34,7 @@ import Vision from "@/components/Vision.vue";
 </script>
 
 <style>
+address,
 dt,
 dd,
 p {
