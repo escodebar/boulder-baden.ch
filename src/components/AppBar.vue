@@ -57,6 +57,11 @@ dialog {
   width: 100%;
 }
 
+button {
+  height: var(--appbar-height);
+  width: var(--appbar-height);
+}
+
 @media (max-width: 767px) {
   header {
     bottom: 0;

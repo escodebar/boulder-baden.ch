@@ -12,9 +12,9 @@
 
   <hr />
 
-  <a href=""> Spezielle Öffnungszeiten </a>
+  <a class="button" href=""> Spezielle Öffnungszeiten </a>
 
-  <a href=""> Preise </a>
+  <a class="button" href=""> Preise </a>
 </template>
 
 <style scoped>
@@ -38,17 +38,7 @@ dd {
 }
 
 a {
-  border: 1px solid #000;
   display: block;
   margin: 40px auto;
-  text-decoration: none;
-  line-height: 72px;
-  width: 360px;
-  height: 72px;
-  color: var(--color-text);
-}
-
-a::after {
-  content: "→";
 }
 </style>

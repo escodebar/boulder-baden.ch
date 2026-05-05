@@ -72,3 +72,19 @@ section + section {
 address {
   font-style: normal;
 }
+
+button,
+a.button {
+  border: 1px solid #000;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 72px;
+  width: 360px;
+  height: 72px;
+  color: var(--color-text);
+}
+
+button,
+a.button::after {
+  content: "→";
+}
