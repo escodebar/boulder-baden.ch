@@ -32,8 +32,8 @@ const partners = ref<Partner[]>(partnersData as Partner[]);
 <style scoped>
 ul {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 50px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
   justify-items: center;
   align-items: center;
   padding: 1em;
@@ -57,5 +57,12 @@ a {
   text-indent: -9999px;
   overflow: hidden;
   white-space: nowrap;
+}
+
+@media (min-width: 992px) {
+  ul {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 50px;
+  }
 }
 </style>
