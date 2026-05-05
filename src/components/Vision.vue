@@ -6,4 +6,13 @@
     Kern. Wir sehen noch viel Potenzial auf dem Ferro-Areal, wo wir mit Events
     und Pop-Ups einen Treffpunkt für urbane Sportarten schaffen wollen.
   </p>
+
+  <a class="button" href=""> Unsere Geschichte </a>
 </template>
+
+<style scoped>
+a {
+  display: block;
+  margin: 40px auto;
+}
+</style>
