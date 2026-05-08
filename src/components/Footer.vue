@@ -33,9 +33,11 @@
     </div>
     <p class="legal">
       © 2026 - All rights reserved.<br />
-      Impressum<br />
-      AGB<br />
-      Datenschutz
+      <template v-for="route in legalItems" :key="route.name">
+        <RouterLink :to="{ name: route.name }">
+          <span> {{ route.name }} </span> <br />
+        </RouterLink>
+      </template>
     </p>
   </footer>
 </template>
@@ -48,6 +50,14 @@ const router = useRouter();
 const navItems = router
   .getRoutes()
   .filter((item) => item.meta.footer)
+  .map(({ name, path }) => ({
+    name,
+    path,
+  }));
+
+const legalItems = router
+  .getRoutes()
+  .filter((item) => item.meta.legal)
   .map(({ name, path }) => ({
     name,
     path,
@@ -111,9 +121,14 @@ ul li a {
   margin-left: 20px;
 }
 
-p.legal {
+.legal {
   border: none;
   margin-bottom: none;
+}
+
+.legal a {
+  text-decoration: none;
+  color: var(--color-text);
 }
 
 @media (max-width: 767px) {

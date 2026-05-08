@@ -8,11 +8,15 @@ import Spielen from "@/pages/Spielen.vue";
 import Geniessen from "@/pages/Geniessen.vue";
 import Vision from "@/pages/Vision.vue";
 import Geschichte from "@/pages/Geschichte.vue";
+import AGB from "@/pages/AGB.vue";
+import Impressum from "@/pages/Impressum.vue";
+import Datenschutz from "@/pages/Datenschutz.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
     main?: boolean;
     footer?: boolean;
+    legal?: boolean;
   }
 }
 
@@ -59,6 +63,19 @@ const routes = [
     component: Geschichte,
     name: "Unsere Geschichte",
     meta: { footer: true },
+  },
+  { path: "/agb", component: AGB, name: "AGB", meta: { legal: true } },
+  {
+    path: "/impressum",
+    component: Impressum,
+    name: "Impressum",
+    meta: { legal: true },
+  },
+  {
+    path: "/datenschutz",
+    component: Datenschutz,
+    name: "Datenschutz",
+    meta: { legal: true },
   },
 ];
 
