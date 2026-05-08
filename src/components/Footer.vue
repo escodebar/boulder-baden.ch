@@ -9,15 +9,19 @@
       <a href="mailto:info@boulder-baden.ch">info@boulder-baden.ch</a><br />
       <a href="tel:+41566101717">+41 56 610 17 17</a>
     </address>
-    <ul>
-      <li><a href="">Neu hier?</a></li>
-      <li><a href="">Bouldern</a></li>
-      <li><a href="">Spielen</a></li>
-      <li><a href="">Trainieren</a></li>
-      <li><a href="">Geniessen</a></li>
-      <li><a href="">Unsere Vision</a></li>
-      <li><a href="">Unsere Geschichte</a></li>
-    </ul>
+
+    <nav>
+      <ul>
+        <li v-for="route in navItems" :key="route.name">
+          <RouterLink :to="{ name: route.name }">
+            <span>
+              {{ route.name }}
+            </span>
+          </RouterLink>
+        </li>
+      </ul>
+    </nav>
+
     <div class="social">
       <span>Bleibe dran</span>
       <a
@@ -36,7 +40,19 @@
   </footer>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { RouterLink, useRouter } from "vue-router";
+
+const router = useRouter();
+
+const navItems = router
+  .getRoutes()
+  .filter((item) => item.meta.footer)
+  .map(({ name, path }) => ({
+    name,
+    path,
+  }));
+</script>
 
 <style scoped>
 footer {

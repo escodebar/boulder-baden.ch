@@ -6,10 +6,13 @@ import Bouldern from "@/pages/Bouldern.vue";
 import Trainieren from "@/pages/Trainieren.vue";
 import Spielen from "@/pages/Spielen.vue";
 import Geniessen from "@/pages/Geniessen.vue";
+import Vision from "@/pages/Vision.vue";
+import Geschichte from "@/pages/Geschichte.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
     main?: boolean;
+    footer?: boolean;
   }
 }
 
@@ -19,31 +22,43 @@ const routes = [
     path: "/neu-hier",
     component: NeuHier,
     name: "Neu Hier",
-    meta: { main: true },
+    meta: { main: true, footer: true },
   },
   {
     path: "/bouldern",
     component: Bouldern,
     name: "Bouldern",
-    meta: { main: true },
+    meta: { main: true, footer: true },
   },
   {
     path: "/trainieren",
     component: Trainieren,
     name: "Trainieren",
-    meta: { main: true },
+    meta: { main: true, footer: true },
   },
   {
     path: "/spielen",
     component: Spielen,
     name: "Spielen",
-    meta: { main: true },
+    meta: { main: true, footer: true },
   },
   {
     path: "/geniessen",
     component: Geniessen,
     name: "Geniessen",
-    meta: { main: true },
+    meta: { main: true, footer: true },
+  },
+  {
+    path: "/vision",
+    component: Vision,
+    name: "Unserer Vision",
+    meta: { footer: true },
+  },
+  {
+    path: "/geschichte",
+    component: Geschichte,
+    name: "Unsere Geschichte",
+    meta: { footer: true },
   },
 ];
 
