@@ -1,15 +1,13 @@
 <template>
   <nav v-if="navItems.length">
     <ul>
-      <template v-for="route in navItems">
-        <li v-if="route.name" :key="route.name">
-          <RouterLink :to="{ name: route.name }">
-            <span>
-              {{ route.name }}
-            </span>
-          </RouterLink>
-        </li>
-      </template>
+      <li v-for="route in navItems" :key="route.name">
+        <RouterLink :to="{ name: route.name }">
+          <span>
+            {{ route.name }}
+          </span>
+        </RouterLink>
+      </li>
     </ul>
   </nav>
 </template>
@@ -28,10 +26,13 @@ const props = defineProps<{
 
 const navItems =
   props.routes ??
-  router.getRoutes().map(({ name, path }) => ({
-    name,
-    path,
-  }));
+  router
+    .getRoutes()
+    .filter((item) => item.meta.main)
+    .map(({ name, path }) => ({
+      name,
+      path,
+    }));
 </script>
 
 <style scoped>
