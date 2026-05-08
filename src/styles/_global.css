@@ -27,6 +27,8 @@
 
   --font-size-text-big: 24px;
   --font-size-text: 18px;
+
+  --vertical-spacing: 50px;
 }
 
 * {
@@ -57,14 +59,13 @@ h4 {
 hr {
   border: 1px solid #000;
   border-style: solid none none;
-  margin: 50px auto;
+  margin: var(--vertical-spacing) auto;
 }
 
 section {
   border: 1px solid #000;
   border-style: solid none;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  padding: var(--vertical-spacing) 0;
 }
 
 section + section {
