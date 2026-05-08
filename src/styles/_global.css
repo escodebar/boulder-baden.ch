@@ -57,12 +57,14 @@ h4 {
 hr {
   border: 1px solid #000;
   border-style: solid none none;
-  margin: 40px auto;
+  margin: 50px auto;
 }
 
 section {
   border: 1px solid #000;
   border-style: solid none;
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 section + section {
