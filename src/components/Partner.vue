@@ -6,7 +6,7 @@
   <ul v-if="partners.length">
     <li v-for="partner in partners" :key="partner.id">
       <a
-        :class="partner.id"
+        :class="`${partner.id} icon`"
         :href="partner.link"
         :style="`background-image: url(partners/${partner.id}.svg)`"
       >
@@ -51,12 +51,6 @@ a {
   height: 100%;
   width: 100%;
   aspect-ratio: 3/2;
-  background-size: contain;
-  background-position: 50%;
-  background-repeat: no-repeat;
-  text-indent: -9999px;
-  overflow: hidden;
-  white-space: nowrap;
 }
 
 @media (min-width: 992px) {

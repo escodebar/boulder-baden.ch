@@ -20,7 +20,12 @@
     </ul>
     <div class="social">
       <span>Bleibe dran</span>
-      <a href="">Instagram</a>
+      <a
+        class="instagram icon"
+        href="https://www.instagram.com/bouba_boulderbaden/"
+      >
+        Instagram
+      </a>
     </div>
     <p class="legal">
       © 2026 - All rights reserved.<br />
@@ -81,6 +86,13 @@ ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.instagram {
+  background-image: url("@/assets/instagram.svg");
+  height: 21px;
+  width: 21px;
+  margin-left: 20px;
 }
 
 p.legal {

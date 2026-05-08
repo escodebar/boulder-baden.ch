@@ -6,5 +6,21 @@
     <a href="mailto:info@boulder-baden.ch">info@boulder-baden.ch</a><br />
     <a href="tel:+41566101717">+41 (0)56 610 17 17</a>
   </address>
-  <p>Bleibe up to date, folge uns auf Insta</p>
+  <p>
+    Bleibe up to date, folge uns auf
+    <a
+      class="icon instagram"
+      href="https://www.instagram.com/bouba_boulderbaden/"
+    >
+      Instagram
+    </a>
+  </p>
 </template>
+
+<style scoped>
+.instagram {
+  background-image: url("@/assets/instagram.svg");
+  height: 21px;
+  width: 21px;
+}
+</style>

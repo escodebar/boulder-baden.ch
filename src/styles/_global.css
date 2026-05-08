@@ -88,3 +88,12 @@ button,
 a.button::after {
   content: "→";
 }
+
+.icon {
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: inline-block;
+  text-indent: -9999px;
+  overflow: hidden;
+  white-space: nowrap;
+}
