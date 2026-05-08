@@ -61,7 +61,7 @@ a {
 
 @media (min-width: 992px) {
   ul {
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(6, 1fr);
     gap: 50px;
   }
 }

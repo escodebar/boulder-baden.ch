@@ -5,12 +5,6 @@
     "link": "https://www.akb.ch/"
   },
   {
-    "id": "ak_gartenbau",
-    "name": "AK Gartenbau",
-    "link": "https://www.gartenbau-kunz.ch/"
-  },
-  { "id": "alho", "name": "ALHO", "link": "https://www.alho.com/" },
-  {
     "id": "baechli",
     "name": "Bächli Bergsport",
     "link": "https://www.baechli-bergsport.ch/"
@@ -20,7 +14,6 @@
     "name": "die Mobiliar",
     "link": "https://www.mobiliar.ch/generalagenturen/baden/dominik-sinniger"
   },
-  { "id": "petzl", "name": "Petzl", "link": "https://altimum.ch/" },
   {
     "id": "swica",
     "name": "SWICA",
