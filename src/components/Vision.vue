@@ -8,7 +8,9 @@
     und Pop-Ups einen Treffpunkt für urbane Sportarten schaffen wollen.
   </p>
 
-  <a class="button" href=""> Unsere Geschichte </a>
+  <RouterLink class="button" :to="{ name: 'Unsere Geschichte' }">
+    Unsere Geschichte
+  </RouterLink>
 </template>
 
 <style scoped>
