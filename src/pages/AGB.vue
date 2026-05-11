@@ -410,62 +410,66 @@
   <section>
     <h3>Kurzparkierer und Dauermieter</h3>
 
-    <p>
-      Mit der Benutzung des Parkplatzes werden folgende Geschäftsbedingungen
-      akzeptiert:
-    </p>
+    <section>
+      <p>
+        Mit der Benutzung des Parkplatzes werden folgende Geschäftsbedingungen
+        akzeptiert:
+      </p>
 
-    <p>
-      Satzänderungen der Mehrwertsteuer werden automatisch angepasst. In der
-      Parkgebühr bzw. im Mietzins sind sämtliche Nebenkosten inbegriffen. Eine
-      Verrechnung von Gegenansprüchen ist aus- geschlossen.
-    </p>
-    <p>
-      Dauermieter haben den Mietzins inkl. Mehrwertsteuer für die vereinbarte
-      Periode (monatlich bzw. quartalsweise) im Voraus mit dem entsprechenden
-      Einzahlungsschein zu überweisen.
-    </p>
-    <p>
-      Die Parkfelder sind, abgesehen von der Ein- und Ausfahrt, nicht überwacht.
-      Die Autos sind auf den Parkfeldern abzuschliessen. Die Versicherungen
-      gegen Diebstahl, Feuer und andere Beschädigun- gen sind Sache des
-      Benützers bzw. des Mieters. Die Bouba AG lehnt jede Haftung ab.
-    </p>
-    <p>
-      Reinigungs- und Servicearbeiten an den parkierten Autos sind untersagt.
-      Die Lagerung von Auto- zubehör und anderen Gegenständen auf den
-      Parkplätzen ist nicht gestattet.
-    </p>
-    <p>
-      Der Benutzer haftet für jeden alfälligen Schaden, den er bei der Benützung
-      des Parkplatzes an Anlagen der Bouba AG anrichtet.
-    </p>
-    <p>
-      Für Dauermieter sind Untermiete oder Abtretung des Mietvertrages ohne
-      schriftliche Zustimmung der Vermieterin nicht gestattet.
-    </p>
-    <p>
-      Der Benutzer verpflichtet sich, alle mündlichen und schriftlichen
-      Anweisungen der Betriebsleitung zu befolgen.
-    </p>
-    <p>
-      Flyer verteilen ist verboten, es ist strikte untersagt, Flyer oder
-      ähnliches Werbematerial auf dem BOUBA-Parkplatz unter den Scheibenwischer
-      der Autos sowie dem ganzen Areal zu verteilen. Bei Zuwiderhandlungen
-      werden wir unsere Umtriebe in Rechnung stellen.
-    </p>
-    <p>
-      Nachfahren ist verboten. Bei Nachfahren stellen wir eine Rechnung für
-      unsere Umtriebe über CHF 150 aus und leiten rechtliche Schritte ein.
-    </p>
-    <p>
-      Die Ein- und Ausfahrt wird Video-überwacht. Die Aufnahmen werden lokal auf
-      dem NAS der Bouba AG für 7 Tage gespeichert und anschliessend automatisch
-      gelöscht. Die Aufnahmen dienen aus- schliesslich zu Überwachungszwecken.
-      Insbesondere dienen die Aufnahmen dazu, Verstösse gegen unsere AGB für die
-      Benützung des Parkplatzes festzustellen. Vorbehalten bleibt die Herausgabe
-      der Aufnahmen auf behördliche Anordnung.
-    </p>
+      <p>
+        Satzänderungen der Mehrwertsteuer werden automatisch angepasst. In der
+        Parkgebühr bzw. im Mietzins sind sämtliche Nebenkosten inbegriffen. Eine
+        Verrechnung von Gegenansprüchen ist aus- geschlossen.
+      </p>
+      <p>
+        Dauermieter haben den Mietzins inkl. Mehrwertsteuer für die vereinbarte
+        Periode (monatlich bzw. quartalsweise) im Voraus mit dem entsprechenden
+        Einzahlungsschein zu überweisen.
+      </p>
+      <p>
+        Die Parkfelder sind, abgesehen von der Ein- und Ausfahrt, nicht
+        überwacht. Die Autos sind auf den Parkfeldern abzuschliessen. Die
+        Versicherungen gegen Diebstahl, Feuer und andere Beschädigun- gen sind
+        Sache des Benützers bzw. des Mieters. Die Bouba AG lehnt jede Haftung
+        ab.
+      </p>
+      <p>
+        Reinigungs- und Servicearbeiten an den parkierten Autos sind untersagt.
+        Die Lagerung von Auto- zubehör und anderen Gegenständen auf den
+        Parkplätzen ist nicht gestattet.
+      </p>
+      <p>
+        Der Benutzer haftet für jeden alfälligen Schaden, den er bei der
+        Benützung des Parkplatzes an Anlagen der Bouba AG anrichtet.
+      </p>
+      <p>
+        Für Dauermieter sind Untermiete oder Abtretung des Mietvertrages ohne
+        schriftliche Zustimmung der Vermieterin nicht gestattet.
+      </p>
+      <p>
+        Der Benutzer verpflichtet sich, alle mündlichen und schriftlichen
+        Anweisungen der Betriebsleitung zu befolgen.
+      </p>
+      <p>
+        Flyer verteilen ist verboten, es ist strikte untersagt, Flyer oder
+        ähnliches Werbematerial auf dem BOUBA-Parkplatz unter den
+        Scheibenwischer der Autos sowie dem ganzen Areal zu verteilen. Bei
+        Zuwiderhandlungen werden wir unsere Umtriebe in Rechnung stellen.
+      </p>
+      <p>
+        Nachfahren ist verboten. Bei Nachfahren stellen wir eine Rechnung für
+        unsere Umtriebe über CHF 150 aus und leiten rechtliche Schritte ein.
+      </p>
+      <p>
+        Die Ein- und Ausfahrt wird Video-überwacht. Die Aufnahmen werden lokal
+        auf dem NAS der Bouba AG für 7 Tage gespeichert und anschliessend
+        automatisch gelöscht. Die Aufnahmen dienen aus- schliesslich zu
+        Überwachungszwecken. Insbesondere dienen die Aufnahmen dazu, Verstösse
+        gegen unsere AGB für die Benützung des Parkplatzes festzustellen.
+        Vorbehalten bleibt die Herausgabe der Aufnahmen auf behördliche
+        Anordnung.
+      </p>
+    </section>
   </section>
 </template>
 
