@@ -11,6 +11,7 @@ import Geschichte from "@/pages/Geschichte.vue";
 import AGB from "@/pages/AGB.vue";
 import Impressum from "@/pages/Impressum.vue";
 import Datenschutz from "@/pages/Datenschutz.vue";
+import Oeffnungszeiten from "@/pages/Oeffnungszeiten.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
@@ -76,6 +77,11 @@ const routes = [
     component: Datenschutz,
     name: "Datenschutz",
     meta: { legal: true },
+  },
+  {
+    path: "/oeffnungszeiten",
+    component: Oeffnungszeiten,
+    name: "Öffnungszeiten",
   },
 ];
 

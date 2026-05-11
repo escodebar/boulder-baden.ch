@@ -12,31 +12,14 @@
 
   <hr />
 
-  <a class="button" href=""> Spezielle Öffnungszeiten </a>
+  <RouterLink class="button" :to="{ name: 'Öffnungszeiten' }">
+    Spezielle Öffnungszeiten
+  </RouterLink>
 
   <a class="button" href=""> Preise </a>
 </template>
 
 <style scoped>
-dl {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-
-  margin: 2em auto;
-}
-
-dt {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  text-align: right;
-}
-
-dd {
-  text-align: left;
-}
-
 a {
   display: block;
   margin: 40px auto;
