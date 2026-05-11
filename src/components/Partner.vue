@@ -47,6 +47,7 @@ li {
 }
 
 a {
+  background-position: center;
   display: block;
   height: 100%;
   width: 100%;
