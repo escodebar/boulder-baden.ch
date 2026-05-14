@@ -19,6 +19,10 @@
     width: 900px;
   }
 
+  section {
+    padding: var(--vertical-spacing-desktop) var(--horizontal-spacing-desktop);
+  }
+
   main > section > * {
     max-width: var(--max-width);
     margin-left: auto;

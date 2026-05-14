@@ -28,7 +28,13 @@
   --font-size-text-big: 24px;
   --font-size-text: 18px;
 
-  --vertical-spacing: 50px;
+  --vertical-spacing-mobile: 45px;
+  --vertical-spacing-tablet: 48px;
+  --vertical-spacing-desktop: 90px;
+
+  --horizontal-spacing-mobile: 21px;
+  --horizontal-spacing-tablet: 24px;
+  --horizontal-spacing-desktop: 45px;
 }
 
 * {
@@ -74,7 +80,6 @@ hr {
 section {
   border: 1px solid #000;
   border-style: solid none;
-  padding: var(--vertical-spacing) 0;
 }
 
 section + section {
