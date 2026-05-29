@@ -9,10 +9,22 @@
       calc(5vw / 64),
       var(--font-size-h1-mobile)
     );
+    margin-top: clamp(
+      var(--font-size-text-big),
+      calc(5vw / 64),
+      var(--font-size-h1-mobile)
+    );
+    margin-bottom: clamp(
+      calc(var(--font-size-text-big) / 2),
+      calc(5vw / 128),
+      calc(var(--font-size-h1-mobile) / 2)
+    );
   }
 
   h2 {
     font-size: var(--font-size-h2-mobile);
+    margin-top: var(--font-size-h2-mobile);
+    margin-bottom: 22px;
   }
 
   hr {

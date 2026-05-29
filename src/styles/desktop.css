@@ -9,10 +9,14 @@
 
   h1 {
     font-size: var(--font-size-h1-desktop);
+    margin-top: var(--font-size-h1-desktop);
+    margin-bottom: calc(var(--font-size-h1-desktop) / 2);
   }
 
   h2 {
     font-size: var(--font-size-h2-desktop);
+    margin-top: var(--font-size-h2-desktop);
+    margin-bottom: calc(var(--font-size-h2-desktop) / 2);
   }
 
   hr {

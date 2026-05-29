@@ -6,8 +6,18 @@
   h1 {
     font-size: clamp(
       var(--font-size-h1-tablet),
-      calc(100vw / 12),
+      calc(25vw / 3),
       var(--font-size-h1-desktop)
+    );
+    margin-top: clamp(
+      var(--font-size-h1-tablet),
+      calc(25vw / 3),
+      var(--font-size-h1-desktop)
+    );
+    margin-bottom: clamp(
+      calc(var(--font-size-h1-tablet) / 2),
+      calc(25vw / 6),
+      calc(var(--font-size-h1-desktop) / 2)
     );
   }
 
