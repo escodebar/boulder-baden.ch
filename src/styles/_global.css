@@ -59,12 +59,12 @@ a {
 }
 
 h1,
-h2,
-h3 {
+h2 {
   font-family: "ABCCamera", sans-serif;
   font-weight: 100;
 }
 
+h3,
 h4,
 h5 {
   font-family: "Manrope", sans-serif;
