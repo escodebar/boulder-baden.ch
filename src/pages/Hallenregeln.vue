@@ -47,3 +47,9 @@
     </ul>
   </section>
 </template>
+
+<style scoped>
+li {
+  text-align: left;
+}
+</style>
