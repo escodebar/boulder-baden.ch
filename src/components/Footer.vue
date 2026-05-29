@@ -118,7 +118,6 @@ ul li a {
   background-image: url("@/assets/instagram.svg");
   height: 21px;
   width: 21px;
-  margin-left: 20px;
 }
 
 .legal {
@@ -143,6 +142,11 @@ ul li a {
 
   footer > * {
     border: none;
+    margin: 20px 20px;
+  }
+
+  .social {
+    min-width: 100px;
   }
 
   .legal {
