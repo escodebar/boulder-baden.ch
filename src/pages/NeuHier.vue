@@ -60,9 +60,9 @@
     <h2>Regeln</h2>
 
     <p>
-      Text vor den Regeln: Wie bei jedem Sport, gibt es auch beim Bouldern ein
-      paar wichtige Regeln. Hier eine Übersicht dazu. Bei Fragen steht dir das
-      BOUBA-Team vor Ort gerne zur Verfügung.
+      Wie bei jedem Sport, gibt es auch beim Bouldern ein paar wichtige Regeln.
+      Hier eine Übersicht dazu. Bei Fragen steht dir das BOUBA-Team vor Ort
+      gerne zur Verfügung.
     </p>
   </section>
 </template>
