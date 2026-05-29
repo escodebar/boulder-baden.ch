@@ -12,6 +12,7 @@ import AGB from "@/pages/AGB.vue";
 import Impressum from "@/pages/Impressum.vue";
 import Datenschutz from "@/pages/Datenschutz.vue";
 import Oeffnungszeiten from "@/pages/Oeffnungszeiten.vue";
+import Hallenregeln from "@/pages/Hallenregeln.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
@@ -82,6 +83,11 @@ const routes = [
     path: "/oeffnungszeiten",
     component: Oeffnungszeiten,
     name: "Öffnungszeiten",
+  },
+  {
+    path: "/hallenregeln",
+    component: Hallenregeln,
+    name: "Hallenregeln",
   },
 ];
 

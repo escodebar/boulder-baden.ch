@@ -64,6 +64,10 @@
       Hier eine Übersicht dazu. Bei Fragen steht dir das BOUBA-Team vor Ort
       gerne zur Verfügung.
     </p>
+
+    <RouterLink class="button" :to="{ name: 'Hallenregeln' }">
+      Zu den Hallenregeln
+    </RouterLink>
   </section>
 </template>
 
