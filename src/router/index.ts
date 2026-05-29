@@ -13,6 +13,7 @@ import Impressum from "@/pages/Impressum.vue";
 import Datenschutz from "@/pages/Datenschutz.vue";
 import Oeffnungszeiten from "@/pages/Oeffnungszeiten.vue";
 import Hallenregeln from "@/pages/Hallenregeln.vue";
+import Kurse from "@/pages/Kurse.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
@@ -32,9 +33,19 @@ const routes = [
   },
   {
     path: "/bouldern",
-    component: Bouldern,
-    name: "Bouldern",
-    meta: { main: true, footer: true },
+    children: [
+      {
+        path: "",
+        component: Bouldern,
+        name: "Bouldern",
+        meta: { main: true, footer: true },
+      },
+      {
+        path: "kurse",
+        component: Kurse,
+        name: "Kurse",
+      },
+    ],
   },
   {
     path: "/trainieren",

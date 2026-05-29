@@ -10,6 +10,16 @@
   </section>
 
   <section>
+    <h2>Kurse</h2>
+
+    <hr />
+
+    <RouterLink class="button" :to="{ name: 'Kurse' }">
+      Zu den Kursen
+    </RouterLink>
+  </section>
+
+  <section>
     <h2>Schwierigkreitsgrade</h2>
 
     <hr />
