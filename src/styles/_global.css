@@ -74,7 +74,6 @@ h5 {
 hr {
   border: 1px solid #000;
   border-style: solid none none;
-  margin: var(--vertical-spacing) auto;
 }
 
 section {
