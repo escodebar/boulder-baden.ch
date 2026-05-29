@@ -124,6 +124,21 @@ a.button::after {
   content: "→";
 }
 
+a.internal {
+  border: 1px solid #000;
+  border-style: none none solid;
+  display: inline-block;
+  text-decoration: none;
+  line-height: 72px;
+  width: 360px;
+  height: 72px;
+  color: var(--color-text);
+}
+
+a.internal::after {
+  content: "↓";
+}
+
 .icon {
   background-repeat: no-repeat;
   background-size: contain;
