@@ -14,6 +14,7 @@ import Datenschutz from "@/pages/Datenschutz.vue";
 import Oeffnungszeiten from "@/pages/Oeffnungszeiten.vue";
 import Hallenregeln from "@/pages/Hallenregeln.vue";
 import Kurse from "@/pages/Kurse.vue";
+import Firmenangebot from "@/pages/Firmenangebot.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
@@ -44,6 +45,11 @@ const routes = [
         path: "kurse",
         component: Kurse,
         name: "Kurse",
+      },
+      {
+        path: "firmenangebot",
+        component: Firmenangebot,
+        name: "Firmenangebot",
       },
     ],
   },

@@ -37,4 +37,19 @@
       der Boulder anschreiben. Danke für deine Mithilfe.
     </p>
   </section>
+
+  <section>
+    <h2>Firmenangebot</h2>
+
+    <hr />
+
+    <p>
+      Sport, gutes Essen und schöne Momente zusammen. Das erwartet euch bei
+      einem Firmenevent im BOUBA.
+    </p>
+
+    <RouterLink class="button" :to="{ name: 'Firmenangebot' }">
+      Zum Firmenangebot
+    </RouterLink>
+  </section>
 </template>
