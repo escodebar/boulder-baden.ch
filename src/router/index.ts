@@ -83,11 +83,13 @@ const routes = [
     path: "/oeffnungszeiten",
     component: Oeffnungszeiten,
     name: "Öffnungszeiten",
+    meta: { footer: true },
   },
   {
     path: "/hallenregeln",
     component: Hallenregeln,
     name: "Hallenregeln",
+    meta: { footer: true },
   },
 ];
 
