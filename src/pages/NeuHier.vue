@@ -63,5 +63,6 @@
 <style scoped>
 li {
   font-size: var(--font-size-text-big);
+  text-align: left;
 }
 </style>
