@@ -16,7 +16,9 @@
     Spezielle Öffnungszeiten
   </RouterLink>
 
-  <a class="button" href=""> Preise </a>
+  <RouterLink class="button" :to="{ name: 'Eintrittspreise' }">
+    Eintrittspreise
+  </RouterLink>
 </template>
 
 <style scoped>

@@ -15,6 +15,7 @@ import Oeffnungszeiten from "@/pages/Oeffnungszeiten.vue";
 import Hallenregeln from "@/pages/Hallenregeln.vue";
 import Kurse from "@/pages/Kurse.vue";
 import Firmenangebot from "@/pages/Firmenangebot.vue";
+import Eintrittspreise from "@/pages/Eintrittspreise.vue";
 
 declare module "vue-router" {
   interface RouteMeta {
@@ -100,6 +101,12 @@ const routes = [
     path: "/oeffnungszeiten",
     component: Oeffnungszeiten,
     name: "Öffnungszeiten",
+    meta: { footer: true },
+  },
+  {
+    path: "/eintrittspreise",
+    component: Eintrittspreise,
+    name: "Eintrittspreise",
     meta: { footer: true },
   },
   {
