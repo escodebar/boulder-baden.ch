@@ -52,3 +52,9 @@
     </p>
   </section>
 </template>
+
+<style scoped>
+li {
+  font-size: var(--font-size-text-big);
+}
+</style>
