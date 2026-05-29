@@ -47,6 +47,13 @@
       (Achtung: landet gerne im Spam!) nach der Registrierung noch zu
       bestätigen.
     </p>
+
+    <a
+      class="button"
+      href="https://boulderado.app/register/registration?hash=437e7d2c50a14b5039370d6b8b9d45f70d8bab71"
+    >
+      Zur Registrierung
+    </a>
   </section>
 
   <section>
