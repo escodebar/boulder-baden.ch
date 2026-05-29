@@ -27,8 +27,15 @@
       deinem ersten Besuch von uns erklärt. Tauchen bei deiner Session Fragen
       auf, helfen wir dir gerne weiter. Fühlst du dich unsicher und möchtest
       lieber professionell ins Bouldern eingeführt werden, stehen dir unsere
-      gratis Schnupperkurse (Anmeldung via Kurskalender) zur Verfügung.
+      gratis Schnupperkurse zur Verfügung.
     </p>
+
+    <a
+      class="button"
+      href="https://gyms.vertical-life.info/boulder-baden/events/3584/list"
+    >
+      Zu den Schnupperkursen
+    </a>
   </section>
 
   <section>
