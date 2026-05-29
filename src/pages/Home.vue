@@ -20,7 +20,6 @@
   <section>
     <Partner />
   </section>
-  <Navigation />
 </template>
 
 <script setup lang="ts">
