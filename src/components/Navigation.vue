@@ -157,13 +157,29 @@ nav ul li a[href="/geniessen"] {
     align-items: end;
     height: 100%;
     transform: translateY(calc(-100% + 6px));
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease background-color 0.3s ease;
     font-family: "Manrope";
     font-size: var(--font-size-text);
   }
 
-  nav.header ul li:hover a {
+  nav.header:hover ul li a {
     transform: translateY(0);
+  }
+
+  nav.header ul li:hover a[href="/neu-hier"] {
+    background-color: var(--color-neu-hier);
+  }
+  nav.header ul li:hover a[href="/bouldern"] {
+    background-color: var(--color-bouldern);
+  }
+  nav.header ul li:hover a[href="/trainieren"] {
+    background-color: var(--color-trainieren);
+  }
+  nav.header ul li:hover a[href="/spielen"] {
+    background-color: var(--color-spielen);
+  }
+  nav.header ul li:hover a[href="/geniessen"] {
+    background-color: var(--color-geniessen);
   }
 
   nav.header ul li a[href="/neu-hier"] {
