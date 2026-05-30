@@ -89,6 +89,11 @@ address {
   font-style: normal;
 }
 
+ul,
+li {
+  list-style: none;
+}
+
 dl {
   display: grid;
   grid-template-columns: 1fr 1fr;
