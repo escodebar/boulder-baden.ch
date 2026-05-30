@@ -92,9 +92,9 @@ nav ul li a[href="/geniessen"] {
     justify-content: center;
     align-items: center;
     font-size: clamp(
-      var(--font-size-text-big),
+      var(--font-size-h4),
       calc(100vw / 24),
-      var(--font-size-h2-desktop)
+      var(--font-size-h2)
     );
   }
 
@@ -104,7 +104,7 @@ nav ul li a[href="/geniessen"] {
     border: 1px solid #000;
     border-radius: 45px;
     display: block;
-    font-size: var(--font-size-h1-desktop);
+    font-size: var(--font-size-h1);
     line-height: 1;
   }
 
@@ -159,7 +159,7 @@ nav ul li a[href="/geniessen"] {
     transform: translateY(calc(-100% + 6px));
     transition: transform 0.3s ease background-color 0.3s ease;
     font-family: "Manrope";
-    font-size: var(--font-size-text);
+    font-size: var(--font-size-p);
   }
 
   nav.header:hover ul li a {

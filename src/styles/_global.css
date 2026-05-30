@@ -14,27 +14,6 @@
   --color-text: #000;
   --color-trainieren: #ffb491;
   --appbar-height: 72px;
-
-  --max-width: 1440px;
-
-  --font-size-h1-desktop: 90px;
-  --font-size-h2-desktop: 45px;
-
-  --font-size-h1-tablet: 48px;
-
-  --font-size-h1-mobile: 45px;
-  --font-size-h2-mobile: 30px;
-
-  --font-size-text-big: 24px;
-  --font-size-text: 18px;
-
-  --vertical-spacing-mobile: 45px;
-  --vertical-spacing-tablet: 48px;
-  --vertical-spacing-desktop: 90px;
-
-  --horizontal-spacing-mobile: 21px;
-  --horizontal-spacing-tablet: 24px;
-  --horizontal-spacing-desktop: 45px;
 }
 
 * {
@@ -45,7 +24,6 @@
 }
 
 html {
-  font-size: var(--font-size-text);
   font-family: "Manrope", sans-serif;
   font-weight: 300;
 }
