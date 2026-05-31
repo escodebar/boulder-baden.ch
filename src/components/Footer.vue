@@ -66,7 +66,7 @@ const legalItems = router
 
 <style scoped>
 footer {
-  border-top: 5px solid var(--color-text);
+  border-top: var(--border-size-thick) solid var(--color-text);
 }
 
 footer * {

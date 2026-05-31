@@ -60,7 +60,7 @@ dialog {
 }
 
 dialog:open {
-  border-top: 5px solid var(--color-text);
+  border-top: var(--border-size-thick) solid var(--color-text);
 }
 
 button {

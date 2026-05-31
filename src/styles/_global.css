@@ -23,6 +23,8 @@
   --font-size-p: 18px;
 
   --font-size-small: 12px;
+
+  --border-size-thick: 6px;
 }
 
 * {
