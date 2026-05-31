@@ -12,6 +12,10 @@ h1 {
   width: 219px;
 }
 
+h1.hero {
+  max-width: none;
+}
+
 @media (max-width: 767px) {
   h1.hero {
     margin: 0 auto;
