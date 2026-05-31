@@ -1,6 +1,20 @@
 <template>
+  <h1>Kurse</h1>
+
+  <p>
+    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
+    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+    amet.
+  </p>
+
   <section>
-    <h3>Schnupperkurse</h3>
+    <h2>Schnupperkurse</h2>
     <p>
       Du warst noch nie Bouldern und willst mit einem Crashkurs beginnen? Dann
       ist der Schnupperkurs genau das Richtige für dich. Wir zeigen dir die
@@ -15,7 +29,7 @@
   </section>
 
   <section>
-    <h3>Schnupperkurse Family</h3>
+    <h2>Schnupperkurse Family</h2>
     <p>
       Ihr wart noch nie Bouldern und wollt mit einem Crashkurs beginnen? Dann
       ist der Schnupperkurs Family genau das Richtige für euch. Wir zeigen euch
@@ -31,7 +45,7 @@
   </section>
 
   <section>
-    <h3>Learn to Climb 3s</h3>
+    <h2>Learn to Climb 3s</h2>
     <p>
       In diesem Kurs lernst du die wichtigsten Techniken fürs Bouldern. Die
       erlernten Techniken bieten dir optimale Voraussetzungen, um dich
@@ -47,7 +61,7 @@
   </section>
 
   <section>
-    <h3>Learn to Climb 4s</h3>
+    <h2>Learn to Climb 4s</h2>
     <p>
       In diesem Kurs lernst und vertiefst du Techniken fürs Bouldern. Die
       erlernten Techniken bieten dir optimale Voraussetzungen, um dich
@@ -63,7 +77,7 @@
   </section>
 
   <section>
-    <h3>Spiel und Spass an der Boulderwand</h3>
+    <h2>Spiel und Spass an der Boulderwand</h2>
     <p>
       Dieser Kurs eignet sich für Kinder, die Spass and der Boulderwand erleben
       wollen. Diese sind in 2 Altersgruppen unterteilt. 6–8 Jahre und 9–12
@@ -78,7 +92,7 @@
   </section>
 
   <section>
-    <h3>Für Boulderbegeister Minis</h3>
+    <h2>Für Boulderbegeister Minis</h2>
     <p>
       Dieser Kurs eignet sich für Kinder, die sich bereits fürs Bouldern
       begeistern und ihre Fertigkeiten spielerisch vertiefen wollen. Er ist in 2
@@ -95,7 +109,7 @@
   </section>
 
   <section>
-    <h3>Privatlektionen</h3>
+    <h2>Privatlektionen</h2>
     <p>
       Suchst du nach einem Kurs, der genau auf deine Bedürfnisse und Wünsche
       zugeschnitten ist? Dann bist du mit einer oder mehreren Privatlektionen
