@@ -1,8 +1,6 @@
 <template>
   <h1>Firmenangebot</h1>
 
-  <hr />
-
   <section>
     <p>
       Sport, gutes Essen und schöne Momente zusammen. Das erwartet euch bei

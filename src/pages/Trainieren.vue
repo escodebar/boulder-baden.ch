@@ -18,8 +18,6 @@
   <section>
     <h2>Angebot</h2>
 
-    <hr />
-
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -90,7 +88,6 @@
 
   <section id="kilterboard">
     <h2>Kilterboard</h2>
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -107,7 +104,6 @@
 
   <section id="moonboard">
     <h2>Moonboard</h2>
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -124,7 +120,6 @@
 
   <section id="spraywall">
     <h2>Spraywall</h2>
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -141,7 +136,6 @@
 
   <section id="campus-hangboard">
     <h2>Campus & Hangboard</h2>
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -158,7 +152,6 @@
 
   <section id="fitnessbereich">
     <h2>Fitnessbereich</h2>
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -175,7 +168,6 @@
 
   <section id="stangenpark">
     <h2>Stangenpark</h2>
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy

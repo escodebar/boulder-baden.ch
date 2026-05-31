@@ -12,8 +12,6 @@
   <section>
     <h2>Eintrittspreise</h2>
 
-    <hr />
-
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
       eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
@@ -31,8 +29,6 @@
 
   <section>
     <h2>Kurse</h2>
-
-    <hr />
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -54,8 +50,6 @@
   <section>
     <h2>Schwierigkreitsgrade</h2>
 
-    <hr />
-
     <p>
       Unsere Schwierigkeits-Skala besteht aus den Graden 1 bis 6. In der
       Übersicht unten ist die Übersetzung in die Fontainebleau-Skala
@@ -72,8 +66,6 @@
 
   <section>
     <h2>Firmenangebot</h2>
-
-    <hr />
 
     <p>
       Sport, gutes Essen und schöne Momente zusammen. Das erwartet euch bei
