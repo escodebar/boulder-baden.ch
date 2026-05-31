@@ -5,6 +5,7 @@
 <style scoped>
 h1 {
   background-image: url("@/assets/logo-small.svg");
+  border: none;
   display: block;
   margin: auto 0 auto 18px;
   height: 44px;
