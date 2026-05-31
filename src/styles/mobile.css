@@ -1,15 +1,4 @@
 @media (max-width: 767px) {
-  :root {
-    --font-size-h1: 90px;
-    --font-size-h2: 45px;
-    --font-size-h3: 30px;
-    --font-size-h4: 24px;
-
-    --font-size-p: 18px;
-
-    --font-size-small: 12px;
-  }
-
   div#app {
     padding: 0 0 var(--appbar-height);
   }
@@ -24,10 +13,6 @@
     font-size: var(--font-size-h2);
     margin-top: var(--font-size-h2);
     margin-bottom: calc(var(--font-size-h2) / 2);
-  }
-
-  hr {
-    margin: var(--font-size-h1) auto;
   }
 
   p {

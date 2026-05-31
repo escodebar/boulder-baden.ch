@@ -14,6 +14,15 @@
   --color-text: #000;
   --color-trainieren: #ffb491;
   --appbar-height: 72px;
+
+  --font-size-h1: 90px;
+  --font-size-h2: 45px;
+  --font-size-h3: 30px;
+  --font-size-h4: 24px;
+
+  --font-size-p: 18px;
+
+  --font-size-small: 12px;
 }
 
 * {
@@ -41,12 +50,28 @@ h2 {
   font-family: "ABCCamera", sans-serif;
   font-weight: 100;
 }
+h1 {
+  font-size: var(--font-size-h1);
+  margin-top: var(--font-size-h1);
+  margin-bottom: calc(var(--font-size-h1) / 2);
+}
+
+h2 {
+  font-size: var(--font-size-h2);
+  margin-top: var(--font-size-h2);
+  margin-bottom: calc(var(--font-size-h2) / 2);
+}
 
 h3,
 h4,
 h5 {
   font-family: "Manrope", sans-serif;
   font-weight: 100;
+}
+
+p {
+  margin-top: var(--font-size-p);
+  margin-bottom: var(--font-size-p);
 }
 
 hr {
