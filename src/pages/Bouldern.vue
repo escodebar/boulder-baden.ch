@@ -1,13 +1,11 @@
 <template>
   <h1>On the wall</h1>
 
-  <section>
-    <p>
-      Bei uns findest du um die 200 Boulder auf 1000 m^2 Boulderfläche.
-      Zusätzlich findest du im BOUBA ein Kilter- und Moonboard, eine moderne
-      Spraywall und eine separate Kinderwand für den Nachwuchs.
-    </p>
-  </section>
+  <p>
+    Bei uns findest du um die 200 Boulder auf 1000 m^2 Boulderfläche. Zusätzlich
+    findest du im BOUBA ein Kilter- und Moonboard, eine moderne Spraywall und
+    eine separate Kinderwand für den Nachwuchs.
+  </p>
 
   <section>
     <h2>Eintrittspreise</h2>

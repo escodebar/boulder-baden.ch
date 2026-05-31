@@ -166,8 +166,13 @@ table caption {
   font-size: var(--font-size-small);
 }
 
+main > p,
 main > section > * {
   width: 90vw;
   margin-left: auto;
   margin-right: auto;
+}
+
+main > h1 + p {
+  margin-bottom: calc(var(--font-size-h1) / 2);
 }
