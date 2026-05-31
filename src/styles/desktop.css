@@ -7,6 +7,11 @@
     padding: var(--appbar-height) 0 0;
   }
 
+  h1,
+  h2 {
+    max-width: 900px;
+  }
+
   p {
     margin-top: var(--font-size-p);
     margin-bottom: var(--font-size-p);
