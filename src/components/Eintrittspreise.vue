@@ -5,7 +5,7 @@
     </caption>
     <thead>
       <tr>
-        <th scope="col">Was</th>
+        <th></th>
         <th scope="col">Erwachsene</th>
         <th scope="col">Ermässigt</th>
         <th scope="col">Jugend</th>

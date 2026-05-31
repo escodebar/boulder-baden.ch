@@ -161,6 +161,11 @@ a.internal::after {
   white-space: nowrap;
 }
 
+table caption {
+  caption-side: bottom;
+  font-size: var(--font-size-small);
+}
+
 main > section > * {
   width: 90vw;
   margin-left: auto;
