@@ -87,10 +87,11 @@ hr {
 section {
   border: 1px solid #000;
   border-style: solid none;
+  padding-bottom: var(--font-size-h2);
 }
 
 section + section {
-  border-style: none none solid;
+  border-top: none;
 }
 
 address {
@@ -156,4 +157,10 @@ a.internal::after {
   text-indent: -9999px;
   overflow: hidden;
   white-space: nowrap;
+}
+
+main > section > * {
+  width: 90vw;
+  margin-left: auto;
+  margin-right: auto;
 }
