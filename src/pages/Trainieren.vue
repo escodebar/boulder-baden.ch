@@ -33,14 +33,54 @@
     </RouterLink>
 
     <ul>
-      <li><a class="internal" href="#kilterboard">Kilterboard</a></li>
-      <li><a class="internal" href="#moonboard">Moonboard</a></li>
-      <li><a class="internal" href="#spraywall">Spraywall</a></li>
       <li>
-        <a class="internal" href="#campus-hangboard">Campus & Hangboard</a>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Trainieren', hash: '#kilterboard' }"
+        >
+          Kilterboard
+        </RouterLink>
       </li>
-      <li><a class="internal" href="#fitnessbereich">Fitnessbereich</a></li>
-      <li><a class="internal" href="#stangenpark">Stangenpark</a></li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Trainieren', hash: '#moonboard' }"
+        >
+          Moonboard
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Trainieren', hash: '#spraywall' }"
+        >
+          Spraywall
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Trainieren', hash: '#campus-hangboard' }"
+        >
+          Campus & Hangboard
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Trainieren', hash: '#fitnessbereich' }"
+        >
+          Fitnessbereich
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Trainieren', hash: '#stangenpark' }"
+        >
+          Stangenpark
+        </RouterLink>
+      </li>
     </ul>
   </section>
 

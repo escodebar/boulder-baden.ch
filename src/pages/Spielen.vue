@@ -33,12 +33,51 @@
     </RouterLink>
 
     <ul>
-      <li><a class="internal" href="#kinderwelt">Kinderwelt</a></li>
-      <li><a class="internal" href="#slackline">Slack Line</a></li>
-      <li><a class="internal" href="#basketball">Basketball</a></li>
-      <li><a class="internal" href="#pingpong">Ping Pong</a></li>
-      <li><a class="internal" href="#billiard">Billiard</a></li>
-      <li><a class="internal" href="#darts">Darts</a></li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Spielen', hash: '#kinderwelt' }"
+        >
+          Kinderwelt
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Spielen', hash: '#slackline' }"
+        >
+          Slack Line
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Spielen', hash: '#basketball' }"
+        >
+          Basketball
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Spielen', hash: '#pingpong' }"
+        >
+          Ping Pong
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink
+          class="internal"
+          :to="{ name: 'Spielen', hash: '#billiard' }"
+        >
+          Billiard
+        </RouterLink>
+      </li>
+      <li>
+        <RouterLink class="internal" :to="{ name: 'Spielen', hash: '#darts' }">
+          Darts
+        </RouterLink>
+      </li>
     </ul>
   </section>
 
