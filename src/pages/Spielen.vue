@@ -175,5 +175,9 @@
     gap: 20px;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  ul li a {
+    width: min(360px, calc((90vw - 40px) / 3));
+  }
 }
 </style>
