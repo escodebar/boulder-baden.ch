@@ -2,7 +2,9 @@
   <header>
     <Logo />
     <button
+      v-show="!isOpen"
       @click="isOpen = !isOpen"
+      class="icon"
       aria-controls="nav-dialog"
       :aria-expanded="isOpen"
       ref="dialogRef"
@@ -57,9 +59,15 @@ dialog {
   width: 100%;
 }
 
+dialog:open {
+  border-top: 5px solid var(--color-text);
+}
+
 button {
+  border: none;
+  background-image: url("@/assets/nav-button.svg");
   height: var(--appbar-height);
-  width: var(--appbar-height);
+  width: 70px;
 }
 
 @media (max-width: 767px) {
