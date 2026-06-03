@@ -5,10 +5,10 @@
   <Navigation />
 
   <section>
-    <Oeffnungszeiten />
+    <Standort />
   </section>
   <section>
-    <Standort />
+    <Oeffnungszeiten />
   </section>
   <section>
     <Kontakt />

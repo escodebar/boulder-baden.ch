@@ -28,10 +28,6 @@
       sit amet.
     </p>
 
-    <RouterLink class="button" :to="{ name: 'Öffnungszeiten' }">
-      Öffnungszeiten
-    </RouterLink>
-
     <ul>
       <li>
         <RouterLink

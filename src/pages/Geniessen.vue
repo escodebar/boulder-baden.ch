@@ -15,9 +15,5 @@
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet.
     </p>
-
-    <RouterLink class="button" :to="{ name: 'Öffnungszeiten' }">
-      Öffnungszeiten
-    </RouterLink>
   </section>
 </template>
