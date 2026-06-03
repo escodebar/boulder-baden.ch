@@ -28,7 +28,7 @@
       sit amet.
     </p>
 
-    <ul>
+    <ul class="angebot">
       <li>
         <RouterLink
           class="internal"
@@ -94,6 +94,26 @@
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet.
     </p>
+
+    <ul>
+      <li>
+        <a
+          class="button"
+          href="https://apps.apple.com/us/app/kilter-board-climbing-wall-app/id6755110303"
+        >
+          Zum Apple Store
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="button"
+          href="https://play.google.com/store/apps/details?id=com.kiltergrips.kilter_board_app"
+        >
+          Zum Google Play Store
+        </a>
+      </li>
+    </ul>
   </section>
 
   <section id="moonboard">
@@ -110,6 +130,26 @@
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet.
     </p>
+
+    <ul>
+      <li>
+        <a
+          class="button"
+          href="https://apps.apple.com/us/app/moon-board/id6446842142"
+        >
+          Zum Apple Store
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="button"
+          href="https://play.google.com/store/apps/details?id=com.trainingboard.moon"
+        >
+          Zum Google Play Store
+        </a>
+      </li>
+    </ul>
   </section>
 
   <section id="spraywall">
@@ -126,6 +166,26 @@
       Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
       sit amet.
     </p>
+
+    <ul>
+      <li>
+        <a
+          class="button"
+          href="https://apps.apple.com/de/app/retro-flash-climbing/id1519582483"
+        >
+          Zum Apple Store
+        </a>
+      </li>
+
+      <li>
+        <a
+          class="button"
+          href="https://play.google.com/store/apps/details?id=com.arcadebouldering.system_wall"
+        >
+          Zum Google Play Store
+        </a>
+      </li>
+    </ul>
   </section>
 
   <section id="campus-hangboard">
@@ -182,6 +242,10 @@
   ul {
     display: grid;
     gap: 20px;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  ul.angebot {
     grid-template-columns: 1fr 1fr 1fr;
   }
 
