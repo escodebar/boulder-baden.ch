@@ -1,6 +1,9 @@
 <template>
   <header>
-    <Logo />
+    <a class="logo" href="/">
+      <Logo />
+    </a>
+
     <button
       v-show="!isOpen"
       @click="isOpen = !isOpen"
@@ -43,6 +46,10 @@ onUnmounted(() => {
 </script>
 
 <style scoped>
+.logo {
+  display: flex;
+}
+
 header {
   justify-content: space-between;
   display: flex;
