@@ -78,7 +78,7 @@
   </section>
 
   <section>
-    <h2>Eintrittspreise</h2>
+    <h2>Betreuungsregeln</h2>
 
     <p>
       Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
@@ -92,28 +92,11 @@
       sit amet.
     </p>
 
-    <RouterLink class="button" :to="{ name: 'Eintrittspreise' }">
-      Eintrittspreise
-    </RouterLink>
-  </section>
-
-  <section>
-    <h2>Hallenregeln</h2>
-
-    <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
-    </p>
-
-    <RouterLink class="button" :to="{ name: 'Hallenregeln' }">
-      Zu den Hallenregeln
+    <RouterLink
+      class="button"
+      :to="{ name: 'Hallenregeln', hash: '#betreuung' }"
+    >
+      Zu den Betreuungsregeln
     </RouterLink>
   </section>
 

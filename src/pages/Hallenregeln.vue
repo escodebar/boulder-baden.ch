@@ -13,7 +13,7 @@
     amet.
   </p>
 
-  <section>
+  <section id="sicherheit">
     <h2>Sicherheit</h2>
     <ul>
       <li>Vor dem Bouldern gut aufwärmen</li>
@@ -22,7 +22,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="sauberkeit">
     <h2>Rücksicht & Sauberkeit</h2>
     <ul>
       <li>Immer aufeinander Rücksicht nehmen</li>
@@ -32,7 +32,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="betreuung">
     <h2>Kinder & Aufsicht</h2>
     <ul>
       <li>
