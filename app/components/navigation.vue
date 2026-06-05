@@ -2,7 +2,7 @@
   <nav v-if="navItems.length">
     <ul>
       <li v-for="route in navItems" :key="route.name">
-        <NuxtLink :to="{ name: route.name }">
+        <NuxtLink :to="{ name: route.name }" active-class="active">
           <span>
             {{ route.label }}
           </span>
@@ -157,18 +157,23 @@ nav ul li a[href="/geniessen"] {
     transform: translateY(0);
   }
 
+  nav.header ul li a.active[href="/neu-hier"],
   nav.header ul li:hover a[href="/neu-hier"] {
     background-color: var(--color-neu-hier);
   }
+  nav.header ul li a.active[href="/bouldern"],
   nav.header ul li:hover a[href="/bouldern"] {
     background-color: var(--color-bouldern);
   }
+  nav.header ul li a.active[href="/trainieren"],
   nav.header ul li:hover a[href="/trainieren"] {
     background-color: var(--color-trainieren);
   }
+  nav.header ul li a.active[href="/spielen"],
   nav.header ul li:hover a[href="/spielen"] {
     background-color: var(--color-spielen);
   }
+  nav.header ul li a.active[href="/geniessen"],
   nav.header ul li:hover a[href="/geniessen"] {
     background-color: var(--color-geniessen);
   }
