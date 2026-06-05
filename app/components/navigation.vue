@@ -147,10 +147,14 @@ nav ul li a[href="/geniessen"] {
     justify-content: center;
     align-items: end;
     height: 100%;
-    transform: translateY(calc(-100% + 6px));
+    transform: translateY(0);
     transition: transform 0.3s ease background-color 0.3s ease;
     font-family: "Manrope";
     font-size: var(--font-size-p);
+  }
+
+  nav.header.hidden ul li a {
+    transform: translateY(calc(-100% + 6px));
   }
 
   nav.header:hover ul li a {

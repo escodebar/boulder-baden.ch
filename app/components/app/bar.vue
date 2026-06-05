@@ -1,5 +1,5 @@
 <template>
-  <header>
+  <header ref="header">
     <a class="logo" href="/">
       <Logo />
     </a>
@@ -15,7 +15,7 @@
       Navigation
     </button>
     <dialog id="nav-dialog" aria-label="Navigation" :open="isOpen">
-      <Navigation class="header" />
+      <Navigation class="header" :class="{ hidden: isScrolled }" />
     </dialog>
   </header>
 </template>
@@ -25,7 +25,6 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 const isOpen = ref(false);
 const dialogRef = ref<HTMLDialogElement | null>(null);
-
 const handleGlobalClick = (event: MouseEvent) => {
   if (!isOpen.value) return;
   if (dialogRef.value && dialogRef.value.contains(event.target as Node)) {
@@ -34,12 +33,23 @@ const handleGlobalClick = (event: MouseEvent) => {
   isOpen.value = false;
 };
 
+const header = ref(null);
+const isScrolled = ref(false);
+
 onMounted(() => {
   document.addEventListener("click", handleGlobalClick);
+
+  const handleScroll = () => {
+    const threshold = header.value?.offsetHeight ?? 0;
+    isScrolled.value = window.scrollY > threshold;
+  };
+
+  window.addEventListener("scroll", handleScroll);
 });
 
 onUnmounted(() => {
   document.removeEventListener("click", handleGlobalClick);
+  window.removeEventListener("scroll", handleScroll);
 });
 </script>
 
