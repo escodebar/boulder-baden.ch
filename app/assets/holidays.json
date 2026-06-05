@@ -1,0 +1,13 @@
+[
+  { "name": "Neujahr", "date": "1. Januar", "time": "12 bis 20" },
+  { "name": "Berchtoldstag", "date": "2. Januar", "time": "12 bis 20" },
+  { "name": "Karfreitag", "date": "3. April", "time": "10 bis 19" },
+  { "name": "Ostermontag", "date": "6. April", "time": "10 bis 19" },
+  { "name": "Auffahrt", "date": "14. Mai", "time": "10 bis 19" },
+  { "name": "Pfingstmontag", "date": "25. Mai", "time": "10 bis 19" },
+  { "name": "Fronleichnam", "date": "4. Juni", "time": "10 bis 19" },
+  { "name": "Bundesfeier", "date": "1. August", "time": "10 bis 19" },
+  { "name": "Heiligabend", "date": "24. Dezember", "time": " 9 bis 16" },
+  { "name": "Weihnachten", "date": "25. Dezember", "time": "10 bis 19" },
+  { "name": "Stephanstag", "date": "26. Dezember", "time": "10 bis 19" }
+]
