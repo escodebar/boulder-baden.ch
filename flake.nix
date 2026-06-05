@@ -20,6 +20,9 @@
             packages = [
               pkgs.nodejs_24
             ];
+            shellHook = ''
+              export TMPDIR=/tmp
+            '';
           };
         };
       };
