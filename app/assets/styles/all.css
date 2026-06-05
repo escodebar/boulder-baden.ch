@@ -140,8 +140,8 @@ a.button::after {
 }
 
 a.internal {
-  border: 1px solid #000;
-  border-style: none none solid;
+  border: 1px solid var(--color-text);
+  border-style: solid none none;
   display: inline-block;
   text-decoration: none;
   line-height: 72px;
@@ -152,6 +152,18 @@ a.internal {
 
 a.internal::after {
   content: "↓";
+}
+
+a.button:hover,
+a.internal:hover {
+  border-top: 4px solid var(--color-text);
+  line-height: 60px;
+}
+
+a.button:active,
+a.internal:active {
+  color: var(--color-base);
+  background: var(--color-text);
 }
 
 .icon {
