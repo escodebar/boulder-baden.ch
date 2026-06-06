@@ -78,6 +78,12 @@ h5 {
   font-weight: 100;
 }
 
+h3 {
+  font-size: var(--font-size-h3);
+  margin-top: var(--font-size-h3);
+  margin-bottom: calc(var(--font-size-h3) / 2);
+}
+
 p {
   margin-top: var(--font-size-p);
   margin-bottom: var(--font-size-p);
