@@ -66,10 +66,10 @@
 
     <h3>Familie & Kinder</h3>
     <p>
-      Wir sind kinderfreundlich, aber keine Babysitting-Station. Unser
-      „Spielparadies" ist ein sicherer Bereich für Kids, aber die Eltern bleiben
-      für die Aufsicht verantwortlich (Regeln dazu auf der separaten
-      Kinder-Seite). Perfekt, um mit den Kleinen zusammen zu starten.
+      Wir sind kinderfreundlich, aber keine Babysitting-Station. Unsere
+      Kinderwelt ist ein sicherer Bereich für Kids, aber die Eltern bleiben für
+      die Aufsicht verantwortlich (Regeln dazu auf der separaten Kinder-Seite).
+      Perfekt, um mit den Kleinen zusammen zu starten.
     </p>
   </section>
 
