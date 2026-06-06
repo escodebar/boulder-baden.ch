@@ -8,9 +8,9 @@
   </p>
 
   <p>
-    Wir bieten dir <b>200 Boulder auf 1000 m² Fläche</b>. Viel Raum, wenig
-    Gedränge und genug Optionen, um dich auszutoben. Aber wir haben noch mehr im
-    Gepäck als nur Wände.
+    Wir bieten dir <strong>200 Boulder auf 1000 m² Fläche</strong>. Viel Raum,
+    wenig Gedränge und genug Optionen, um dich auszutoben. Aber wir haben noch
+    mehr im Gepäck als nur Wände.
   </p>
 
   <section>
@@ -24,8 +24,9 @@
     <h3>Nie langweilig</h3>
     <p>
       Wir schrauben wöchentlich diensttags 1 bis 2 Sektoren komplett neu um. Das
-      sind <b>8 bis 16 neue Boulder</b> pro Woche, die auf dich warten. Die
-      Halle ist also nie statisch, sondern ein lebendiges Trainingsfeld.
+      sind <strong>8 bis 16 neue Boulder</strong> pro Woche, die auf dich
+      warten. Die Halle ist also nie statisch, sondern ein lebendiges
+      Trainingsfeld.
     </p>
 
     <h3>Wettkampf-Feeling</h3>
@@ -57,10 +58,10 @@
     <h2>Schwierigkreitsgrade</h2>
 
     <p>
-      Unsere Skala reicht von <b>Grad 1 (Anfängerfreundlich)</b> bis
-      <b>Grad 6 (Elite)</b>. Damit du dich orientieren kannst, findest du unten
-      eine Übersicht, wie unsere Grade in die bekannte Fontainebleau-Skala
-      übersetzt werden.
+      Unsere Skala reicht von <strong>Grad 1 (Anfängerfreundlich)</strong> bis
+      <strong>Grad 6 (Elite)</strong>. Damit du dich orientieren kannst, findest
+      du unten eine Übersicht, wie unsere Grade in die bekannte
+      Fontainebleau-Skala übersetzt werden.
     </p>
 
     <p>
@@ -93,11 +94,11 @@
     <h3>Boardtraining</h3>
     <p>
       Du willst dein Training auf das nächste Level heben? Wir bieten dir eine
-      <b>moderne Spraywall</b>, ein <b>Kilterboard</b> und ein <b>Moonboard</b>.
-      Hier kannst du an deiner Dynamik, deiner Kraft und deiner Präzision
-      feilen. Auch kannst du gezielt am Hangboard, Campusboard oder an deinen
-      Trainingseinheiten. Unser Bereich dafür ist für alle offen, die ihr
-      Training selbst in die Hand nehmen wollen.
+      <strong>moderne Spraywall</strong>, ein <strong>Kilterboard</strong> und
+      ein <strong>Moonboard</strong>. Hier kannst du an deiner Dynamik, deiner
+      Kraft und deiner Präzision feilen. Auch kannst du gezielt am Hangboard,
+      Campusboard oder an deinen Trainingseinheiten. Unser Bereich dafür ist für
+      alle offen, die ihr Training selbst in die Hand nehmen wollen.
     </p>
 
     <NuxtLink class="button" :to="{ name: 'trainieren' }">

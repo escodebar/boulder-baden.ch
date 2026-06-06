@@ -2,15 +2,12 @@
   <h1>Spiel und Spass</h1>
 
   <p>
-    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-    eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-    voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-    amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-    nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-    diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-    clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-    amet.
+    Bouldern ist anstrengend? Dann ist es Zeit, die Beine hochzulegen oder den
+    Kopf frei zu bekommen. Im BOUBA haben wir uns überlegt: Warum sollte der
+    Spass aufhören, wenn die Matte leer ist? Egal, ob du mit den Kindern eine
+    Auszeit brauchst, deine Freunde zum Billard einlädst oder einfach mal die
+    Slackline testen willst. Hier gibt es genug Raum, um abzuschalten und
+    trotzdem aktiv zu bleiben.
   </p>
 
   <section>
@@ -75,15 +72,25 @@
     <h2>Betreuungsregeln</h2>
 
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Wir wissen: Die Kinderwelt, die Slackline oder ein entspanntes
+      Billardspiel laden dazu ein, die Zeit zu vergessen und einfach zu
+      geniessen. Doch egal, wie viel Spass du hast – im BOUBA gilt immer eine
+      Regel: <strong>Die Aufsichtspflicht liegt bei dir.</strong>
+    </p>
+
+    <p>
+      Unsere Angebote sind sicher und kindgerecht gestaltet, aber wir können
+      nicht jedes Kind im Auge behalten. Das gilt insbesondere für die
+      <strong>Kinderwelt</strong>, aber auch bei anderen Aktivitäten gilt:
+      <em>
+        Eltern oder begleitende Personen sind für die Sicherheit und das
+        Verhalten ihrer Kinder verantwortlich.
+      </em>
+    </p>
+
+    <p>
+      Damit alle einen sicheren Spass haben, haben wir detaillierte Regeln
+      erstellt. Bitte lies sie dir durch, bevor du loslegst.
     </p>
 
     <NuxtLink class="button" :to="{ name: 'hallenregeln', hash: '#betreuung' }">
@@ -92,87 +99,63 @@
   </section>
 
   <section id="kinderwelt">
-    <h2>Kinderwelt</h2>
+    <h2>Kinderwelt – Der Spielplatz für die Kleinen</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Für die kleinen Boulderer haben wir ein eigenes „Spielparadies"
+      geschaffen. Hier können Kids sicher toben, klettern und spielen, während
+      die Eltern im Bistro verweilen oder selbst bouldern.
+    </p>
+
+    <p>
+      <strong>Wichtig:</strong> Die Kinderwelt wird nicht betreut. Die
+      Aufsichtspflicht liegt bei den Eltern oder Begleitpersonen. Aber keine
+      Sorge: Der Bereich ist sicher, kindgerecht gestaltet und bietet genug
+      Platz für wildes Toben.
     </p>
   </section>
+
   <section id="slackline">
-    <h2>Slack-Line</h2>
+    <h2>Slackline</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Willst du deine Koordination testen? Unsere Slacklines laden dich ein, das
+      Gleichgewicht zu suchen. Egal, ob du gerade erst den ersten Schritt wagst
+      oder schon akrobatische Tricks zeigst. Hier ist Platz für deinen Flow.
     </p>
   </section>
+
   <section id="basketball">
     <h2>Basketball</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Zwischendurch mal ein paar Würfe? Unser Basketballkorb ist für schnelle
+      Duelle oder entspannte Wurfsessions da. Perfekt, um die Arme zu dehnen und
+      den Kopf frei zu bekommen.
     </p>
   </section>
+
   <section id="pingpong">
     <h2>Ping Pong</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Schnelle Reflexe und taktisches Denken – das bringt Ping Pong mit. Wir
+      bieten dir eine professionelle Tischtennisplatte, um dich mit Freunden zu
+      messen oder einfach ein paar Bälle zu schlagen.
     </p>
   </section>
+
   <section id="billiard">
-    <h2>Billiard</h2>
+    <h2>Billard</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Der Klassiker zum Abschalten. Unser Billardtisch ist der perfekte Ort, um
+      sich mit Freunden zu treffen, strategisch zu denken und die nächsten
+      Boulderrouten zu besprechen.
     </p>
   </section>
+
   <section id="darts">
     <h2>Darts</h2>
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Wer trifft das Zentrum? Darts ist die perfekte Mischung aus Konzentration
+      und Entspannung. Probier deine Präzision an unseren Dartscheiben und sieh,
+      wer der beste Schütze in der Gruppe ist.
     </p>
   </section>
 </template>

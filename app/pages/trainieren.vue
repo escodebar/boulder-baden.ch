@@ -74,10 +74,10 @@
 
     <p>
       Kein gewöhnliches Board. Unser Kilterboard ist verstellbar und trägt stolz
-      das <b>BOUBA-Logo</b> in einem coolen Design. Aber das Beste: Vor und
-      hinter dem Board warten bequeme <b>Sofas</b>. Hier kannst du zwischen den
-      Versuchen entspannen, die Route analysieren oder einfach nur die
-      Atmosphäre geniessen.
+      das <strong>BOUBA-Logo</strong> in einem coolen Design. Aber das Beste:
+      Vor und hinter dem Board warten bequeme <strong>Sofas</strong>. Hier
+      kannst du zwischen den Versuchen entspannen, die Route analysieren oder
+      einfach nur die Atmosphäre geniessen.
     </p>
 
     <p>
@@ -111,8 +111,8 @@
 
     <p>
       Der Klassiker für das Training von Dynamik und Präzision. Auch hier haben
-      wir auf Komfort gesetzt: <b>Bequeme Sofas</b> laden zum Verweilen und zur
-      Regeneration zwischen den Versuchen ein.
+      wir auf Komfort gesetzt: <strong>Bequeme Sofas</strong> laden zum
+      Verweilen und zur Regeneration zwischen den Versuchen ein.
     </p>
 
     <ul>
@@ -142,7 +142,7 @@
     <p>
       Unsere Spraywall gibt es in zwei Neigungen: 32° und 42°. Perfekt für
       dynamisches Training und die Entwicklung von explosiver Kraft. Auch hier
-      gibt es ein <b>Sofa</b> zum Ausruhen.
+      gibt es ein <strong>Sofa</strong> zum Ausruhen.
     </p>
 
     <p>
@@ -197,9 +197,10 @@
     <h3>Campusboard</h3>
     <p>
       Für die, die ihre Explosivität auf die nächste Stufe heben wollen.
-      <b>3 Leistenbreiten</b> für verschiedene Griffgrössen. <b>25° Neigung</b>
-      (perfekt für den Start). 25 cm Abstand zwischen den Leisten. 12 Leisten
-      pro Dicke. Hier wird gehetzt, gezählt und maximiert.
+      <strong>3 Leistenbreiten</strong> für verschiedene Griffgrössen.
+      <strong>25° Neigung</strong> (perfekt für den Start). 25 cm Abstand
+      zwischen den Leisten. 12 Leisten pro Dicke. Hier wird gehetzt, gezählt und
+      maximiert.
     </p>
   </section>
 
