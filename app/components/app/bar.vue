@@ -15,7 +15,7 @@
       Navigation
     </button>
     <dialog id="nav-dialog" aria-label="Navigation" :open="isOpen">
-      <Navigation class="header" :class="{ hidden: isScrolled }" />
+      <AppBarNavigation :is-hidden="isHidden" />
     </dialog>
   </header>
 </template>
@@ -34,14 +34,14 @@ const handleGlobalClick = (event: MouseEvent) => {
 };
 
 const header = ref(null);
-const isScrolled = ref(false);
+const isHidden = ref(false);
 
 onMounted(() => {
   document.addEventListener("click", handleGlobalClick);
 
   const handleScroll = () => {
     const threshold = header.value?.offsetHeight ?? 0;
-    isScrolled.value = window.scrollY > threshold;
+    isHidden.value = window.scrollY > threshold;
   };
 
   window.addEventListener("scroll", handleScroll);

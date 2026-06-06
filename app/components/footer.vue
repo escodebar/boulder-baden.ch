@@ -31,6 +31,7 @@
         Instagram
       </a>
     </div>
+
     <p class="legal">
       © 2026 - All rights reserved.<br />
       <template v-for="route in legalItems" :key="route.name">
