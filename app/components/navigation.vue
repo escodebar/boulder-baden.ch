@@ -67,6 +67,12 @@ const navItems = useNavigation("navigation");
       calc(100vw / 24),
       var(--font-size-h2)
     );
+    transform-origin: center bottom;
+    transition: transform 0.2s ease;
+  }
+
+  .a:hover {
+    transform: scaleY(1.1);
   }
 
   .a::before {
