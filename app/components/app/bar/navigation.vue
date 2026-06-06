@@ -22,6 +22,21 @@ defineProps<{
     justify-content: center;
     text-decoration: none;
   }
+  .a[href="/neu-hier"] {
+    background-color: var(--color-neu-hier);
+  }
+  .a[href="/bouldern"] {
+    background-color: var(--color-bouldern);
+  }
+  .a[href="/trainieren"] {
+    background-color: var(--color-trainieren);
+  }
+  .a[href="/spielen"] {
+    background-color: var(--color-spielen);
+  }
+  .a[href="/geniessen"] {
+    background-color: var(--color-geniessen);
+  }
 }
 
 @media (min-width: 768px) {
