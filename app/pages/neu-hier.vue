@@ -26,7 +26,7 @@
       jemanden stösst. Kein Anstehen, kein Gedränge, einfach Bouldern.
     </p>
 
-    <h3>Probleme für jeden Level</h3>
+    <h3>Probleme für jedes Level</h3>
 
     <p>
       Unsere Schwierigkeitsverteilung ist breiter als bei fast allen anderen. Du
