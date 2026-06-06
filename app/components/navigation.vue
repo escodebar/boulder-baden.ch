@@ -13,17 +13,7 @@
 </template>
 
 <script setup lang="ts">
-const router = useRouter();
-
-const navItems = router
-  .getRoutes()
-  .filter((item) => item.meta.navigation)
-  .sort((a, b) => (a.meta.order ?? 0) - (b.meta.order ?? 0))
-  .map(({ meta, name, path }) => ({
-    label: meta.title,
-    name,
-    path,
-  }));
+const navItems = useNavigation("navigation");
 </script>
 
 <style scoped>

@@ -12,7 +12,7 @@
 
     <nav>
       <ul>
-        <li v-for="route in navItems" :key="route.name">
+        <li v-for="route in footerItems" :key="route.name">
           <NuxtLink :to="{ name: route.name }">
             <span>
               {{ route.label }}
@@ -43,27 +43,8 @@
 </template>
 
 <script setup lang="ts">
-const router = useRouter();
-
-const navItems = router
-  .getRoutes()
-  .filter((item) => item.meta.footer)
-  .sort((a, b) => (a.meta.order ?? 0) - (b.meta.order ?? 0))
-  .map(({ meta, name, path }) => ({
-    label: meta.title,
-    name,
-    path,
-  }));
-
-const legalItems = router
-  .getRoutes()
-  .filter((item) => item.meta.legal)
-  .sort((a, b) => (a.meta.order ?? 0) - (b.meta.order ?? 0))
-  .map(({ meta, name, path }) => ({
-    label: meta.title,
-    name,
-    path,
-  }));
+const footerItems = useNavigation("footer");
+const legalItems = useNavigation("legal");
 </script>
 
 <style scoped>
