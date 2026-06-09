@@ -14,15 +14,11 @@
     <h2>Angebot</h2>
 
     <p>
-      Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
-      eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-      voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
-      clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-      amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
-      nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed
-      diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-      Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
-      sit amet.
+      Wir haben für jeden Geschmack etwas: Von der Kinderwelt, in der die
+      Kleinen sicher toben können, über die Slackline für eure Balance, bis hin
+      zu klassischen Spielereien wie Basketball, Ping Pong, Billard und Darts.
+      Egal, ob ihr ein Duell sucht oder einfach nur die Zeit vertreiben wollt,
+      hier ist für jeden ein Platz.
     </p>
 
     <ul>
@@ -68,7 +64,7 @@
     </ul>
   </section>
 
-  <section>
+  <section id="betreuung">
     <h2>Betreuungsregeln</h2>
 
     <p>
@@ -170,6 +166,12 @@ definePageMeta({
 </script>
 
 <style scoped>
+@media (max-width: 767px) {
+  #betreuung h2 {
+    font-size: clamp(var(--font-size-h3), calc(64vw / 6), var(--font-size-h2));
+  }
+}
+
 @media (min-width: 768px) {
   ul {
     display: grid;
