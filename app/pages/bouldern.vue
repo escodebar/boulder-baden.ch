@@ -36,6 +36,15 @@
       anspruchsvollen Routen zu bouldern, die so nur selten zu finden sind.
     </p>
 
+    <h3>Welcome Wall</h3>
+    <p>
+      Die Legende unter den Wänden. Mit einer Neigung von
+      <strong>30 Grad</strong> ist sie unser härtester Brocken. Hier schrauben
+      wir <em>nur</em> harte Boulder. Kein Anfänger-Paradies, sondern eine echte
+      Herausforderung für Fortgeschrittene und Profis. Wenn du denkst, du bist
+      stark genug, probier es aus. Wir nennen sie liebevoll die „Prügli-Wand".
+    </p>
+
     <h3>The Slab of the Week</h3>
     <p>
       Ein fester Begriff in unserer Community. Jeden Woche setzen wir im
