@@ -73,11 +73,11 @@
     <h2>Kilterboard</h2>
 
     <p>
-      Kein gewöhnliches Board. Unser Kilterboard ist verstellbar und trägt stolz
-      das <strong>BOUBA-Logo</strong> in einem coolen Design. Aber das Beste:
-      Vor und hinter dem Board warten bequeme <strong>Sofas</strong>. Hier
-      kannst du zwischen den Versuchen entspannen, die Route analysieren oder
-      einfach nur die Atmosphäre geniessen.
+      Kein gewöhnliches Board. Unser Kilterboard ist zwischen 15° und 60°
+      verstellbar und trägt stolz das <strong>BOUBA-Logo</strong> in einem
+      coolen Design. Aber das Beste: Vor und hinter dem Board warten bequeme
+      Sofas. Hier kannst du zwischen den Versuchen entspannen, die Route
+      analysieren oder einfach nur die Atmosphäre geniessen.
     </p>
 
     <p>
@@ -110,8 +110,9 @@
     <h2>Moonboard</h2>
 
     <p>
-      Der Klassiker für das Training von Dynamik und Präzision. Auch hier haben
-      wir auf Komfort gesetzt: <strong>Bequeme Sofas</strong> laden zum
+      Der Klassiker für das Training von Dynamik und Präzision. Mit dem Full Set
+      von 2019 bei 40° Neigung kannst du das Maximum aus deiner Trainingseinheit
+      holen. Auch hier haben wir auf Komfort gesetzt: Bequeme Sofas laden zum
       Verweilen und zur Regeneration zwischen den Versuchen ein.
     </p>
 
@@ -142,7 +143,7 @@
     <p>
       Unsere Spraywall gibt es in zwei Neigungen: 32° und 42°. Perfekt für
       dynamisches Training und die Entwicklung von explosiver Kraft. Auch hier
-      gibt es ein <strong>Sofa</strong> zum Ausruhen.
+      gibt es ein Sofa zum Ausruhen.
     </p>
 
     <p>
@@ -184,23 +185,18 @@
     <p>
       Wir bieten dir eine Auswahl an Hangboards, die keine Wünsche offenlassen.
       Niemand kommt hier zu kurz. Egal, ob du gerade erst anfängst oder an
-      deiner Peak-Performance feilst.
+      deiner Peak-Performance feilst. Bei findest du neben dem Beastmaker und
+      dem ClimBro weitere Hangboards und Leisten für den maximalen Aufbau deiner
+      Fingerkraft.
     </p>
-
-    <ul>
-      <li>
-        Beastmaker 1000 & 2000: Der Industriestandard für maximale Kraftaufbau.
-      </li>
-      <li>ClimbBro: Für modernes, ergonomisches Training.</li>
-    </ul>
 
     <h3>Campusboard</h3>
     <p>
       Für die, die ihre Explosivität auf die nächste Stufe heben wollen.
-      <strong>3 Leistenbreiten</strong> für verschiedene Griffgrössen.
-      <strong>25° Neigung</strong> (perfekt für den Start). 25 cm Abstand
-      zwischen den Leisten. 12 Leisten pro Dicke. Hier wird gehetzt, gezählt und
-      maximiert.
+      <strong>18 mm, 25 mm und 32 mm</strong> tiefe Leisten für verschiedene
+      Griffgrössen. <strong>18° Neigung</strong> (perfekt für den Start). 15 cm
+      Abstand zwischen den Leisten. 13 Leisten pro Tiefe. Hier wird gehetzt,
+      gezählt und maximiert.
     </p>
   </section>
 
