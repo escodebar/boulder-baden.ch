@@ -95,7 +95,7 @@
   </section>
 
   <section id="kinderwelt">
-    <h2>Kinderwelt – Der Spielplatz für die Kleinen</h2>
+    <h2>Kinderwelt</h2>
     <p>
       Für die kleinen Boulderer haben wir ein eigenes „Spielparadies"
       geschaffen. Hier können Kids sicher toben, klettern und spielen, während
@@ -168,7 +168,7 @@ definePageMeta({
 <style scoped>
 @media (max-width: 767px) {
   #betreuung h2 {
-    font-size: clamp(var(--font-size-h3), calc(64vw / 6), var(--font-size-h2));
+    font-size: clamp(var(--font-size-h3), calc(23vw / 2), var(--font-size-h2));
   }
 }
 
