@@ -40,3 +40,17 @@
     </p>
   </section>
 </template>
+
+<script setup lang="ts">
+definePageMeta({
+  title: "Firmenangebot",
+});
+</script>
+
+<style scoped>
+@media (max-width: 767px) {
+  h1 {
+    font-size: clamp(var(--font-size-h2), calc(64vw / 5), var(--font-size-h1));
+  }
+}
+</style>
