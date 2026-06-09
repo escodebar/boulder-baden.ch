@@ -63,7 +63,7 @@
     </p>
   </section>
 
-  <section>
+  <section id="grade">
     <h2>Schwierigkreitsgrade</h2>
 
     <p>
@@ -139,3 +139,11 @@ definePageMeta({
   title: "Bouldern",
 });
 </script>
+
+<style scoped>
+@media (max-width: 767px) {
+  #grade h2 {
+    font-size: clamp(var(--font-size-h3), calc(19vw / 2), var(--font-size-h2));
+  }
+}
+</style>
