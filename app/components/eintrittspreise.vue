@@ -125,4 +125,20 @@ th {
 td {
   text-align: right;
 }
+
+@media (max-width: 767px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  thead th:first-child,
+  tbody th {
+    background: var(--color-base);
+    position: sticky;
+    left: 0;
+    z-index: 2;
+  }
+}
 </style>
