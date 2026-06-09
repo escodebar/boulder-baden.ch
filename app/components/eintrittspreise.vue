@@ -48,6 +48,7 @@ const Alterstufen = ref([
   "Jugend",
   "Kinder",
   "Minis",
+  "Firmen",
 ]);
 
 const Abos = ref([
@@ -102,6 +103,15 @@ const eintrittspreise = ref({
     "12-er Abo": "100",
     Zweijahresabo: "",
     Jahresabo: "",
+    Halbjahresabo: "",
+    "3 Monate": "",
+    "1 Monat": "",
+  },
+  Firmen: {
+    Einzeleintritt: "",
+    "12-er Abo": "",
+    Zweijahresabo: "",
+    Jahresabo: "1900",
     Halbjahresabo: "",
     "3 Monate": "",
     "1 Monat": "",
