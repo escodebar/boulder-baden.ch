@@ -68,9 +68,13 @@
     <p>
       Wir sind kinderfreundlich, aber keine Babysitting-Station. Unsere
       Kinderwelt ist ein sicherer Bereich für Kids, aber die Eltern bleiben für
-      die Aufsicht verantwortlich (Regeln dazu auf der separaten Kinder-Seite).
-      Perfekt, um mit den Kleinen zusammen zu starten.
+      die Aufsicht verantwortlich. Perfekt, um mit den Kleinen zusammen zu
+      starten.
     </p>
+
+    <NuxtLink class="button" :to="{ name: 'hallenregeln', hash: '#betreuung' }">
+      Detaillierte Betreuungsregeln
+    </NuxtLink>
   </section>
 
   <section>
@@ -90,6 +94,10 @@
       Feiertage: 10:00 Bis 19:00 Uhr. Details zu den genauen Zeiten findest du
       auf unserer separaten Seite.
     </p>
+
+    <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
+      Überblick der Öffnungszeiten
+    </NuxtLink>
 
     <h3>Ausrüstung</h3>
     <p>
