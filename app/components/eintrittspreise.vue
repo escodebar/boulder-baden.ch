@@ -1,6 +1,6 @@
 <template>
   <table>
-    <template v-if="inverted">
+    <template v-if="!inverted">
       <thead>
         <tr>
           <th></th>
