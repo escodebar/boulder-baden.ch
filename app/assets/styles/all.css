@@ -193,6 +193,7 @@ table caption {
 }
 
 main > p,
+main > table,
 main > section > * {
   width: 90vw;
   margin-left: auto;
