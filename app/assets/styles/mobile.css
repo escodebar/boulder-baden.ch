@@ -19,4 +19,10 @@
     margin-top: var(--font-size-p);
     margin-bottom: var(--font-size-p);
   }
+
+  button,
+  a.button,
+  a.internal {
+    width: clamp(300px, 95vw, 360px);
+  }
 }
