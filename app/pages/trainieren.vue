@@ -249,6 +249,12 @@ definePageMeta({
 </script>
 
 <style scoped>
+@media (max-width: 767px) {
+  h1 {
+    font-size: clamp(var(--font-size-h2), calc(21vw), var(--font-size-h1));
+  }
+}
+
 @media (min-width: 768px) {
   ul {
     display: grid;

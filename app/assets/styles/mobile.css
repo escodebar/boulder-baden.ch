@@ -23,6 +23,6 @@
   button,
   a.button,
   a.internal {
-    width: clamp(300px, 95vw, 360px);
+    width: clamp(300px, 90vw, 360px);
   }
 }
