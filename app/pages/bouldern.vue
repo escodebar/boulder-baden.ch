@@ -142,6 +142,10 @@ definePageMeta({
 
 <style scoped>
 @media (max-width: 767px) {
+  h1 {
+    font-size: clamp(var(--font-size-h2), calc(45vw / 2), var(--font-size-h1));
+  }
+
   #grade h2 {
     font-size: clamp(var(--font-size-h3), calc(19vw / 2), var(--font-size-h2));
   }
