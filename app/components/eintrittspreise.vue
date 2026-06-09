@@ -138,17 +138,29 @@ td {
 
 @media (max-width: 767px) {
   table {
+    border-collapse: collapse;
     display: block;
     overflow-x: auto;
     white-space: nowrap;
   }
 
+  th,
+  td {
+    padding: 0.25em 0.5em;
+  }
+
   thead th:first-child,
   tbody th {
     background: var(--color-base);
+    padding-left: 0;
     position: sticky;
     left: 0;
     z-index: 2;
+  }
+
+  thead th:last-child,
+  tbody td:last-child {
+    padding-right: 0;
   }
 }
 </style>
