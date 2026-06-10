@@ -22,4 +22,26 @@ a {
   display: block;
   margin: 40px auto;
 }
+
+dl {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  width: fit-content;
+  max-width: 100%;
+  margin-inline: auto;
+  gap: 0.25rem 1rem;
+}
+
+dt {
+  margin: 0;
+}
+
+dd {
+  margin: 0;
+  text-align: right;
+}
+
+dt::after {
+  content: ":";
+}
 </style>
