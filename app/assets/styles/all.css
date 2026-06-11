@@ -39,6 +39,10 @@ html {
   font-weight: 300;
 }
 
+strong {
+  font-weight: 600;
+}
+
 body {
   background: var(--color-base);
 }
