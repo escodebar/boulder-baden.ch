@@ -1,6 +1,4 @@
 <template>
-  <h2>Unsere Partner</h2>
-
   <ul v-if="partners.length">
     <li v-for="partner in partners" :key="partner.id">
       <a

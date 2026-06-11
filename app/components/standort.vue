@@ -1,6 +1,4 @@
 <template>
-  <h2>Standort</h2>
-
   <address>
     Oberstadtstrasse 12<br />
     5400 Baden

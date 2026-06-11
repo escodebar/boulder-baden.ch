@@ -1,6 +1,4 @@
 <template>
-  <h2>Öffnungszeiten & Preise</h2>
-
   <dl>
     <dt>Montag bis Freitag</dt>
     <dd>11 bis 23</dd>

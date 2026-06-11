@@ -1,5 +1,4 @@
 <template>
-  <h2>Kontakt</h2>
   <address>
     Willst du etwas wissen? Oder hast du sonst eine Anfrage? Lass es uns
     wissen:<br />
