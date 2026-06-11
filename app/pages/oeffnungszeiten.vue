@@ -19,12 +19,15 @@
     </dl>
   </section>
 
-  <section>
+  <section id="besonders">
     <h2>Besondere Öffnungszeiten</h2>
 
     <dl>
       <template v-for="holiday in holidays">
-        <dt>{{ holiday.name }} ({{ holiday.date }})</dt>
+        <dt>
+          <strong>{{ holiday.date }}</strong>
+          <span>{{ holiday.name }}</span>
+        </dt>
         <dd>{{ holiday.time }}</dd>
       </template>
     </dl>
@@ -57,20 +60,32 @@ dl {
   width: fit-content;
   max-width: 100%;
   margin-inline: auto;
-  gap: 0.25rem 1rem;
+  gap: 0.25rem 0;
 }
 
 dt {
   margin: 0;
+  display: flex;
+  justify-content: space-between;
 }
 
 dd {
   margin: 0;
   text-align: right;
+  padding-left: 1rem;
 }
 
-dt::after {
-  content: ":";
+#besonders dt,
+#besonders dd {
+  border-bottom: 0.5px solid var(--color-text);
+}
+#besonders dt:last-of-type,
+#besonders dd:last-of-type {
+  border-bottom: 0;
+}
+
+strong {
+  margin-right: 1em;
 }
 
 @media (max-width: 767px) {
