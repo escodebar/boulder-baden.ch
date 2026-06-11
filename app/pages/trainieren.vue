@@ -227,5 +227,9 @@ const links = ref([
   ul.angebot {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  a.button {
+    width: clamp(300px, 40vw, 360px);
+  }
 }
 </style>
