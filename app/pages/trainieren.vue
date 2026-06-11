@@ -17,56 +17,7 @@
       findest du hier gebündelt.
     </p>
 
-    <ul class="angebot">
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'trainieren', hash: '#kilterboard' }"
-        >
-          Kilterboard
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'trainieren', hash: '#moonboard' }"
-        >
-          Moonboard
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'trainieren', hash: '#spraywall' }"
-        >
-          Spraywall
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'trainieren', hash: '#campus-hangboard' }"
-        >
-          Campus & Hangboard
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'trainieren', hash: '#fitnessbereich' }"
-        >
-          Fitnessbereich
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'trainieren', hash: '#stangenpark' }"
-        >
-          Stangenpark
-        </NuxtLink>
-      </li>
-    </ul>
+    <Linklist class="angebot" :links="links" />
   </section>
 
   <section id="kilterboard">
@@ -246,6 +197,17 @@ definePageMeta({
   order: 20,
   title: "Trainieren",
 });
+
+const name = "trainieren";
+
+const links = ref([
+  { to: { name, hash: "#kilterboard" }, name: "Kilterboard" },
+  { to: { name, hash: "#moonboard" }, name: "Moonboard" },
+  { to: { name, hash: "#spraywall" }, name: "Spraywall" },
+  { to: { name, hash: "#campus-hangboard" }, name: "Campus & Hangboard" },
+  { to: { name, hash: "#fitnessbereich" }, name: "Fitnessbereich" },
+  { to: { name, hash: "#stangenpark" }, name: "Stangenpark" },
+]);
 </script>
 
 <style scoped>
@@ -264,10 +226,6 @@ definePageMeta({
 
   ul.angebot {
     grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  ul li a {
-    width: min(360px, calc((90vw - 40px) / 3));
   }
 }
 </style>

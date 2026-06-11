@@ -21,47 +21,7 @@
       hier ist für jeden ein Platz.
     </p>
 
-    <ul>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'spielen', hash: '#kinderwelt' }"
-        >
-          Kinderwelt
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'spielen', hash: '#slackline' }"
-        >
-          Slack Line
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'spielen', hash: '#basketball' }"
-        >
-          Basketball
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink class="internal" :to="{ name: 'spielen', hash: '#pingpong' }">
-          Ping Pong
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink class="internal" :to="{ name: 'spielen', hash: '#billiard' }">
-          Billiard
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink class="internal" :to="{ name: 'spielen', hash: '#darts' }">
-          Darts
-        </NuxtLink>
-      </li>
-    </ul>
+    <Linklist :links="links" />
   </section>
 
   <section id="betreuung">
@@ -163,24 +123,23 @@ definePageMeta({
   order: 30,
   title: "Spielen",
 });
+
+const name = "spielen";
+
+const links = ref([
+  { to: { name, hash: "#kinderwelt" }, name: "Kinderwelt" },
+  { to: { name, hash: "#slackline" }, name: "Slack Line" },
+  { to: { name, hash: "#basketball" }, name: "Basketball" },
+  { to: { name, hash: "#pingpong" }, name: "Ping Pong" },
+  { to: { name, hash: "#billiard" }, name: "Billiard" },
+  { to: { name, hash: "#darts" }, name: "Darts" },
+]);
 </script>
 
 <style scoped>
 @media (max-width: 767px) {
   #betreuung h2 {
     font-size: clamp(var(--font-size-h3), calc(23vw / 2), var(--font-size-h2));
-  }
-}
-
-@media (min-width: 768px) {
-  ul {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  ul li a {
-    width: min(360px, calc((90vw - 40px) / 3));
   }
 }
 </style>

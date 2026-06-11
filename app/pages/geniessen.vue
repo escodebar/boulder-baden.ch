@@ -21,50 +21,7 @@
       dabei.
     </p>
 
-    <ul class="angebot">
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'geniessen', hash: '#pizza-flammkuchen' }"
-        >
-          Pizza & Flammkuchen
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'geniessen', hash: '#muffins' }"
-        >
-          Hausgemachte Muffins
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'geniessen', hash: '#pakoras' }"
-        >
-          Pakoras
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink class="internal" :to="{ name: 'geniessen', hash: '#eis' }">
-          Eis von Gasparini
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink
-          class="internal"
-          :to="{ name: 'geniessen', hash: '#sommergrillen' }"
-        >
-          Sommer-Grillen an der Feuerschale
-        </NuxtLink>
-      </li>
-      <li>
-        <NuxtLink class="internal" :to="{ name: 'geniessen', hash: '#events' }">
-          Events & Plausch
-        </NuxtLink>
-      </li>
-    </ul>
+    <Linklist :links="links" />
   </section>
 
   <section id="pizza-flammkuchen">
@@ -134,22 +91,15 @@ definePageMeta({
   order: 40,
   title: "Geniessen",
 });
+
+const name = "geniessen";
+
+const links = ref([
+  { to: { name, hash: "#pizza-flammkuchen" }, name: "Pizza & Flammkuchen" },
+  { to: { name, hash: "#muffins" }, name: "Hausgemachte Muffins" },
+  { to: { name, hash: "#pakoras" }, name: "Pakoras" },
+  { to: { name, hash: "#eis" }, name: "Eis von Gasparini" },
+  { to: { name, hash: "#sommergrillen" }, name: "Sommer-Grillen" },
+  { to: { name, hash: "#events" }, name: "Events & Plausch" },
+]);
 </script>
-
-<style scoped>
-@media (min-width: 768px) {
-  ul {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  ul.angebot {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  ul li a {
-    width: min(360px, calc((90vw - 40px) / 3));
-  }
-}
-</style>
