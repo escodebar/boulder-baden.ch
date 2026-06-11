@@ -65,6 +65,7 @@ header {
   left: 0;
   right: 0;
   height: var(--appbar-height);
+  background: var(--color-base);
 }
 
 dialog {

@@ -80,10 +80,6 @@ defineProps<{
     display: block;
   }
 
-  .hidden .a {
-    transform: translateY(calc(-100% + 6px));
-  }
-
   .nav:hover .a {
     transform: translateY(0);
   }
