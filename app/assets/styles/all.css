@@ -25,6 +25,9 @@
   --font-size-small: 12px;
 
   --border-size-thick: 6px;
+
+  --layer-top: 100;
+  --layer-hover: 10;
 }
 
 * {

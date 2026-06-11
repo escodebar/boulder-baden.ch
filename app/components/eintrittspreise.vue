@@ -165,7 +165,7 @@ tbody tr:last-child td {
     padding-left: 0;
     position: sticky;
     left: 0;
-    z-index: 2;
+    z-index: var(--layer-hover);
   }
 
   thead th:last-child,

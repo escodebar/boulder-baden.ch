@@ -82,7 +82,7 @@ button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1;
+  z-index: var(--layer-hover);
 }
 
 button:first-child {
