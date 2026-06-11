@@ -5,6 +5,7 @@
   <section>
     <h2>Standort</h2>
     <Standort />
+    <Map />
   </section>
 
   <section>
