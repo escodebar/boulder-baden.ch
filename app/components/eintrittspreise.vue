@@ -1,6 +1,6 @@
 <template>
   <table>
-    <template v-if="!inverted">
+    <template v-if="inverted">
       <thead>
         <tr>
           <th></th>
@@ -121,19 +121,34 @@ const eintrittspreise = ref({
 
 <style scoped>
 table {
-  border-collapse: separate;
-  border-spacing: 1em;
+  border-collapse: collapse;
 }
 
 thead th {
   text-align: right;
 }
 
+th,
+td {
+  padding: 0.25em 0.5em;
+}
+
 th {
   text-align: left;
 }
+
 td {
   text-align: right;
+}
+
+tbody th,
+tbody td {
+  border-bottom: 0.5px solid var(--color-text);
+}
+
+tbody tr:last-child th,
+tbody tr:last-child td {
+  border-bottom: 0;
 }
 
 @media (max-width: 767px) {
@@ -142,11 +157,6 @@ td {
     display: block;
     overflow-x: auto;
     white-space: nowrap;
-  }
-
-  th,
-  td {
-    padding: 0.25em 0.5em;
   }
 
   thead th:first-child,
