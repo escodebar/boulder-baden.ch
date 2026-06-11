@@ -9,7 +9,15 @@
 
   <section>
     <h2>Öffnungszeiten & Eintrittspreise</h2>
-    <Oeffnungszeiten />
+    <OeffnungszeitenRegulaer />
+
+    <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
+      Spezielle Öffnungszeiten
+    </NuxtLink>
+
+    <NuxtLink class="button" :to="{ name: 'eintrittspreise' }">
+      Eintrittspreise
+    </NuxtLink>
   </section>
 
   <section>
@@ -29,3 +37,9 @@
     <Partner />
   </section>
 </template>
+
+<style scoped>
+.button {
+  display: block;
+}
+</style>

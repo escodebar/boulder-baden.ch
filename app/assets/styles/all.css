@@ -151,6 +151,7 @@ a.button {
   width: 360px;
   height: 72px;
   color: var(--color-text);
+  margin: 40px auto;
 }
 
 button,

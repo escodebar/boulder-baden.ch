@@ -11,41 +11,17 @@
   <section>
     <h2>Reguläre Öffnungzeiten</h2>
 
-    <dl>
-      <dt>Montag bis Freitag</dt>
-      <dd>11 bis 23</dd>
-      <dt>Samstag & Sonntag</dt>
-      <dd>10 bis 19</dd>
-    </dl>
+    <OeffnungszeitenRegulaer />
   </section>
 
   <section id="besonders">
     <h2>Besondere Öffnungszeiten</h2>
 
-    <dl>
-      <template v-for="holiday in holidays">
-        <dt>
-          <strong>{{ holiday.date }}</strong>
-          <span>{{ holiday.name }}</span>
-        </dt>
-        <dd>{{ holiday.time }}</dd>
-      </template>
-    </dl>
+    <OeffnungszeitenBesonders />
   </section>
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-import holidaysData from "@/assets/holidays.json";
-
-interface Holiday {
-  date: string;
-  name: string;
-  time: string;
-}
-
-const holidays = ref<Holiday[]>(holidaysData as Holiday[]);
-
 definePageMeta({
   footer: true,
   order: 130,
@@ -54,40 +30,6 @@ definePageMeta({
 </script>
 
 <style scoped>
-dl {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  width: fit-content;
-  max-width: 100%;
-  margin-inline: auto;
-  gap: 0.25rem 0;
-}
-
-dt {
-  margin: 0;
-  display: flex;
-  justify-content: space-between;
-}
-
-dd {
-  margin: 0;
-  text-align: right;
-  padding-left: 1rem;
-}
-
-#besonders dt,
-#besonders dd {
-  border-bottom: 0.5px solid var(--color-text);
-}
-#besonders dt:last-of-type,
-#besonders dd:last-of-type {
-  border-bottom: 0;
-}
-
-strong {
-  margin-right: 1em;
-}
-
 @media (max-width: 767px) {
   h1 {
     font-size: clamp(var(--font-size-h2), calc(27vw / 2), var(--font-size-h1));

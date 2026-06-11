@@ -89,12 +89,7 @@
     </p>
 
     <h3>Öffnungszeiten</h3>
-    <p>
-      Mo–Fr: 11:00 Bis 23:00 Uhr (perfekt für nach der Arbeit), Sa–So &
-      Feiertage: 10:00 Bis 19:00 Uhr. Details zu den genauen Zeiten findest du
-      auf unserer separaten Seite.
-    </p>
-
+    <OeffnungszeitenRegulaer />
     <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
       Überblick der Öffnungszeiten
     </NuxtLink>

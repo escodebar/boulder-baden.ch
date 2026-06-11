@@ -5,22 +5,9 @@
     <dt>Samstag & Sonntag</dt>
     <dd>10 bis 19</dd>
   </dl>
-
-  <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
-    Spezielle Öffnungszeiten
-  </NuxtLink>
-
-  <NuxtLink class="button" :to="{ name: 'eintrittspreise' }">
-    Eintrittspreise
-  </NuxtLink>
 </template>
 
 <style scoped>
-a {
-  display: block;
-  margin: 40px auto;
-}
-
 dl {
   display: grid;
   grid-template-columns: minmax(0, 1fr) auto;
@@ -37,9 +24,5 @@ dt {
 dd {
   margin: 0;
   text-align: right;
-}
-
-dt::after {
-  content: ":";
 }
 </style>

@@ -34,6 +34,10 @@ const navItems = useNavigation("navigation");
     justify-content: center;
     text-decoration: none;
   }
+
+  button {
+    margin: 0;
+  }
 }
 
 @media (min-width: 768px) {
