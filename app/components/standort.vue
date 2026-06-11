@@ -4,7 +4,11 @@
     5400 Baden
   </address>
 
-  <p>Knapp 10 min vom Bahnhof Baden und Stadtzentrum zu Fuss entfernt</p>
+  <p>
+    Du kommst super leicht zu uns. Wir haben einen grossen, günstigen Parkplatz
+    direkt vor der Halle. Die Bushaltestelle ist gleich um die Ecke, und vom
+    nächsten Bahnhof sind es nur 10 Minuten zu Fuss.
+  </p>
 
   <Map />
 </template>

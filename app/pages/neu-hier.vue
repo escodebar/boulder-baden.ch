@@ -82,11 +82,7 @@
     <p>Bevor du loslegst, hier die Fakten, damit du reibungslos startest.</p>
 
     <h3>Anreise</h3>
-    <p>
-      Du kommst super leicht zu uns. Wir haben einen grossen, günstigen
-      Parkplatz direkt vor der Halle. Die Bushaltestelle ist gleich um die Ecke,
-      und vom nächsten Bahnhof sind es nur 10 Minuten zu Fuss.
-    </p>
+    <Standort />
 
     <h3>Öffnungszeiten</h3>
     <OeffnungszeitenRegulaer />
