@@ -25,7 +25,7 @@
   </section>
 
   <section id="pizza-flammkuchen">
-    <h2>Pizza & Flammkuchen – Klassiker mit Liebe</h2>
+    <h2>Pizza & Flammkuchen</h2>
     <p>
       Wenn es schnell gehen muss, aber trotzdem schmecken soll: Unsere
       hausgemachten Pizzas und Flammkuchen sind der perfekte Treibstoff. Frische
@@ -35,7 +35,7 @@
   </section>
 
   <section id="muffins">
-    <h2>Hauseigene Bananenbrot-Muffins – Das BOUBA-Highlight</h2>
+    <h2>Hauseigene Bananenbrot-Muffins</h2>
     <p>
       Ein absolutes Muss: Unsere <strong>eigenen Bananenbrot-Muffins</strong>.
       Mit viel Liebe gebacken. Sie sind der perfekte Begleiter zum Kaffee oder
@@ -45,7 +45,7 @@
   </section>
 
   <section id="pakoras">
-    <h2>Pakoras – Leichte Kost</h2>
+    <h2>Pakoras - Gesunder Snack</h2>
     <p>
       Wir haben Pakoras im Angebot. Knusprig, würzig und leicht, perfekt für den
       kleinen Hunger zwischendurch oder als gesunder Snack nach dem Training.
@@ -53,7 +53,7 @@
   </section>
 
   <section id="eis">
-    <h2>Eis von Gasparini – Süsser Ausklang</h2>
+    <h2>Eis von Gasparini</h2>
     <p>
       Kein Essen ohne Dessert. Unser Eis kommt von <strong>Gasparini</strong>,
       einem der besten Eiscreme-Hersteller der Schweiz. Ob am Stängel, im Cornet
@@ -62,7 +62,7 @@
   </section>
 
   <section id="sommergrillen">
-    <h2>Sommer-Grillen an der Feuerschale – Das Highlight der warmen Monate</h2>
+    <h2>Sommer-Grillen an der Feuerschale</h2>
     <p>
       Wenn die Sonne scheint und die Feuerschale glüht, wird das BOUBA-Bistro
       zum Grillplatz der Community. Wir servieren dir frische Bratwürste,
@@ -73,7 +73,7 @@
   </section>
 
   <section id="events">
-    <h2>Events & Plausch – Essen mit Herz</h2>
+    <h2>Events & Plausch</h2>
     <p>
       Bei uns gibt es immer etwas zu feiern. Ob der jährliche
       <strong>Spaghetti-Plausch</strong>, bei dem die ganze Halle zusammenrückt,
