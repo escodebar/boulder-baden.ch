@@ -70,17 +70,13 @@ const navItems = useNavigation("navigation");
       var(--font-size-h2)
     );
     transform-origin: center bottom;
-    transition:
-      transform 0.2s ease,
-      height 0.2s ease;
+    transition: all 0.2s ease;
     position: relative;
-    z-index: 1;
   }
 
   .a:hover {
     transform: translateY(-54px);
     height: 414px;
-    z-index: 10;
   }
 
   .a::before {
