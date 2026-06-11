@@ -51,6 +51,8 @@ const navItems = useNavigation("navigation");
     flex: auto;
     text-align: center;
     width: 0;
+    height: 360px;
+    position: relative;
   }
 
   .a {
@@ -68,11 +70,17 @@ const navItems = useNavigation("navigation");
       var(--font-size-h2)
     );
     transform-origin: center bottom;
-    transition: transform 0.2s ease;
+    transition:
+      transform 0.2s ease,
+      height 0.2s ease;
+    position: relative;
+    z-index: 1;
   }
 
   .a:hover {
-    transform: scaleY(1.1);
+    transform: translateY(-54px);
+    height: 414px;
+    z-index: 10;
   }
 
   .a::before {
