@@ -29,8 +29,17 @@
   <!-- Impressionen -->
 
   <section>
-    <h2>Unsere Vision</h2>
-    <Vision />
+    <h2>Unsere Geschichte</h2>
+
+    <p>
+      Aus einer Idee in einem umfunktionierten Dachstock in Unterlunkhofen
+      entstand eine der bedeutendsten Boulderhallen der Schweiz. Erfahre mehr
+      über unsere Entstehungsgeschichte.
+    </p>
+
+    <NuxtLink class="button" :to="{ name: 'geschichte' }">
+      Unsere Geschichte
+    </NuxtLink>
   </section>
 
   <section>
