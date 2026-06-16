@@ -1,5 +1,5 @@
 <template>
-  <h1>Trunk und Speiss</h1>
+  <h1>Trunk und Speis</h1>
 
   <p>
     Nach dem Bouldern, dem Training oder einem wilden Spielchen ist das
