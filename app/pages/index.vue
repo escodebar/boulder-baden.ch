@@ -26,7 +26,18 @@
     <Kontakt />
   </section>
 
-  <!-- Impressionen -->
+  <Impressionen
+    :images="[
+      '/impressionen/home/1.png',
+      '/impressionen/home/2.png',
+      '/impressionen/home/3.png',
+      '/impressionen/home/4.png',
+      '/impressionen/home/5.png',
+      '/impressionen/home/6.png',
+      '/impressionen/home/7.png',
+      '/impressionen/home/8.png',
+    ]"
+  />
 
   <section>
     <h2>Unsere Geschichte</h2>
