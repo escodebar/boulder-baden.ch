@@ -18,6 +18,7 @@
   p {
     margin-top: var(--font-size-p);
     margin-bottom: var(--font-size-p);
+    text-align: left;
   }
 
   button,
