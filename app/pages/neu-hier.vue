@@ -19,7 +19,7 @@
       anders.
     </p>
 
-    <h3>Raum zum Atmen</h3>
+    <h3>Kein Gedränge, nur Bouldern</h3>
 
     <p>
       Unsere Halle ist gross, hell und bietet so viel Fläche, dass du selten auf
@@ -90,12 +90,24 @@
       Überblick der Öffnungszeiten
     </NuxtLink>
 
+    <h3>Eintrittspreise</h3>
+
+    <Eintrittspreise
+      :visible-abos="['Einzeleintritt', '12-er Abo']"
+      :visible-alterstufen="['Erwachsene', 'Jugend', 'Kinder', 'Minis']"
+      :inverted="true"
+    />
+
+    <NuxtLink class="button" :to="{ name: 'eintrittspreise' }">
+      Detaillierte Eintrittspreise
+    </NuxtLink>
+
     <h3>Ausrüstung</h3>
     <p>
       Bring bequeme Sportkleidung mit. In der kalten Jahreszeit wird es bei uns
       frisch, warme Kleidung ist dann sinnvoll. Hast du keine eigenen
-      Boulderschuhe? Kein Problem, wir haben Mietschuhe bereit. Bänder, Gewichte
-      und anderes Trainingsmaterial stehen zur Verfügung
+      Boulderschuhe? Kein Problem, <strong>wir haben Mietschuhe bereit</strong>.
+      Bänder, Gewichte und anderes Trainingsmaterial stehen zur Verfügung
     </p>
 
     <h3>Verpflegung</h3>

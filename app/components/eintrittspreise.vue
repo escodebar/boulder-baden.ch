@@ -38,20 +38,28 @@
 </template>
 
 <script setup lang="ts">
-defineProps<{
-  inverted?: boolean;
-}>();
+const props = withDefaults(
+  defineProps<{
+    inverted?: boolean;
+    visibleAbos?: string[];
+    visibleAlterstufen?: string[];
+  }>(),
+  {
+    visibleAbos: () => [],
+    visibleAlterstufen: () => [],
+  },
+);
 
-const Alterstufen = ref([
+const allAlterstufen = [
   "Erwachsene",
   "Ermässigt",
   "Jugend",
   "Kinder",
   "Minis",
   "Firmen",
-]);
+];
 
-const Abos = ref([
+const allAbos = [
   "Einzeleintritt",
   "12-er Abo",
   "Zweijahresabo",
@@ -59,7 +67,19 @@ const Abos = ref([
   "Halbjahresabo",
   "3 Monate",
   "1 Monat",
-]);
+];
+
+const Alterstufen = computed(() =>
+  props.visibleAlterstufen.length
+    ? allAlterstufen.filter((a) => props.visibleAlterstufen.includes(a))
+    : allAlterstufen,
+);
+
+const Abos = computed(() =>
+  props.visibleAbos.length
+    ? allAbos.filter((a) => props.visibleAbos.includes(a))
+    : allAbos,
+);
 
 const eintrittspreise = ref({
   Erwachsene: {
