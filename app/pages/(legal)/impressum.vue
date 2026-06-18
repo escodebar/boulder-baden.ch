@@ -2,6 +2,7 @@
   <h1>Impressum</h1>
 
   <section>
+    <h2>Kontakt</h2>
     <address>
       Bouba AG<br />
       Oberstadtstrasse 12<br />
