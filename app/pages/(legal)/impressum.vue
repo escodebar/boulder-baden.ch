@@ -79,4 +79,16 @@ definePageMeta({
 * {
   text-align: left;
 }
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: clamp(var(--font-size-h2), calc(18vw), var(--font-size-h1));
+    hyphens: auto;
+  }
+
+  h2 {
+    font-size: clamp(var(--font-size-h3), calc(9vw), var(--font-size-h2));
+    hyphens: auto;
+  }
+}
 </style>
