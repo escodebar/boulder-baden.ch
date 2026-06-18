@@ -39,6 +39,9 @@
           <span> {{ route.label }} </span> <br />
         </NuxtLink>
       </template>
+      <NuxtLink :to="{ name: 'impressum', hash: '#datenschutz' }">
+        <span> Datenschutz </span>
+      </NuxtLink>
     </p>
   </footer>
 </template>
