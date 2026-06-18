@@ -82,6 +82,7 @@
         bleibt, nebst Verfall der Teilnahmeberechtigung, die Geltendmachung von
         Schadenersatz vorbehalten.
       </p>
+
       <p>
         Eine Rücknahme oder ein Umtausch von Tickets ist ausgeschlossen. Bei
         Verschiebung einer Ver- anstaltung behalten die Tickets ihre Gültigkeit.
@@ -90,6 +91,7 @@
         Absage der Veranstaltung ist eine Teil-Rückerstattung von maximal 80%
         gewährleistet.
       </p>
+
       <p>
         Sollte die Bouba AG die Boulderhalle wegen höherer Gewalt (Pandemie,
         Gesetze, Warungsarbeiten) vorübergehend schliessen müssen, besteht kein
@@ -112,23 +114,27 @@
         Bestandteil des Vertrages zwi- schen den Nutzerinnen und Nutzern der
         Boulderhalle Bouba AG in Baden als Betreiberin dieser Boulderhalle.
       </p>
+
       <p>
         Die Bouba AG ist berechtigt, vorliegende AGB sowie die Hallenordnung
         jederzeit zu ändern. Die Änderungen werden mit der Aufschaltung auf der
         Homepage der Bouba AG wirksam. Nutzerinnen und Nutzer können aus
         Änderungen keine Rechte ableiten.
       </p>
+
       <h4>2. Vertragsabschluss</h4>
       <p>
         Ein Vertrag kommt zustande beim Kauf einer Eintrittskarte, der Buchung
         eines Boulderkurses oder beim Kauf eines anderen Produkts. Die jeweils
         aktuelle Preisliste ist der Homepage zu entnehmen.
       </p>
+
       <h4>3. Öffnungszeiten</h4>
       <p>
         Die Öffnungszeiten sind dem Aushang in der Boulderhalle und auf der
         Homepage zu entnehmen.
       </p>
+
       <h4>4. Abonnemente und Gutscheine</h4>
       <p>
         4.1 Jahresabonnemente (inkl. Zweijahres-, Halbjahres-, Dreimonats- und
@@ -137,10 +143,12 @@
         Zweijahres-, Halbjahres-, Dreimonats- und Einmonatsabos) können in ihrer
         Laufzeit weder zurückgenommen, noch geändert oder übertragen werden.
       </p>
+
       <p>
         4.2 12er Karten sind übertragbar, können aber nicht einem Abonnement
         angerechnet oder zurück- erstattet werden.
       </p>
+
       <p>
         4.3 Wenn du aufgrund von Krankheit, Unfall, Schwangerschaft oder Militär
         verhindert bist, kannst du gegen eine Gebühr von CHF 30.- und dem
@@ -149,11 +157,13 @@
         längere Auslandaufenthalte) sind kein Unterbrechungsgrund. Die
         Mindestdauer der Unterbrechung beträgt 30 Tage bis maximal 180 Tage.
       </p>
+
       <p>
         4.4 Bei einem ermässigten Abonnement ist dem Hallenpersonal
         unaufgefordert der entsprechende Ausweis (bspw. Alterskontrolle,
         Vereinsmitgliedschaft etc.) vorzuweisen.
       </p>
+
       <h4>5. Sektorensperre</h4>
       <p>
         Für ausserordentliche Veranstaltungen/Ereignisse (bspw. Wettkämpfe,
@@ -162,6 +172,7 @@
         gesperrt oder eingeschränkt werden. Diese Sperren oder Einschränkungen
         führen nicht zu Ersatzansprüchen der Nutzerinnen und Nutzer.
       </p>
+
       <h4>6. Anforderungen, Verhalten und Haftung</h4>
       <p>
         Voraussetzung für die Nutzung der Boulderhalle BOUBA der Bouba AG ist
@@ -169,6 +180,7 @@
         passive Bewegungen müssen ohne körperliche Schä- den ausgeführt werden
         können.
       </p>
+
       <p>
         Bouldern ist eine gefährliche Sportart und mit einem Restrisiko
         verbunden. Ein hohes Mass an Eigenverantwortung und Umsicht der
@@ -178,17 +190,20 @@
         unbedingt den Benutzungs- und Sicherheitsrichtlinien sowie dem Personal
         Folge zu leisten.
       </p>
+
       <p>
         Die Bouba AG empfiehlt Wertgegenstände sicher zu verstauen und nicht
         unbeaufsichtigt zu lassen. Für Verluste von Wertsachen,
         Kleidungsstücken, Fahrrädern etc. haftet die Bouba AG nicht, insbe-
         sondere auch nicht für Verluste in den Garderobenkästen.
       </p>
+
       <h4>7. Auswärtige Kurse</h4>
       <p>
         Auswärtige Leiter, Ausbildner und Betreuer tragen für ihre Teilnehmer
         die volle Verantwortung.
       </p>
+
       <h4>8. Garderobenkästen</h4>
       <p>
         Für die Nutzerinnen und Nutzer stehen eine begrenzte Anzahl
@@ -201,18 +216,21 @@
         des Schlosses. Der Inhalt des Garderobenkastens wird bis drei Monate
         nach Aufbruch des Schlosses in der Fundgrube aufbewahrt.
       </p>
+
       <h4>9. Liegengelassene Gegenstände</h4>
       <p>
         Auf dem Grundstück der Boulderhalle BOUBA der Bouba AG liegengelassene
         Gegenstände gelten nach drei Monaten als herrenlos. Die Bouba AG ist
         berechtigt an diesen Sachen Eigentum zu begründen.
       </p>
+
       <h4>10. Schadenersatz</h4>
       <p>
         Bei eventualvorsätzlich herbeigeführten Sachbeschädigungen oder
         Verschmutzungen behält sich die Bouba AG vor, einen Schadenersatz
         einzufordern.
       </p>
+
       <h4>11. Datenschutz</h4>
       <p>
         Der Kunde anerkennt und erklärt sich damit einverstanden, dass Bouba AG
@@ -223,6 +241,7 @@
         Vertraulichkeit. Auf der Homepage (www.boulder-baden.ch) ist eine
         ausführliche Datenschutzerklärung der Bouba AG hinterlegt.
       </p>
+
       <p>
         Die Bouba AG kann während dem ordentlichen Betrieb und während Events
         Fotos aufnehmen. Da- bei können Besucher abgebildet werden. Mit der
@@ -230,6 +249,7 @@
         einverstanden, dass die Bilder zu Marketingzwecken verwendet und an
         Dritte weitergegeben werden dürfen.
       </p>
+
       <p>
         Die für die Benutzerverwaltung anfallenden Daten von Nutzerinnen und
         Nutzern werden von der Bouba AG bearbeitet und registriert. Die Daten
@@ -248,6 +268,7 @@
         von Guthaben, laufenden Abos, Kursgebühren und jeglicher weiterer Ar-
         ten bereits bezahlte Dienstleistungen und Angeboten ist ausgeschlossen.
       </p>
+
       <h4>12. Prepay</h4>
       <p>
         Auf das Kundenkonto kann Guthaben einbezahlt werden. Mit dem Guthaben
@@ -256,6 +277,7 @@
         auf einen Maximalbetrag von CHF 1'500.00 limitiert. Eine Auszahlung von
         Prepay- guthaben ist ausgeschlossen.
       </p>
+
       <p>
         Die Nutzerinnen und Nutzer sind verpflichtet, die Eintrittskarten mit
         Prepaysystem sachgemäss zu nutzen, aufzubewahren und vor Missbrauch zu
@@ -264,6 +286,7 @@
         Meldung zu erstat- ten. Bei Verlust, Diebstahl oder Beschädigung der
         Karte übernimmt die Bouba AG keine Haftung.
       </p>
+
       <h4>13. Kartenzahlungen</h4>
       <p>
         Für Zahlungen mittels Kreditkarten wird auf den ordentlichen Preis kein
@@ -289,6 +312,7 @@
         Die Hallenordnung dient dem geordneten Alltag in der Boulderhalle BOUBA
         der Bouba AG in Baden.
       </p>
+
       <p>
         Unsere Halle ist ein Ort des Miteinanders, an dem Vielfalt und Respekt
         im Vordergrund stehen. Daher bitten wir alle Besucher*innen, auf
@@ -299,6 +323,7 @@
         Religion, sexueller Orientierung oder anderen persönlichen Merkmalen
         ausschließen oder herabsetzen.
       </p>
+
       <p>
         Wir möchten eine Atmosphäre schaffen, in der sich jede und jeder
         willkommen und sicher fühlen kann. Bei Verstössen behalten wir uns das
@@ -325,10 +350,12 @@
         Boulderhalle. Dies erfolgt in der Regel digital. Hierbei ist die
         Nutzerin/der Nutzer mit den AGB und der Hallenordnung einverstanden.
       </p>
+
       <p>
         Minderjährigen unter 14 Jahren ist der Eintritt ohne Ausnahmebewilligung
         der Geschäftsleitung nur in Begleitung von Erwachsenen gestattet.
       </p>
+
       <p>
         Die Nutzerinnen und Nutzer werden vom Hallenpersonal nicht
         beaufsichtigt. Um Unfälle zu vermei- den und eine grösstmögliche
@@ -337,23 +364,27 @@
         bei Unregelmässigkeiten Meldung direkt bei den Betroffenen oder beim
         Hallenpersonal zu erstatten.
       </p>
+
       <p>
         Aus hygienischen Gründen ist Barfuss Bouldern nicht erlaubt. Zum Schutz
         der Boulderwände ist das Klettern in Bergschuhen, Hausschuhen oder
         Socken untersagt.
       </p>
+
       <p>
         Es gilt in sämtlichen Räumlichkeiten der Boulderhalle BOUBA der Bouba AG
         Feuer- und Rauchver- bot. Bei Ausbruch eines Brandes sind die
         Räumlichkeiten der Boulderhalle BOUBA der Bouba AG schnellstmöglich zu
         verlassen sowie die Feuerwehr zu alarmieren.
       </p>
+
       <p>
         Haustiere ausser Hunde dürfen nicht in die Boulderhalle mitgebracht
         werden. Die Halterin/der Halter tragen die Verantwortung, dass der Hund
         die Nutzerinnen und Nutzer der Anlage nicht gefährdet. Bei Ereignissen
         wie Unfällen oder ähnlich lehnt die Bouba AG jegliche Haftung ab.
       </p>
+
       <p>
         Das Klettern/Bouldern unter Einfluss von Alkohol und/oder anderen Drogen
         sowie unter bewusst- seins- und reaktionsvermindernden Medikamenten ist
@@ -361,6 +392,7 @@
         Bistro) ist erst nach dem Training gestattet. Für den Alkoholausschank
         gelten die gewerbepolizeilichen Richtlinien.
       </p>
+
       <p>
         Die Absprungmatten im Boulderbereich dürfen nicht als Liege- oder
         Spielflächen verwendet wer- den. Erziehungsberechtigte, Betreuende und
@@ -368,6 +400,7 @@
         Abspringen muss geübt werden und stets kontrolliert erfolgen.
         Gegenseitige Rücksichtnahme ist unabdingbar.
       </p>
+
       <p>
         Den Anweisungen der Mitarbeitenden der Boulderhalle BOUBA der Bouba AG
         ist Folge zu leisten. Wer gegen vorliegende Hallenordnung und/oder
@@ -389,12 +422,14 @@
         in den Räumlichkeiten der Boulderhalle BOUBA der Bouba AG erfolgt auf
         eigene Gefahr. Die Bouba AG lehnt ausdrücklich jede Haftung ab.
       </p>
+
       <p>
         Es ist zu beachten, dass Klettergriffe drehen oder abbrechen können.
         Mängel oder Schäden sind umgehend dem Hallenpersonal mitzuteilen.
         Manipulationen an Griffen, Tritten oder Volumen erfol- gen
         ausschliesslich durch das Hallenpersonal.
       </p>
+
       <p>
         Der Stangenpark birgt Risiken bei der Benützung. Es gilt wie beim
         Bouldern ein hohes Mass an Eigenverantwortung und Umsicht der
@@ -402,6 +437,7 @@
         und jeder weiteren nutzbaren Infrastruktur auf dem Areal der Bouba AG
         erfolgt auf eigene Gefahr. Die Bouba AG lehnt jegliche Haftung ab.
       </p>
+
       <p>
         Die Versicherung ist ausdrücklich Sache der Benützer*innen. Die Bouba AG
         lehnt jegliche Haftung ab.
@@ -423,11 +459,13 @@
         Parkgebühr bzw. im Mietzins sind sämtliche Nebenkosten inbegriffen. Eine
         Verrechnung von Gegenansprüchen ist aus- geschlossen.
       </p>
+
       <p>
         Dauermieter haben den Mietzins inkl. Mehrwertsteuer für die vereinbarte
         Periode (monatlich bzw. quartalsweise) im Voraus mit dem entsprechenden
         Einzahlungsschein zu überweisen.
       </p>
+
       <p>
         Die Parkfelder sind, abgesehen von der Ein- und Ausfahrt, nicht
         überwacht. Die Autos sind auf den Parkfeldern abzuschliessen. Die
@@ -435,33 +473,40 @@
         Sache des Benützers bzw. des Mieters. Die Bouba AG lehnt jede Haftung
         ab.
       </p>
+
       <p>
         Reinigungs- und Servicearbeiten an den parkierten Autos sind untersagt.
         Die Lagerung von Auto- zubehör und anderen Gegenständen auf den
         Parkplätzen ist nicht gestattet.
       </p>
+
       <p>
         Der Benutzer haftet für jeden alfälligen Schaden, den er bei der
         Benützung des Parkplatzes an Anlagen der Bouba AG anrichtet.
       </p>
+
       <p>
         Für Dauermieter sind Untermiete oder Abtretung des Mietvertrages ohne
         schriftliche Zustimmung der Vermieterin nicht gestattet.
       </p>
+
       <p>
         Der Benutzer verpflichtet sich, alle mündlichen und schriftlichen
         Anweisungen der Betriebsleitung zu befolgen.
       </p>
+
       <p>
         Flyer verteilen ist verboten, es ist strikte untersagt, Flyer oder
         ähnliches Werbematerial auf dem BOUBA-Parkplatz unter den
         Scheibenwischer der Autos sowie dem ganzen Areal zu verteilen. Bei
         Zuwiderhandlungen werden wir unsere Umtriebe in Rechnung stellen.
       </p>
+
       <p>
         Nachfahren ist verboten. Bei Nachfahren stellen wir eine Rechnung für
         unsere Umtriebe über CHF 150 aus und leiten rechtliche Schritte ein.
       </p>
+
       <p>
         Die Ein- und Ausfahrt wird Video-überwacht. Die Aufnahmen werden lokal
         auf dem NAS der Bouba AG für 7 Tage gespeichert und anschliessend
@@ -486,5 +531,12 @@ definePageMeta({
 <style scoped>
 * {
   text-align: left;
+}
+
+@media (max-width: 767px) {
+  h1 {
+    font-size: clamp(var(--font-size-h2), calc(17vw), var(--font-size-h1));
+    hyphens: auto;
+  }
 }
 </style>
