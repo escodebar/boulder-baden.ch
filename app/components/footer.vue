@@ -118,6 +118,9 @@ ul li a {
 }
 
 @media (max-width: 767px) {
+  footer {
+    padding-top: 50px;
+  }
 }
 
 @media (min-width: 768px) {
