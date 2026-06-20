@@ -4,13 +4,10 @@
   <p>
     Hier geht es um das, wofür wir stehen: Spass, Herausforderung und Community.
     Egal, ob du zum ersten Mal die Matten betrittst oder schon seit Jahren die
-    Wände eroberst, bei uns findest du deine Herausforderung.
-  </p>
-
-  <p>
-    Wir bieten dir <strong>200 Boulder auf 1000 m² Fläche</strong>. Viel Raum,
-    wenig Gedränge und genug Optionen, um dich auszutoben. Aber wir haben noch
-    mehr im Gepäck als nur Wände.
+    Wände eroberst, bei uns findest du deine Herausforderung. Wir bieten dir
+    <strong>200 Boulder auf 1000 m² Fläche</strong>. Viel Raum, wenig Gedränge
+    und genug Optionen, um dich auszutoben. Aber wir haben noch mehr im Gepäck
+    als nur Wände.
   </p>
 
   <section>
