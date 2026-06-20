@@ -10,7 +10,7 @@
 
     <figure
       :style="{
-        transform: `translateX(-${currentIndex * 100}%)`,
+        transform: `translateX(calc(-${currentIndex * 100}% - ${currentIndex} * var(--font-size-h3)))`,
       }"
       @touchstart="onTouchStart"
       @touchend="onTouchEnd"
@@ -84,6 +84,7 @@ const {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    margin-right: var(--font-size-h3);
   }
 }
 
