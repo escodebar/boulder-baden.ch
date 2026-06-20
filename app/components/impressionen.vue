@@ -86,4 +86,28 @@ const {
     object-fit: cover;
   }
 }
+
+@media (min-width: 768px) {
+  button {
+    display: none;
+  }
+
+  section {
+    overflow: hidden;
+  }
+
+  figure {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--font-size-h2);
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+    max-height: 50vw;
+    display: block;
+    object-fit: contain;
+  }
+}
 </style>
