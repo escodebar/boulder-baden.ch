@@ -1,12 +1,27 @@
 <template>
   <section>
-    <img
-      v-for="image in items"
-      :alt="image.id"
-      :key="image.id"
-      :src="image.src"
-      :style="imageStyle(image)"
-    />
+    <button
+      v-show="hasPrevious()"
+      @click="previous"
+      aria-label="Previous image"
+    >
+      ←
+    </button>
+
+    <figure
+      :style="{
+        transform: `translateX(-${currentIndex * 100}%)`,
+      }"
+    >
+      <img
+        v-for="image in items"
+        :alt="image.id"
+        :key="image.id"
+        :src="image.src"
+      />
+    </figure>
+
+    <button v-show="hasNext()" @click="next" aria-label="Next image">→</button>
   </section>
 </template>
 
@@ -15,52 +30,50 @@ const props = defineProps<{
   images: string[];
 }>();
 
-const items = computed(() =>
-  props.images.map((src, index) => ({
-    id: index,
-    src,
-    width: 180 + ((index * 73) % 120),
-    offsetX: Math.sin(index * 1.7) * 150,
-  })),
-);
-
-const scrollY = ref(0);
-
-const handleScroll = () => {
-  scrollY.value = window.scrollY;
-};
-
-onMounted(() => {
-  window.addEventListener("scroll", handleScroll, { passive: true });
-});
-
-onUnmounted(() => {
-  window.removeEventListener("scroll", handleScroll);
-});
-
-const imageStyle = (item: (typeof items.value)[number]) => ({
-  width: `${item.width}px`,
-  transform: `
-      translateX(${item.offsetX}px)
-    `,
-});
+const { items, currentIndex, next, previous, hasNext, hasPrevious } =
+  useImageGallery(props.images);
 </script>
 
 <style scoped>
-section {
-  display: flex;
-  flex-direction: column;
-  gap: 50px;
-  align-items: center;
-  margin-top: 90px;
-  margin-bottom: 90px;
-  max-width: 100vw;
-  overflow: hidden;
-}
+@media (max-width: 767px) {
+  section {
+    position: relative;
+    overflow: hidden;
+  }
 
-img {
-  display: block;
-  height: auto;
-  will-change: transform;
+  button {
+    background: none;
+    border: none;
+    font-family: "ABCCamera", sans-serif;
+    font-size: var(--font-size-h1);
+    height: var(--font-size-h1);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 72px;
+    z-index: var(--layer-hover);
+  }
+
+  button:first-child {
+    left: 0;
+  }
+
+  button:last-child {
+    right: 0;
+  }
+
+  figure {
+    flex: 1;
+    display: flex;
+    margin: 0;
+    transition: transform 300ms ease;
+  }
+
+  img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 }
 </style>
