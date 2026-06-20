@@ -12,6 +12,8 @@
       :style="{
         transform: `translateX(-${currentIndex * 100}%)`,
       }"
+      @touchstart="onTouchStart"
+      @touchend="onTouchEnd"
     >
       <img
         v-for="image in items"
@@ -30,8 +32,16 @@ const props = defineProps<{
   images: string[];
 }>();
 
-const { items, currentIndex, next, previous, hasNext, hasPrevious } =
-  useImageGallery(props.images);
+const {
+  items,
+  currentIndex,
+  next,
+  previous,
+  hasNext,
+  hasPrevious,
+  onTouchStart,
+  onTouchEnd,
+} = useImageGallery(props.images);
 </script>
 
 <style scoped>

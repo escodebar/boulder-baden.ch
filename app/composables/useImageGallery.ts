@@ -28,6 +28,30 @@ export function useImageGallery(images: MaybeRefOrGetter<string[]>) {
     }
   }
 
+  const touchStartX = ref(0);
+  const touchStartY = ref(0);
+
+  function onTouchStart(event: TouchEvent) {
+    touchStartX.value = event.touches[0].clientX;
+    touchStartY.value = event.touches[0].clientY;
+  }
+
+  function onTouchEnd(event: TouchEvent) {
+    const deltaX = touchStartX.value - event.changedTouches[0].clientX;
+
+    const deltaY = touchStartY.value - event.changedTouches[0].clientY;
+
+    if (Math.abs(deltaY) > Math.abs(deltaX)) {
+      return;
+    }
+
+    if (Math.abs(deltaX) < 50) {
+      return;
+    }
+
+    deltaX > 0 ? next() : previous();
+  }
+
   return {
     items,
     currentIndex,
@@ -35,5 +59,7 @@ export function useImageGallery(images: MaybeRefOrGetter<string[]>) {
     next,
     hasPrevious,
     previous,
+    onTouchStart,
+    onTouchEnd,
   };
 }
