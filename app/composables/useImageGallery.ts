@@ -1,4 +1,7 @@
-export function useImageGallery(images: MaybeRefOrGetter<string[]>) {
+export function useImageGallery(
+  images: MaybeRefOrGetter<string[]>,
+  container: Ref<HTMLElement | null>,
+) {
   const items = computed(() =>
     toValue(images).map((src, index) => ({
       id: index,
@@ -8,13 +11,29 @@ export function useImageGallery(images: MaybeRefOrGetter<string[]>) {
 
   const currentIndex = ref(0);
 
+  function scrollToIndex(index: number) {
+    const el = container.value;
+    if (!el) return;
+
+    const child = el.children[index] as HTMLElement;
+    if (!child) return;
+
+    child.scrollIntoView({
+      behavior: "smooth",
+      inline: "start",
+      block: "nearest",
+    });
+
+    currentIndex.value = index;
+  }
+
   function hasNext() {
     return currentIndex.value < images.length - 1;
   }
 
   function next() {
     if (hasNext()) {
-      currentIndex.value++;
+      scrollToIndex(currentIndex.value + 1);
     }
   }
 
@@ -24,42 +43,15 @@ export function useImageGallery(images: MaybeRefOrGetter<string[]>) {
 
   function previous() {
     if (hasPrevious()) {
-      currentIndex.value--;
+      scrollToIndex(currentIndex.value - 1);
     }
-  }
-
-  const touchStartX = ref(0);
-  const touchStartY = ref(0);
-
-  function onTouchStart(event: TouchEvent) {
-    touchStartX.value = event.touches[0].clientX;
-    touchStartY.value = event.touches[0].clientY;
-  }
-
-  function onTouchEnd(event: TouchEvent) {
-    const deltaX = touchStartX.value - event.changedTouches[0].clientX;
-
-    const deltaY = touchStartY.value - event.changedTouches[0].clientY;
-
-    if (Math.abs(deltaY) > Math.abs(deltaX)) {
-      return;
-    }
-
-    if (Math.abs(deltaX) < 50) {
-      return;
-    }
-
-    deltaX > 0 ? next() : previous();
   }
 
   return {
     items,
-    currentIndex,
     hasNext,
     next,
     hasPrevious,
     previous,
-    onTouchStart,
-    onTouchEnd,
   };
 }

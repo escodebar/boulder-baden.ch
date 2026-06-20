@@ -9,14 +9,7 @@
       ←
     </button>
 
-    <figure
-      :style="{
-        transform: `translateX(calc(-${currentIndex * 100}% - ${currentIndex} * var(--font-size-h3)))`,
-      }"
-      :class="classes.figure"
-      @touchstart="onTouchStart"
-      @touchend="onTouchEnd"
-    >
+    <figure ref="container" :class="classes.figure">
       <img
         v-for="image in items"
         :alt="image.id"
@@ -48,16 +41,12 @@ const props = defineProps<{
   };
 }>();
 
-const {
-  items,
-  currentIndex,
-  next,
-  previous,
-  hasNext,
-  hasPrevious,
-  onTouchStart,
-  onTouchEnd,
-} = useImageGallery(props.images);
+const container = ref<HTMLElement | null>(null);
+
+const { items, next, previous, hasNext, hasPrevious } = useImageGallery(
+  props.images,
+  container,
+);
 </script>
 
 <style scoped>
@@ -89,14 +78,19 @@ const {
   }
 
   figure {
-    flex: 1;
     display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+
     margin: 0;
-    transition: transform 300ms ease;
+    padding: 0;
   }
 
   img {
     flex: 0 0 100%;
+    scroll-snap-align: start;
+
     width: 100%;
     height: 100%;
     object-fit: cover;
