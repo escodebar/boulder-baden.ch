@@ -50,33 +50,33 @@ const { items, next, previous, hasNext, hasPrevious } = useImageGallery(
 </script>
 
 <style scoped>
+section {
+  position: relative;
+  overflow: hidden;
+}
+
+button {
+  background: none;
+  border: none;
+  font-family: "ABCCamera", sans-serif;
+  font-size: var(--font-size-h1);
+  height: var(--font-size-h1);
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 72px;
+  z-index: var(--layer-hover);
+}
+
+button:first-child {
+  left: 0;
+}
+
+button:last-child {
+  right: 0;
+}
+
 @media (max-width: 767px) {
-  section {
-    position: relative;
-    overflow: hidden;
-  }
-
-  button {
-    background: none;
-    border: none;
-    font-family: "ABCCamera", sans-serif;
-    font-size: var(--font-size-h1);
-    height: var(--font-size-h1);
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 72px;
-    z-index: var(--layer-hover);
-  }
-
-  button:first-child {
-    left: 0;
-  }
-
-  button:last-child {
-    right: 0;
-  }
-
   figure {
     display: flex;
     overflow-x: auto;
