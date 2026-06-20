@@ -47,6 +47,38 @@ export function useImageGallery(
     }
   }
 
+  function onScroll() {
+    const el = container.value;
+    if (!el) return;
+
+    const children = Array.from(el.children);
+
+    const index = children.findIndex((child) => {
+      const rect = child.getBoundingClientRect();
+      const parentRect = el.getBoundingClientRect();
+
+      return rect.left >= parentRect.left - 10;
+    });
+
+    if (index !== -1) {
+      currentIndex.value = index;
+    }
+  }
+
+  onMounted(() => {
+    const el = container.value;
+    if (!el) return;
+
+    el.addEventListener("scroll", onScroll, { passive: true });
+  });
+
+  onBeforeUnmount(() => {
+    const el = container.value;
+    if (!el) return;
+
+    el.removeEventListener("scroll", onScroll);
+  });
+
   return {
     items,
     hasNext,
