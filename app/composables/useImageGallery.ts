@@ -27,24 +27,29 @@ export function useImageGallery(
     currentIndex.value = index;
   }
 
-  function hasNext() {
-    return currentIndex.value < images.length - 1;
-  }
+  const canScrollNext = ref(false);
 
   function next() {
-    if (hasNext()) {
+    if (canScrollNext.value) {
       scrollToIndex(currentIndex.value + 1);
     }
   }
 
-  function hasPrevious() {
-    return currentIndex.value > 0;
-  }
+  const canScrollPrevious = ref(false);
 
   function previous() {
-    if (hasPrevious()) {
+    if (canScrollPrevious.value) {
       scrollToIndex(currentIndex.value - 1);
     }
+  }
+
+  function updateScrollState() {
+    const el = container.value;
+    if (!el) return;
+
+    canScrollPrevious.value = el.scrollLeft > 0;
+
+    canScrollNext.value = el.scrollLeft < el.scrollWidth - el.clientWidth - 1;
   }
 
   function onScroll() {
@@ -63,11 +68,15 @@ export function useImageGallery(
     if (index !== -1) {
       currentIndex.value = index;
     }
+
+    updateScrollState();
   }
 
   onMounted(() => {
     const el = container.value;
     if (!el) return;
+
+    updateScrollState();
 
     el.addEventListener("scroll", onScroll, { passive: true });
   });
@@ -81,9 +90,9 @@ export function useImageGallery(
 
   return {
     items,
-    hasNext,
+    canScrollNext,
     next,
-    hasPrevious,
+    canScrollPrevious,
     previous,
   };
 }

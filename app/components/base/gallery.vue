@@ -1,7 +1,7 @@
 <template>
   <section :class="classes.section">
     <button
-      v-show="hasPrevious()"
+      v-show="canScrollPrevious"
       @click="previous"
       :class="classes.button"
       aria-label="Previous image"
@@ -20,7 +20,7 @@
     </figure>
 
     <button
-      v-show="hasNext()"
+      v-show="canScrollNext"
       @click="next"
       :class="classes.button"
       aria-label="Next image"
@@ -43,10 +43,8 @@ const props = defineProps<{
 
 const container = ref<HTMLElement | null>(null);
 
-const { items, next, previous, hasNext, hasPrevious } = useImageGallery(
-  props.images,
-  container,
-);
+const { items, next, previous, canScrollNext, canScrollPrevious } =
+  useImageGallery(props.images, container);
 </script>
 
 <style scoped>
