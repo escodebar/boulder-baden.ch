@@ -1,40 +1,45 @@
 <template>
-  <table>
-    <template v-if="inverted">
-      <thead>
-        <tr>
-          <th></th>
-          <th v-for="abo in Abos" scope="col">
-            {{ abo }}
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="stufe in Alterstufen">
-          <th scope="row">{{ stufe }}</th>
-          <td v-for="abo in Abos">{{ eintrittspreise[stufe]?.[abo] }}</td>
-        </tr>
-      </tbody>
-    </template>
-    <template v-else>
-      <thead>
-        <tr>
-          <th></th>
-          <th v-for="stufe in Alterstufen" scope="col">
-            {{ stufe }}
-          </th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr v-for="abo in Abos">
-          <th scope="row">{{ abo }}</th>
-          <td v-for="stufe in Alterstufen">
-            {{ eintrittspreise[stufe]?.[abo] }}
-          </td>
-        </tr>
-      </tbody>
-    </template>
-  </table>
+  <figure>
+    <table>
+      <template v-if="inverted">
+        <thead>
+          <tr>
+            <th></th>
+            <th v-for="abo in Abos" scope="col">
+              {{ abo }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="stufe in Alterstufen">
+            <th scope="row">{{ stufe }}</th>
+            <td v-for="abo in Abos">{{ eintrittspreise[stufe]?.[abo] }}</td>
+          </tr>
+        </tbody>
+      </template>
+      <template v-else>
+        <thead>
+          <tr>
+            <th></th>
+            <th v-for="stufe in Alterstufen" scope="col">
+              {{ stufe }}
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="abo in Abos">
+            <th scope="row">{{ abo }}</th>
+            <td v-for="stufe in Alterstufen">
+              {{ eintrittspreise[stufe]?.[abo] }}
+            </td>
+          </tr>
+        </tbody>
+      </template>
+    </table>
+    <figcaption>
+      Studierende bis 28 Jahre zahlen den Tarif der 18 bis 20-Jährigen.
+    </figcaption>
+  </figure>
 </template>
 
 <script setup lang="ts">
@@ -51,11 +56,11 @@ const props = withDefaults(
 );
 
 const allAlterstufen = [
-  "Erwachsene",
-  "Ermässigt",
-  "Jugend",
-  "Kinder",
-  "Minis",
+  "Ab 21 Jahre",
+  "18 bis 20 Jahre",
+  "11 bis 17 Jahre",
+  "5 bis 10 Jahre",
+  "1 bis 4 Jahre",
   "Firmen",
 ];
 
@@ -82,7 +87,7 @@ const Abos = computed(() =>
 );
 
 const eintrittspreise = ref({
-  Erwachsene: {
+  "Ab 21 Jahre": {
     Einzeleintritt: "24",
     "12-er Abo": "264",
     Zweijahresabo: "1720",
@@ -91,7 +96,7 @@ const eintrittspreise = ref({
     "3 Monate": "370",
     "1 Monat": "185",
   },
-  Ermässigt: {
+  "18 bis 20 Jahre": {
     Einzeleintritt: "20",
     "12-er Abo": "220",
     Zweijahresabo: "1320",
@@ -100,7 +105,7 @@ const eintrittspreise = ref({
     "3 Monate": "320",
     "1 Monat": "145",
   },
-  Jugend: {
+  "11 bis 17 Jahre": {
     Einzeleintritt: "20",
     "12-er Abo": "220",
     Zweijahresabo: "1200",
@@ -109,7 +114,7 @@ const eintrittspreise = ref({
     "3 Monate": "260",
     "1 Monat": "125",
   },
-  Kinder: {
+  "5 bis 10 Jahre": {
     Einzeleintritt: "14",
     "12-er Abo": "154",
     Zweijahresabo: "820",
@@ -118,7 +123,7 @@ const eintrittspreise = ref({
     "3 Monate": "200",
     "1 Monat": "90",
   },
-  Minis: {
+  "1 bis 4 Jahre": {
     Einzeleintritt: "10",
     "12-er Abo": "100",
     Zweijahresabo: "",
@@ -140,6 +145,11 @@ const eintrittspreise = ref({
 </script>
 
 <style scoped>
+figure {
+  display: flex;
+  flex-direction: column;
+}
+
 table {
   border-collapse: collapse;
 }

@@ -94,8 +94,12 @@
 
     <Eintrittspreise
       :visible-abos="['Einzeleintritt', '12-er Abo']"
-      :visible-alterstufen="['Erwachsene', 'Jugend', 'Kinder', 'Minis']"
-      :inverted="true"
+      :visible-alterstufen="[
+        'Ab 21 Jahre',
+        '18 bis 20 Jahre',
+        '11 bis 17 Jahre',
+        '5 bis 10 Jahre',
+      ]"
     />
 
     <NuxtLink class="button" :to="{ name: 'eintrittspreise' }">

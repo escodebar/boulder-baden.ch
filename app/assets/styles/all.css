@@ -200,6 +200,7 @@ table caption {
   font-size: var(--font-size-small);
 }
 
+main > figure,
 main > p,
 main > table,
 main > section > * {
