@@ -12,7 +12,10 @@
     <h2>Öffnungszeiten & Eintrittspreise</h2>
     <OeffnungszeitenRegulaer />
 
-    <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
+    <NuxtLink
+      class="button"
+      :to="{ name: 'oeffnungszeiten', hash: '#besonders' }"
+    >
       Spezielle Öffnungszeiten
     </NuxtLink>
 

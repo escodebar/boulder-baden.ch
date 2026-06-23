@@ -86,7 +86,10 @@
 
     <h3>Öffnungszeiten</h3>
     <OeffnungszeitenRegulaer />
-    <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
+    <NuxtLink
+      class="button"
+      :to="{ name: 'oeffnungszeiten', hash: '#besonders' }"
+    >
       Überblick der Öffnungszeiten
     </NuxtLink>
 
