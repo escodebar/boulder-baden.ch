@@ -13,6 +13,9 @@ function toClasses(styles: Record<string, string>) {
     button,
     figure,
     img,
+    small,
+    medium,
+    big,
     top,
     middle,
     bottom,
@@ -26,6 +29,7 @@ function toClasses(styles: Record<string, string>) {
     button,
     figure,
     img,
+    size: { small, medium, big },
     position: {
       vertical: { top, middle, bottom },
       horizontal: { left, center, right },
@@ -55,11 +59,22 @@ function toClasses(styles: Record<string, string>) {
   }
 
   .img {
-    width: 80%;
     height: auto;
     max-height: 50vw;
     display: block;
     object-fit: contain;
+  }
+
+  .small {
+    width: 80%;
+  }
+
+  .medium {
+    width: 90%;
+  }
+
+  .big {
+    width: 100%;
   }
 
   .top {

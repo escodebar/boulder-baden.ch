@@ -13,7 +13,7 @@
       <img
         v-for="image in items"
         :alt="image.id"
-        :class="[classes.img].concat(position())"
+        :class="[classes.img, size()].concat(position())"
         :key="image.id"
         :src="image.src"
       />
@@ -38,6 +38,11 @@ const props = defineProps<{
     button: string;
     figure: string;
     img: string;
+    size: {
+      small: string;
+      medium: string;
+      big: string;
+    };
     position: {
       vertical: {
         top: string;
@@ -55,24 +60,30 @@ const props = defineProps<{
 
 const container = ref<HTMLElement | null>(null);
 
+function randomProp(obj) {
+  if (!obj) {
+    return undefined;
+  }
+
+  const keys = Object.keys(obj);
+
+  return keys.length
+    ? obj[keys[Math.floor(Math.random() * keys.length)]]
+    : undefined;
+}
+
+function size() {
+  const s = randomProp(props.classes.size);
+
+  return s ? s : "";
+}
+
 function position() {
   const vertical = props.classes.position?.vertical;
   const horizontal = props.classes.position?.horizontal;
 
   if (!vertical && !horizontal) {
     return [];
-  }
-
-  function randomProp(obj) {
-    if (!obj) {
-      return undefined;
-    }
-
-    const keys = Object.keys(obj);
-
-    return keys.length
-      ? obj[keys[Math.floor(Math.random() * keys.length)]]
-      : undefined;
   }
 
   return [randomProp(vertical), randomProp(horizontal)].filter(Boolean);
