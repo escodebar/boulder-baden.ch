@@ -3,9 +3,9 @@
 
   <p>
     Egal ob nach der Arbeit am späten Abend oder am Wochenende mit der Familie:
-    Wir sind für dich da, wenn du Zeit zum Bouldern hast. Unsere Öffnungszeiten
-    sind flexibel gestaltet, damit du dich entspannt auf die Matte begeben
-    kannst, wann immer es dir passt.
+    Wir sind <strong>jeden Tag</strong> für dich da, wenn du Zeit zum Bouldern
+    hast. Unsere Öffnungszeiten sind flexibel gestaltet, damit du dich entspannt
+    auf die Matte begeben kannst, wann immer es dir passt.
   </p>
 
   <section>
