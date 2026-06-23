@@ -66,11 +66,11 @@ function toClasses(styles: Record<string, string>) {
   }
 
   .small {
-    width: 80%;
+    width: 60%;
   }
 
   .medium {
-    width: 90%;
+    width: 80%;
   }
 
   .big {
