@@ -14,6 +14,36 @@
     <h2>Eintrittspreise</h2>
 
     <Eintrittspreise />
+
+    <h4>Familienvergünstigung</h4>
+    <p>
+      Spare 10% Rabatt, wenn du zwei Abos ab 21 Jahren und ein Abo ab 5 Jahren
+      kombinierst. Für alleinerziehende gilt der Rabatt bereits bei einem Abo ab
+      21 Jahren und einem Abo ab 5 Jahren. Diese Vergünstigung gilt auf das
+      Halbjahresabo, Jahresabo und Zweijahresabo.
+    </p>
+    <p>
+      Sowohl Eltern mit als auch ohne Jahresabo profitieren von einer
+      Vergünstigung auf die Tageseintritte: Der Rabatt gilt, wenn sie gemeinsam
+      mit maximal einem eigenen Kind zwischen 1 und 10 Jahren bouldern.
+    </p>
+
+    <h4>SAC-Lägern-Vergünstigung</h4>
+    <p>
+      Profitiere als SAC-Lägern-Mitglied von einer Vergünstigung auf das
+      Jahreabo.
+    </p>
+
+    <h4>Gruppenrabatte</h4>
+    <p>
+      Vorangemeldete Gruppen ab 10 Personen profitieren von einem Rabatt von 10%
+      auf die Einzeleintrittspreise.
+    </p>
+
+    <h4>Firmenrabatte</h4>
+    <p>
+      Angemeldete firmen profitieren von 10% Rabatt auf die Eintrittspreise.
+    </p>
   </section>
 </template>
 

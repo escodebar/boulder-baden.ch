@@ -41,13 +41,25 @@
     <h2>Kinder & Aufsicht</h2>
     <ul>
       <li>
+        Benützung des Stangenpark und Fitnessbereich ist erst ab 14 Jahren
+        erlaubt
+      </li>
+      <li>
         Kinder bis und mit 13 Jahren dürfen nur unter Beaufsichtigung einer
         erwachsenen Person bouldern
       </li>
-      <li>Eine erwachsene Person darf maximal drei Kinder beaufsichtigen</li>
       <li>
-        Benützung des Stangenpark und Fitnessbereich ist erst ab 14 Jahren
-        erlaubt
+        Eine erwachsene Person darf maximal drei Kinder und Jugendliche unter 14
+        Jahren beaufsichtigen
+      </li>
+      <li>
+        Kinder unter 5 Jahren dürfen nur die Kurswand und den Kinderbereich
+        nutzen.
+      </li>
+      <li>
+        Kinder unter 5 Jahren, die dank einer Ausnahmebewilligung in der ganzen
+        Halle bouldern dürfen, dürfen sich nicht ohne direkte Aufsicht einer
+        erwachsenen Person aufhalten.
       </li>
     </ul>
   </section>
