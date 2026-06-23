@@ -1,11 +1,37 @@
 <template>
-  <BaseGallery :images="images" :classes="$style" />
+  <BaseGallery :images="images" :classes="toClasses($style)" />
 </template>
 
 <script setup lang="ts">
 const props = defineProps<{
   images: string[];
 }>();
+
+function toClasses(styles: Record<string, string>) {
+  const {
+    section,
+    button,
+    figure,
+    img,
+    top,
+    middle,
+    bottom,
+    left,
+    center,
+    right,
+  } = styles;
+
+  return {
+    section,
+    button,
+    figure,
+    img,
+    position: {
+      vertical: { top, middle, bottom },
+      horizontal: { left, center, right },
+    },
+  };
+}
 </script>
 
 <style module>
@@ -25,15 +51,39 @@ const props = defineProps<{
   .figure {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--font-size-h2);
+    gap: var(--border-size-thick);
   }
 
   .img {
-    width: 100%;
+    width: 80%;
     height: auto;
     max-height: 50vw;
     display: block;
     object-fit: contain;
+  }
+
+  .top {
+    align-self: start;
+  }
+
+  .middle {
+    align-self: center;
+  }
+
+  .bottom {
+    align-self: end;
+  }
+
+  .left {
+    justify-self: start;
+  }
+
+  .center {
+    justify-self: center;
+  }
+
+  .right {
+    justify-self: end;
   }
 }
 </style>
