@@ -16,7 +16,7 @@
       Spezielle Öffnungszeiten
     </NuxtLink>
 
-    <NuxtLink class="button" :to="{ name: 'eintrittspreise' }">
+    <NuxtLink class="button" :to="{ name: 'preise', hash: '#eintrittspreise' }">
       Eintrittspreise
     </NuxtLink>
   </section>

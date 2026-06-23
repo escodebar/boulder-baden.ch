@@ -93,7 +93,7 @@
     <h3>Eintrittspreise</h3>
 
     <Eintrittspreise
-      :visible-abos="['Einzeleintritt', '12-er Abo']"
+      :visible-abos="['Einzeleintritt', 'Familieneintritt', '12-er Abo']"
       :visible-alterstufen="[
         'Ab 21 Jahre',
         '18 bis 20 Jahre',
@@ -102,7 +102,7 @@
       ]"
     />
 
-    <NuxtLink class="button" :to="{ name: 'eintrittspreise' }">
+    <NuxtLink class="button" :to="{ name: 'preise', hash: '#eintrittspreise' }">
       Detaillierte Eintrittspreise
     </NuxtLink>
 
