@@ -34,13 +34,13 @@
       Jahreabo.
     </p>
 
-    <h4>Gruppenrabatte</h4>
+    <h4>Gruppenvergünstigung</h4>
     <p>
       Vorangemeldete Gruppen ab 10 Personen profitieren von einem Rabatt von 10%
       auf die Einzeleintrittspreise.
     </p>
 
-    <h4>Firmenrabatte</h4>
+    <h4>Firmenvergünstigung</h4>
     <p>
       Angemeldete firmen profitieren von 10% Rabatt auf die Eintrittspreise.
     </p>
