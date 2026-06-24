@@ -44,6 +44,10 @@ function toClasses(styles: Record<string, string>) {
 }
 
 @media (min-width: 768px) {
+  .section {
+    padding-top: var(--font-size-h2);
+  }
+
   .button {
     display: none;
   }
