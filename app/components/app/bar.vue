@@ -5,7 +5,6 @@
     </a>
 
     <button
-      v-show="!isOpen"
       @click="isOpen = !isOpen"
       class="icon"
       aria-controls="nav-dialog"
@@ -84,7 +83,11 @@ button {
   border: none;
   background-image: url("@/assets/nav-button.svg");
   height: var(--appbar-height);
-  width: 70px;
+  width: 72px;
+}
+
+button[aria-expanded="true"] {
+  background-image: url("@/assets/nav-button-close.svg");
 }
 
 @media (max-width: 767px) {

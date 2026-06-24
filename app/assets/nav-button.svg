@@ -1,9 +1,10 @@
-<svg width="70" height="72" viewBox="0 0 70 72" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect width="70" height="12" transform="translate(0 60)" fill="black"/>
-<rect width="70" height="12" transform="translate(0 48)" fill="#FFE48D"/>
-<rect width="70" height="12" transform="translate(0 36)" fill="#BCA5FF"/>
-<rect width="70" height="12" transform="translate(0 24)" fill="#FFB491"/>
-<rect width="70" height="12" transform="translate(0 12)" fill="#F3E5C7"/>
-<rect width="70" height="12" fill="#B4DFDF"/>
+<svg width="72" height="72" viewBox="0 0 72 72" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="72" height="14.4" transform="translate(0 57.6001)" fill="#FFE48D"/>
+<rect width="72" height="14.4" transform="translate(0 43.2)" fill="#BCA5FF"/>
+<rect width="72" height="14.4" transform="translate(0 28.8)" fill="#FFB491"/>
+<rect width="72" height="14.4" transform="translate(0 14.3999)" fill="#F3E5C7"/>
+<rect width="72" height="14.4" fill="#B4DFDF"/>
+<path d="M18.5137 50.8H52.4565" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<path d="M18.5137 36.3999H52.4565" stroke="black" stroke-width="3" stroke-linecap="round"/>
+<path d="M18.5137 22H52.4565" stroke="black" stroke-width="3" stroke-linecap="round"/>
 </svg>
-
