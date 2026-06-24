@@ -25,6 +25,12 @@
               {{ stufe }}
             </th>
           </tr>
+          <tr>
+            <td></td>
+            <td v-for="stufe in Alterstufen" scope="col">
+              {{ erläuterung[stufe] }}
+            </td>
+          </tr>
         </thead>
         <tbody>
           <tr v-for="abo in Abos">
@@ -56,13 +62,21 @@ const props = withDefaults(
 );
 
 const allAlterstufen = [
-  "Ab 21 Jahre",
-  "18 bis 20 Jahre",
-  "11 bis 17 Jahre",
-  "5 bis 10 Jahre",
-  "1 bis 4 Jahre",
+  "Erwachsen",
+  "Ermässigt",
+  "Jugend",
+  "Kinder",
+  "Mini",
   "Firmen",
 ];
+
+const erläuterung = ref({
+  Erwachsen: "Ab 21 Jahre",
+  Ermässigt: "18 bis 20 Jahre",
+  Jugend: "11 bis 17 Jahre",
+  Kinder: "5 bis 10 Jahre",
+  Mini: "1 bis 4 Jahre",
+});
 
 const allAbos = [
   "Einzeleintritt",
@@ -88,7 +102,7 @@ const Abos = computed(() =>
 );
 
 const eintrittspreise = ref({
-  "Ab 21 Jahre": {
+  Erwachsen: {
     Einzeleintritt: "24",
     Familieneintritt: "20",
     "12-er Abo": "264",
@@ -98,7 +112,7 @@ const eintrittspreise = ref({
     "3 Monate": "370",
     "1 Monat": "185",
   },
-  "18 bis 20 Jahre": {
+  Ermässigt: {
     Einzeleintritt: "20",
     Familieneintritt: "",
     "12-er Abo": "220",
@@ -108,7 +122,7 @@ const eintrittspreise = ref({
     "3 Monate": "320",
     "1 Monat": "145",
   },
-  "11 bis 17 Jahre": {
+  Jugend: {
     Einzeleintritt: "20",
     Familieneintritt: "",
     "12-er Abo": "220",
@@ -118,7 +132,7 @@ const eintrittspreise = ref({
     "3 Monate": "260",
     "1 Monat": "125",
   },
-  "5 bis 10 Jahre": {
+  Kinder: {
     Einzeleintritt: "14",
     Familieneintritt: "10",
     "12-er Abo": "154",
@@ -128,7 +142,7 @@ const eintrittspreise = ref({
     "3 Monate": "200",
     "1 Monat": "90",
   },
-  "1 bis 4 Jahre": {
+  Mini: {
     Einzeleintritt: "10",
     Familieneintritt: "5",
     "12-er Abo": "100",
@@ -196,6 +210,7 @@ tbody tr:last-child td {
   }
 
   thead th:first-child,
+  thead td:first-child,
   tbody th {
     background: var(--color-base);
     padding-left: 0;
