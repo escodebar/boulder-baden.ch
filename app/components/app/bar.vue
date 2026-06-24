@@ -1,5 +1,5 @@
 <template>
-  <header ref="header">
+  <header ref="header" :data-ref="currentRoute">
     <a class="logo" href="/">
       <Logo />
     </a>
@@ -31,6 +31,10 @@ const handleGlobalClick = (event: MouseEvent) => {
   }
   isOpen.value = false;
 };
+
+const route = useRoute();
+
+const currentRoute = computed(() => route.fullPath);
 
 const header = ref(null);
 const isHidden = ref(false);
@@ -93,6 +97,21 @@ button[aria-expanded="true"] {
 @media (max-width: 767px) {
   header {
     bottom: 0;
+  }
+  header[data-ref="/neu-hier"] {
+    background-color: var(--color-neu-hier);
+  }
+  header[data-ref="/bouldern"] {
+    background-color: var(--color-bouldern);
+  }
+  header[data-ref="/trainieren"] {
+    background-color: var(--color-trainieren);
+  }
+  header[data-ref="/spielen"] {
+    background-color: var(--color-spielen);
+  }
+  header[data-ref="/geniessen"] {
+    background-color: var(--color-geniessen);
   }
 }
 
