@@ -242,5 +242,11 @@ const links = ref([
   a.button {
     width: clamp(300px, 40vw, 360px);
   }
+
+  #kilterboard .button,
+  #moonboard .button,
+  #spraywall .button {
+    display: none;
+  }
 }
 </style>
