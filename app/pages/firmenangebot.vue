@@ -53,7 +53,7 @@
   </section>
 
   <section>
-    <h2>Firmen-Jahresabonnement</h2>
+    <h2>Firmen-Jahresabo</h2>
     <p>
       Der Allrounder für euer Team. Das Firmen-Jahresabo berechtigt zu einem
       <strong>Eintritt pro Tag</strong> für jeden Mitarbeiter über ein ganzes
