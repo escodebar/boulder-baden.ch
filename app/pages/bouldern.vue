@@ -18,6 +18,8 @@
       ständig.
     </p>
 
+    <Bereich class="bouldern" />
+
     <h3>Nie langweilig</h3>
     <p>
       Wir schrauben wöchentlich diensttags 1 bis 2 Sektoren komplett neu um. Das

@@ -17,6 +17,8 @@
       findest du hier gebündelt.
     </p>
 
+    <Bereich class="trainieren" />
+
     <Linklist class="angebot" :links="links" />
   </section>
 

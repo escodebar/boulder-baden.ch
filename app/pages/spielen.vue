@@ -21,6 +21,8 @@
       hier ist für jeden ein Platz.
     </p>
 
+    <Bereich class="spielen" />
+
     <Linklist :links="links" />
   </section>
 

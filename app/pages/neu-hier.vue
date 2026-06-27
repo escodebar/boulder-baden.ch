@@ -93,6 +93,9 @@
       Überblick der Öffnungszeiten
     </NuxtLink>
 
+    <h3>Unsere Halle</h3>
+    <Bereich class="gesamt" />
+
     <h3>Eintrittspreise</h3>
 
     <Eintrittspreise

@@ -21,6 +21,8 @@
       dabei.
     </p>
 
+    <Bereich class="geniessen" />
+
     <Linklist :links="links" />
   </section>
 

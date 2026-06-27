@@ -25,6 +25,11 @@
   </section>
 
   <section>
+    <h2>Unsere Halle</h2>
+    <Bereich class="gesamt" />
+  </section>
+
+  <section>
     <h2>Kontakt</h2>
     <Kontakt />
   </section>
