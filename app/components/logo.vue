@@ -5,11 +5,12 @@
 <style scoped>
 h1 {
   background-image: url("@/assets/logo-small.svg");
+  background-repeat: no-repeat;
   border: none;
   display: block;
   margin: auto 0 auto 18px;
   height: 44px;
-  width: 219px;
+  width: 218px;
 }
 
 h1.hero {
