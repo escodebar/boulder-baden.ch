@@ -13,7 +13,7 @@
       <img
         v-for="image in items"
         :alt="image.id"
-        :class="[classes.img, size()].concat(position())"
+        :class="[classes.img, image.size, ...image.position]"
         :key="image.id"
         :src="image.src"
       />
@@ -89,8 +89,19 @@ function position() {
   return [randomProp(vertical), randomProp(horizontal)].filter(Boolean);
 }
 
-const { items, next, previous, canScrollNext, canScrollPrevious } =
-  useImageGallery(props.images, container);
+const items = computed(() =>
+  toValue(props.images).map((src, index) => ({
+    id: index,
+    src,
+    position: position(),
+    size: size(),
+  })),
+);
+
+const { next, previous, canScrollNext, canScrollPrevious } = useImageGallery(
+  props.images,
+  container,
+);
 </script>
 
 <style scoped>
@@ -124,6 +135,7 @@ button:last-child {
   figure {
     display: flex;
     overflow-x: auto;
+    overscroll-behavior-x: contain;
     scroll-snap-type: x mandatory;
     scroll-behavior: smooth;
 
@@ -148,6 +160,7 @@ button:last-child {
 
   img:last-child {
     scroll-snap-align: end;
+    margin-right: 0;
   }
 }
 </style>
