@@ -40,7 +40,17 @@ function toClasses(styles: Record<string, string>) {
 
 <style module>
 @media (max-width: 767px) {
-  /* for styling, check the base class */
+  .top {
+    align-self: flex-start;
+  }
+
+  .middle {
+    align-self: center;
+  }
+
+  .bottom {
+    align-self: flex-end;
+  }
 }
 
 @media (min-width: 768px) {
