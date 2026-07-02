@@ -39,44 +39,81 @@ function toClasses(styles: Record<string, string>) {
 </script>
 
 <style module>
+.button {
+  display: none;
+}
+
+.figure {
+  display: grid;
+  gap: var(--border-size-thick);
+}
+
+.img {
+  height: auto;
+  display: block;
+  object-fit: contain;
+}
+
+.top {
+  align-self: start;
+}
+
+.middle {
+  align-self: center;
+}
+
+.bottom {
+  align-self: end;
+}
+
+.left {
+  justify-self: start;
+}
+
+.center {
+  justify-self: center;
+}
+
+.right {
+  justify-self: end;
+}
+
 @media (max-width: 767px) {
-  .top {
-    align-self: flex-start;
+  .section {
+    overflow-x: auto;
   }
 
-  .middle {
-    align-self: center;
+  .figure {
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+    width: 100vw;
   }
 
-  .bottom {
-    align-self: flex-end;
+  .small {
+    width: 30vw;
+  }
+
+  .medium {
+    width: 35vw;
+  }
+
+  .big {
+    width: 40vw;
   }
 }
 
 @media (min-width: 768px) {
   .section {
-    padding-top: var(--font-size-h2);
-  }
-
-  .button {
-    display: none;
-  }
-
-  .section {
     overflow: hidden;
   }
 
   .figure {
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: var(--border-size-thick);
   }
 
   .img {
-    height: auto;
     max-height: 50vw;
-    display: block;
-    object-fit: contain;
   }
 
   .small {
@@ -89,30 +126,6 @@ function toClasses(styles: Record<string, string>) {
 
   .big {
     width: 100%;
-  }
-
-  .top {
-    align-self: start;
-  }
-
-  .middle {
-    align-self: center;
-  }
-
-  .bottom {
-    align-self: end;
-  }
-
-  .left {
-    justify-self: start;
-  }
-
-  .center {
-    justify-self: center;
-  }
-
-  .right {
-    justify-self: end;
   }
 }
 </style>

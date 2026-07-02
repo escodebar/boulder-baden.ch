@@ -106,8 +106,8 @@ const { next, previous, canScrollNext, canScrollPrevious } = useImageGallery(
 
 <style scoped>
 section {
+  margin-top: var(--font-size-h2);
   position: relative;
-  overflow: hidden;
 }
 
 button {
@@ -129,38 +129,5 @@ button:first-child {
 
 button:last-child {
   right: 0;
-}
-
-@media (max-width: 767px) {
-  figure {
-    display: flex;
-    overflow-x: auto;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x mandatory;
-    scroll-behavior: smooth;
-
-    margin: var(--font-size-h2) 0 0;
-    padding: 0;
-    width: 100vw;
-  }
-
-  button {
-    display: none;
-  }
-
-  img {
-    flex: 0 0 90%;
-    scroll-snap-align: start;
-
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    margin-right: var(--border-size-thick);
-  }
-
-  img:last-child {
-    scroll-snap-align: end;
-    margin-right: 0;
-  }
 }
 </style>
