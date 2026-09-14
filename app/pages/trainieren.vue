@@ -2,11 +2,12 @@
   <h1>Trainieren</h1>
 
   <p>
-    Bouldern ist mehr als nur Wände hochklettern. Es ist Kraft, Technik und
-    Ausdauer. Wenn du deine Grenzen erweitern willst, brauchst du die richtigen
-    Werkzeuge. Im BOUBA bieten wir dir ein Trainingsspektrum, das mit
-    professionellen Hallen mithalten kann, plus den Komfort, den du brauchst, um
-    wirklich zu regenerieren.
+    Bouldern ist ein super Sport, um den ganzen Körper zu stärken. Aber auch für
+    Boulderinnen und Boulderer bietet ein Krafttraining zur
+    Verletzungsprävention und für den Kraftaufbau viele Vorteile. Deshalb haben
+    wir einen Fitnessbereich, einen Calisthenics Park und mehrere
+    Systemboulderwände in der Halle. So sind deinem Training keine Grenzen
+    gesetzt.
   </p>
 
   <section>
@@ -26,16 +27,8 @@
     <h2>Kilterboard</h2>
 
     <p>
-      Kein gewöhnliches Board. Unser Kilterboard ist zwischen 15° und 60°
-      verstellbar und trägt stolz das <strong>BOUBA-Logo</strong> in einem
-      coolen Design. Aber das Beste: Vor und hinter dem Board warten bequeme
-      Sofas. Hier kannst du zwischen den Versuchen entspannen, die Route
-      analysieren oder einfach nur die Atmosphäre geniessen.
-    </p>
-
-    <p>
-      Damit das Feeling stimmt, werden regelmässig zwei Reihen Griffe entfernt,
-      gereinigt und neu verschraubt. Das Board fühlt sich immer frisch an.
+      Das Kilter Board bietet Neigungen von 15° bis 60° wodurch es sich für
+      Anfänger bis Profis etabliert hat.
     </p>
 
     <ul>
@@ -44,7 +37,7 @@
           class="button"
           href="https://apps.apple.com/us/app/kilter-board-climbing-wall-app/id6755110303"
         >
-          Zum Apple Store
+          Kilter im Apple Store
         </a>
       </li>
 
@@ -53,7 +46,7 @@
           class="button"
           href="https://play.google.com/store/apps/details?id=com.kiltergrips.kilter_board_app"
         >
-          Zum Google Play Store
+          Kilter im Google Play Store
         </a>
       </li>
     </ul>
@@ -74,10 +67,9 @@
     <h2>Moonboard</h2>
 
     <p>
-      Der Klassiker für das Training von Dynamik und Präzision. Mit dem Full Set
-      von 2019 bei 40° Neigung kannst du das Maximum aus deiner Trainingseinheit
-      holen. Auch hier haben wir auf Komfort gesetzt: Bequeme Sofas laden zum
-      Verweilen und zur Regeneration zwischen den Versuchen ein.
+      Das Moon board ist der Klassiker unter den Systemwänden. Bei 40° Neigung
+      bietet es ideale Voraussetzungen für ambitionierte Boulderinnen und
+      Boulderer.
     </p>
 
     <ul>
@@ -86,7 +78,7 @@
           class="button"
           href="https://apps.apple.com/us/app/moon-board/id6446842142"
         >
-          Zum Apple Store
+          Mooboard im Apple Store
         </a>
       </li>
 
@@ -95,7 +87,7 @@
           class="button"
           href="https://play.google.com/store/apps/details?id=com.trainingboard.moon"
         >
-          Zum Google Play Store
+          Moonboard im Google Play Store
         </a>
       </li>
     </ul>
@@ -105,15 +97,8 @@
     <h2>Spraywall</h2>
 
     <p>
-      Unsere Spraywall gibt es in zwei Neigungen: 32° und 42°. Perfekt für
-      dynamisches Training und die Entwicklung von explosiver Kraft. Auch hier
-      gibt es ein Sofa zum Ausruhen.
-    </p>
-
-    <p>
-      Jährlicher Reset: Griffe werden entfernt, gründlich gewaschen und neu
-      gesetzt. So gewöhnst du dich nicht an „stumpfe" Griffe, sondern trainierst
-      immer mit frischem Kontakt.
+      An unserer Spraywall mit 42° Neigung sind deiner Kreativität keine Grenzen
+      gesetzt. Boulderkreationen von anderen findest du in der Retro Flash App.
     </p>
 
     <ul>
@@ -122,7 +107,7 @@
           class="button"
           href="https://apps.apple.com/de/app/retro-flash-climbing/id1519582483"
         >
-          Zum Apple Store
+          Retro Flash im Apple Store
         </a>
       </li>
 
@@ -131,7 +116,7 @@
           class="button"
           href="https://play.google.com/store/apps/details?id=com.arcadebouldering.system_wall"
         >
-          Zum Google Play Store
+          Retro Flash im Google Play Store
         </a>
       </li>
     </ul>
@@ -141,26 +126,8 @@
     <h2>Campus & Hangboard</h2>
 
     <p>
-      Wenn es ernst wird, kommen die Finger und Explosivität zum Zug. Hier
-      findest du unsere Einrichtungen umd auch dies zu optimieren.
-    </p>
-
-    <h3>Hangboards</h3>
-    <p>
-      Wir bieten dir eine Auswahl an Hangboards, die keine Wünsche offenlassen.
-      Niemand kommt hier zu kurz. Egal, ob du gerade erst anfängst oder an
-      deiner Peak-Performance feilst. Bei findest du neben dem Beastmaker und
-      dem ClimBro weitere Hangboards und Leisten für den maximalen Aufbau deiner
-      Fingerkraft.
-    </p>
-
-    <h3>Campusboard</h3>
-    <p>
-      Für die, die ihre Explosivität auf die nächste Stufe heben wollen.
-      <strong>18 mm, 25 mm und 32 mm</strong> tiefe Leisten für verschiedene
-      Griffgrössen. <strong>18° Neigung</strong> (perfekt für den Start). 15 cm
-      Abstand zwischen den Leisten. 13 Leisten pro Tiefe. Hier wird gehetzt,
-      gezählt und maximiert.
+      An unserem Campusboard und den Hangboards findest du alles, um deine
+      Fingerkraft auf das nächste Level zu bringen.
     </p>
   </section>
 
@@ -168,37 +135,16 @@
     <h2>Fitnessbereich</h2>
 
     <p>
-      Unser Fitnessbereich ist darauf ausgelegt, deine Boulderkraft aufzubauen
-      und Verletzungen vorzubeugen. Wir bieten dir eine komplette Ausstattung
-      für effektives Krafttraining:
+      In diesem Bereich findest du eine Rudermaschine, Zuggeräte und alles für
+      ein ausgiebiges Lang- und Kurzhanteltraining.
     </p>
-
-    <h3>Freihanteln</h3>
-    <p>Ein riesiges Sortiment an Kurzhanteln von 1 kg bis 60kg</p>
-
-    <h3>Langhanteln</h3>
-    <p>Scheiben von 1.25 kg bis 25 kg.</p>
-
-    <h3>Rudermaschine</h3>
-    <p>Für Ausdauer und Rumpfstabilität.</p>
   </section>
 
   <section id="stangenpark">
     <h2>Stangenpark</h2>
 
     <p>
-      Vergiss das langweilige Kabelzug-Training. Im BOUBA-Stangenpark geht es um
-      Körperbeherrschung, Dynamik und pure Freiheit. Hier findest du eine
-      professionelle Calisthenics-Anlage mit verschiedenen Stangenhöhen und
-      Griffoptionen.
-    </p>
-
-    <p>
-      Trainiere deine Pull-Ups, Dips, L-Sits und Muscle-Ups in einer Umgebung,
-      die direkt in die Halle integriert ist. Ob du deine Oberkörperkraft für
-      den nächsten Überhang aufbaust oder einfach nur ein paar Sätze für den
-      Flow machst – hier hast du Platz, um dich zu bewegen, ohne auf ein Gerät
-      warten zu müssen.
+      Der Stangenpark bietet unzählige Möglichkeiten für Bodyweight-Übungen.
     </p>
   </section>
 </template>
