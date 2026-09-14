@@ -2,23 +2,19 @@
   <h1>Spiel und Spass</h1>
 
   <p>
-    Bouldern ist anstrengend? Dann ist es Zeit, die Beine hochzulegen oder den
-    Kopf frei zu bekommen. Im BOUBA haben wir uns überlegt: Warum sollte der
-    Spass aufhören, wenn die Matte leer ist? Egal, ob du mit den Kindern eine
-    Auszeit brauchst, deine Freunde zum Billard einlädst oder einfach mal die
-    Slackline testen willst. Hier gibt es genug Raum, um abzuschalten und
-    trotzdem aktiv zu bleiben.
+    Brauchst du eine Pause? Möchtest du deine Freunde auf eine Runde Billard
+    einladen? Oder mal die Slackline testen? Wir haben vorgesorgt. Auch für die
+    Kleinsten: da gibt es eine Kinderwelt in der sie sich sicher austoben
+    können. Denn warum soll der Spass beim Bouldern aufhören?
   </p>
 
   <section>
     <h2>Angebot</h2>
 
     <p>
-      Wir haben für jeden Geschmack etwas: Von der Kinderwelt, in der die
-      Kleinen sicher toben können, über die Slackline für eure Balance, bis hin
-      zu klassischen Spielereien wie Basketball, Ping Pong, Billard und Darts.
-      Egal, ob ihr ein Duell sucht oder einfach nur die Zeit vertreiben wollt,
-      hier ist für jeden ein Platz.
+      Eine separate Kinderwelt zum Austoben, Slackline für die Balance und
+      Konzentration, einen Ping Pong Tisch, Billard, einen Basketballkorb und
+      mehr: wir haben für alle etwas!
     </p>
 
     <Bereich class="spielen" />
@@ -30,25 +26,24 @@
     <h2>Betreuungsregeln</h2>
 
     <p>
-      Wir wissen: Die Kinderwelt, die Slackline oder ein entspanntes
-      Billardspiel laden dazu ein, die Zeit zu vergessen und einfach zu
-      geniessen. Doch egal, wie viel Spass du hast – im BOUBA gilt immer eine
-      Regel: <strong>Die Aufsichtspflicht liegt bei dir.</strong>
+      Wir wissen, wie schnell wir uns in einem Boulder oder einem Spiel
+      verlieren können und alles drumherum ausblenden. Doch im BOUBA gilt immer
+      die Regel: <strong>Die Aufsichtspflicht liegt bei dir</strong>.
     </p>
 
     <p>
-      Unsere Angebote sind sicher und kindgerecht gestaltet, aber wir können
-      nicht jedes Kind im Auge behalten. Das gilt insbesondere für die
-      <strong>Kinderwelt</strong>, aber auch bei anderen Aktivitäten gilt:
-      <em>
-        Eltern oder begleitende Personen sind für die Sicherheit und das
-        Verhalten ihrer Kinder verantwortlich.
-      </em>
+      Unsere Angebote sind sicher und kindgerecht gestaltet und grösstenteils
+      von anderen Aktivitäten getrennt. Zu beachten gilt jedoch, das nicht die
+      ganze Halle ein Spielplatz ist. Das gilt insbesondere für die
+      Boulderbereiche, aber auch bei anderen Aktivitäten gilt: Eltern oder
+      begleitende Personen sind für die Sicherheit und das Verhalten ihrer
+      Kinder verantwortlich.
     </p>
 
     <p>
-      Damit alle einen sicheren Spass haben, haben wir detaillierte Regeln
-      erstellt. Bitte lies sie dir durch, bevor du loslegst.
+      Dafür haben wir detaillierte Regeln erstellt. Bitte lies sie dir durch,
+      bevor du loslegst und hilf uns so sicherzustellen, dass alle eine sicheren
+      Aufenthalt geniessen können.
     </p>
 
     <NuxtLink class="button" :to="{ name: 'hallenregeln', hash: '#betreuung' }">
@@ -72,24 +67,6 @@
     </p>
   </section>
 
-  <section id="slackline">
-    <h2>Slackline</h2>
-    <p>
-      Willst du deine Koordination testen? Unsere Slacklines laden dich ein, das
-      Gleichgewicht zu suchen. Egal, ob du gerade erst den ersten Schritt wagst
-      oder schon akrobatische Tricks zeigst. Hier ist Platz für deinen Flow.
-    </p>
-  </section>
-
-  <section id="basketball">
-    <h2>Basketball</h2>
-    <p>
-      Zwischendurch mal ein paar Würfe? Unser Basketballkorb ist für schnelle
-      Duelle oder entspannte Wurfsessions da. Perfekt, um die Arme zu dehnen und
-      den Kopf frei zu bekommen.
-    </p>
-  </section>
-
   <section id="pingpong">
     <h2>Ping Pong</h2>
     <p>
@@ -99,7 +76,21 @@
     </p>
   </section>
 
-  <section id="billiard">
+  <section id="weitere-spiele">
+    <h2>Slackline</h2>
+    <p>
+      Willst du deine Koordination testen? Unsere Slacklines laden dich ein, das
+      Gleichgewicht zu suchen. Egal, ob du gerade erst den ersten Schritt wagst
+      oder schon akrobatische Tricks zeigst. Hier ist Platz für deinen Flow.
+    </p>
+
+    <h2>Basketball</h2>
+    <p>
+      Zwischendurch mal ein paar Würfe? Unser Basketballkorb ist für schnelle
+      Duelle oder entspannte Wurfsessions da. Perfekt, um die Arme zu dehnen und
+      den Kopf frei zu bekommen.
+    </p>
+
     <h2>Billard</h2>
     <p>
       Der Klassiker zum Abschalten. Unser Billardtisch ist der perfekte Ort, um
@@ -130,11 +121,8 @@ const name = "spielen";
 
 const links = ref([
   { to: { name, hash: "#kinderwelt" }, name: "Kinderwelt" },
-  { to: { name, hash: "#slackline" }, name: "Slack Line" },
-  { to: { name, hash: "#basketball" }, name: "Basketball" },
   { to: { name, hash: "#pingpong" }, name: "Ping Pong" },
-  { to: { name, hash: "#billiard" }, name: "Billiard" },
-  { to: { name, hash: "#darts" }, name: "Darts" },
+  { to: { name, hash: "#weitere-spiele" }, name: "Weitere Spiele" },
 ]);
 </script>
 

@@ -3,14 +3,10 @@
   <Navigation />
 
   <section>
-    <h2>Standort</h2>
-    <Standort />
-    <Map />
-  </section>
-
-  <section>
     <h2>Öffnungszeiten & Eintrittspreise</h2>
     <OeffnungszeitenRegulaer />
+
+    <hr />
 
     <NuxtLink
       class="button"
@@ -25,13 +21,30 @@
   </section>
 
   <section>
-    <h2>Unsere Halle</h2>
-    <Bereich class="gesamt" />
+    <h2>Standort</h2>
+
+    <p>
+      Nur 7 Minuten zu Fuss vom Bahnhof Baden, die Bushaltestelle der Linie zwei
+      vor der Haustüre und einen grossen Parkplatz auf dem Vorplatz.
+    </p>
+
+    <address>
+      Oberstadtstrasse 12<br />
+      5400 Baden
+    </address>
+
+    <hr />
+    <Map />
   </section>
 
   <section>
     <h2>Kontakt</h2>
     <Kontakt />
+  </section>
+
+  <section>
+    <h2>BOUBA</h2>
+    <Bereich class="gesamt" />
   </section>
 
   <Impressionen
@@ -48,20 +61,6 @@
   />
 
   <section>
-    <h2>Unsere Geschichte</h2>
-
-    <p>
-      Aus einer Idee in einem umfunktionierten Dachstock in Unterlunkhofen
-      entstand eine der bedeutendsten Boulderhallen der Schweiz. Erfahre mehr
-      über unsere Entstehungsgeschichte.
-    </p>
-
-    <NuxtLink class="button" :to="{ name: 'geschichte' }">
-      Unsere Geschichte
-    </NuxtLink>
-  </section>
-
-  <section>
     <h2>Unsere Partner</h2>
     <Partner />
   </section>
@@ -70,5 +69,12 @@
 <style scoped>
 .button {
   display: block;
+}
+
+address,
+p {
+  font-size: var(--font-size-h4);
+  margin-top: var(--font-size-h4);
+  margin-bottom: calc(var(--font-size-h4) / 2);
 }
 </style>

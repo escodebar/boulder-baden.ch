@@ -2,63 +2,50 @@
   <h1>Bouldern</h1>
 
   <p>
-    Hier geht es um das, wofür wir stehen: Spass, Herausforderung und Community.
-    Egal, ob du zum ersten Mal die Matten betrittst oder schon seit Jahren die
-    Wände eroberst, bei uns findest du deine Herausforderung. Wir bieten dir
-    <strong>200 Boulder auf 1000 m² Fläche</strong>. Viel Raum, wenig Gedränge
-    und genug Optionen, um dich auszutoben. Aber wir haben noch mehr im Gepäck
-    als nur Wände.
+    BOUBA, das heisst BOUldern in BAden. Der Name ist bei uns Programm und der
+    Spass am Bouldern steht im Mittelpunkt. Dazu findest du im BOUBA Wände von
+    sehr steil bis schön plattig, mit Boulderproblemen von leicht bis schwer in
+    unterschiedlichen Stilen. Von der technisch kniffligen Slab über
+    koordinative Sprünge bis hin zu physisch fordernden Bouldern bieten wir dir
+    alles an. Bei den ca. 200 Bouldern findet jede und jeder die passenden
+    Herausforderungen.
   </p>
 
   <section>
-    <h2>Die Wände & Die Vielfalt</h2>
+    <h2>Boulderlandschaft im BOUBA</h2>
 
     <p>
-      Unsere Halle ist ein Abenteuerland für jeden Level – und sie bewegt sich
-      ständig.
+      Auf über 1000 Quadratmetern Wandfläche gibt es von der Compwall über die
+      Cave bis zum Slab of the week einiges zu entdecken.
     </p>
 
     <Bereich class="bouldern" />
 
-    <h3>Nie langweilig</h3>
+    <h3>Schraubrhytmus</h3>
     <p>
-      Wir schrauben wöchentlich diensttags 1 bis 2 Sektoren komplett neu um. Das
-      sind <strong>8 bis 16 neue Boulder</strong> pro Woche, die auf dich
-      warten. Die Halle ist also nie statisch, sondern ein lebendiges
-      Trainingsfeld.
-    </p>
-
-    <h3>Wettkampf-Feeling</h3>
-    <p>
-      Bei unseren Events wird ein grosser Teil der Halle komplett neu
-      geschraubt. Du hast die Chance, auf absolut frischen, oft extrem
-      anspruchsvollen Routen zu bouldern, die so nur selten zu finden sind.
-    </p>
-
-    <h3>Welcome Wall</h3>
-    <p>
-      Die Legende unter den Wänden. Mit einer Neigung von
-      <strong>30 Grad</strong> ist sie unser härtester Brocken. Hier schrauben
-      wir <em>nur</em> harte Boulder. Kein Anfänger-Paradies, sondern eine echte
-      Herausforderung für Fortgeschrittene und Profis. Wenn du denkst, du bist
-      stark genug, probier es aus. Wir nennen sie liebevoll die „Prügli-Wand".
+      Wöchentlich schrauben wir für dich 15-25 neue Boulder. Unser Routenbauteam
+      gibt alles und baut vielfältige Boulderrouten in verschiedenen
+      Schwierigkeiten. So hast du jede Woche wieder neue Herausforderungen.
     </p>
 
     <h3>The Slab of the Week</h3>
     <p>
-      Ein fester Begriff in unserer Community. Jeden Woche setzen wir im
-      Mezzanin den "Slab of the Week". Der Schwierigkeitsgrad variiert immer:
-      mal hart, mal technisch, mal verrückt. Jeder neue Slab will dir etwas
-      Neues beibringen. Schau vorbei, probier aus, was er zu bieten hat.
+      Der Name ist Programm. Hier entsteht wöchentlich ein neuer
+      Platten-Boulder. Durch die grosszügigen Platzverhältnisse kreiert unser
+      Routenbauteam spannende Bewegungen und wagt auch mal ein Experiment. Lass
+      dich wöchentlich aufs Neue überraschen.
     </p>
 
     <h3>Für den Nachwuchs</h3>
     <p>
-      Die Kleinen sind nicht vergessen. Wir haben eine
-      <NuxtLink :to="{ name: 'spielen', hash: '#kinderwelt' }">
-        separate Kinderwelt </NuxtLink
-      >, die speziell auf ihre Grösse und Fähigkeiten zugeschnitten ist. Hier
-      können sie sicher starten, während die Grossen ihre Probleme lösen.
+      Für die ganz jungen Boulderinnen und Boulderer hat es eine separate
+      <NuxtLink :to="{ name: 'spielen', hash: '#kinderwelt' }"
+        >Kinderwelt</NuxtLink
+      >
+      auf dem Dach des Bistrogebäudes. Hier findet der Nachwuchs nicht nur
+      Kids-Boulder mit extra kleinen Griffen, sondern auch weitere Aktivitäten
+      zum Erforschen, Spielen und sich austoben. Für die Kleinsten hat es zudem
+      eine gemütliche Spielecke.
     </p>
   </section>
 
@@ -66,35 +53,36 @@
     <h2>Schwierigkreitsgrade</h2>
 
     <p>
-      Unsere Skala reicht von <strong>Grad 1 (Anfängerfreundlich)</strong> bis
-      <strong>Grad 6 (Elite)</strong>. Damit du dich orientieren kannst, findest
-      du unten eine Übersicht, wie unsere Grade in die bekannte
-      Fontainebleau-Skala übersetzt werden.
+      Die Schwierigkeits-Skala im BOUBA besteht aus den Graden 1 bis 6. In der
+      Übersicht unten ist die Übersetzung in die Fontainebleau-Skala
+      ersichtlich.
     </p>
 
+    <h3>Was ist ein Schwierigkeitsgrad?</h3>
+
     <p>
-      Bouldern ist subjektiv. Ein Boulder kann für dich leicht sein, für einen
-      anderen unmöglich. Hast du den Eindruck, wir liegen bei einem Grad völlig
-      daneben? Dann gib uns Feedback! Nutze dafür einfach die
-      <a href="https://www.8a.nu/gyms/boulder-baden/topos/bouldering">
-        Vertical-Life App </a
-      >. Je mehr Rückmeldungen wir sammeln, desto genauer passen wir die Grade
-      an. Danke für deine Mithilfe!
+      Der Schwierigkeitsgrad ist eine subjektive Wahrnehmung eines Boulders. Um
+      diese zu bestimmen sind physische, technische, koordinative und mentale
+      Anforderungen in Kombination ausschlaggebend. Je nach Vorlieben können
+      sich Boulder im gleichen Grad unterschiedlich schwer anfühlen. Hast du den
+      Eindruck, dass wir uns bei einem Boulder mit der Schwierigkeit völlig
+      vertan haben? Gib uns ein Feedback dazu über die
+      <a href="https://www.8a.nu/gyms/boulder-baden/topos/bouldering"
+        >Vertical-Life App</a
+      >.
     </p>
   </section>
 
   <section>
-    <h2>Training & Kurse: Vom Anfänger zum Profi</h2>
-    <p>
-      Du willst nicht nur bouldern, sondern dich verbessern? Wir bieten dir die
-      passenden Wege.
-    </p>
+    <h2>Kurse und Firmenangebote</h2>
 
     <h3>Kurse</h3>
     <p>
-      Egal ob du ganz neu bist (Schnupperkurse) oder deine Technik verfeinern
-      willst – bei uns gibt es Kurse für Erwachsene und Kinder. (Details zu den
-      Kurszeiten und Inhalten findest du auf der separaten Kurs-Seite).
+      Wir bieten dir ein breites Kursangebot: Vom Einführungskurs für deine
+      ersten Boulderversuche, über Kindergeburtstage bis hin zum
+      aufschlussreichen Technikkurs, um in kniffligen Bouldern Fortschritte zu
+      machen. Mehr Infos, Daten und die Anmeldung findest du auf unserer
+      Kursseite.
     </p>
 
     <a
@@ -105,29 +93,10 @@
       Zu den Kursen
     </a>
 
-    <h3>Boardtraining</h3>
+    <h3>Firmenangebote</h3>
     <p>
-      Du willst dein Training auf das nächste Level heben? Wir bieten dir eine
-      <strong>moderne Spraywall</strong>, ein <strong>Kilterboard</strong> und
-      ein <strong>Moonboard</strong>. Hier kannst du an deiner Dynamik, deiner
-      Kraft und deiner Präzision feilen. Auch kannst du gezielt am Hangboard,
-      Campusboard oder an deinen Trainingseinheiten. Unser Bereich dafür ist für
-      alle offen, die ihr Training selbst in die Hand nehmen wollen.
-    </p>
-
-    <NuxtLink class="button" :to="{ name: 'trainieren' }">
-      Zu den Trainingseinrichtungen
-    </NuxtLink>
-  </section>
-
-  <section>
-    <h2>Firmenangebot</h2>
-
-    <p>
-      Bist du auf der Suche nach einem Event, das nicht nach „normalem Meeting"
-      schmeckt? Sport, gutes Essen und schöne Momente, das erwartet dich bei
-      einem Event im BOUBA. Wir bieten dir einen Rahmen, in dem dein Team
-      zusammenwächst.
+      Planst du einen Firmenanlass oder möchtest du euren Mitarbeitenden ein
+      sportliches Goodie zur Verfügung stellen? Wir haben das passende Angebot.
     </p>
 
     <NuxtLink class="button" :to="{ name: 'firmenangebot' }">

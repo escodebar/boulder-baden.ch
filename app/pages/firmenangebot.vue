@@ -1,63 +1,51 @@
 <template>
   <h1>Firmenagebot</h1>
 
-  <p>
-    Ob einmaliges Event für das ganze Team oder flexibler Zugang für die
-    Mitarbeiter: Im BOUBA gestalten wir Firmenkunden den Alltag und die Events
-    so einfach wie möglich. Wir bieten
-    <strong>professionelle Team-Events</strong> mit Bouldern und Catering, ein
-    <strong>Firmen-Jahresabonnement</strong> für den täglichen Eintritt oder
-    eine <strong>monatliche Abrechnung</strong> mit 10% Rabatt. Kein
-    Schnickschnack, nur faire Preise, gute Atmosphäre und klare Verträge.
-  </p>
-
   <section>
-    <h2>Firmenevents im BOUBA</h2>
+    <h2>Team-Ausflug</h2>
     <p>
-      Willst du dein Team aus dem Meetingraum holen? Dann komm ins BOUBA. Hier
-      gibt es keine PowerPoint-Präsentationen, sondern echte Herausforderungen.
-      Wir bieten dir ein Event, das verbindet:
-      <strong>Bouldern, Essen und ein Vibe, der bleibt.</strong>
-      Egal, ob ihr 10 oder 30 seid, wir machen daraus ein Erlebnis, das ihr
-      nicht so schnell wieder vergesst.
+      Nimm dein Team mit auf einen unvergesslichen Ausflug ins BOUBA. Ihr werdet
+      von unseren Kursleitern professionell ins Bouldern eingeführt. Nach der
+      Einführung begleitet euch der Kursleiter für eine Stunde beim freien
+      Bouldern und kann euch individuell Tipps geben. Im Anschluss bouldert ihr
+      so lange ihr möchtet selbständig weiter. Je nach Wunsch organisieren wir
+      ein Catering oder wir verwöhnen euch in unserem Bistro mit Pinsen,
+      Flammkuchen, Snacks und einer breiten Auswahl an Getränken. Sende uns eine
+      Anfrage via Kontaktformular, damit wir deinen Anlass individuell planen
+      können.
     </p>
 
-    <h3>Bouldern statt Besprechungen</h3>
-    <p>
-      Wir starten direkt an der Wand. Unsere Trainer sind keine langweiligen
-      Dozenten, sondern erfahrene Boulderer, die wissen, wie man ein Team
-      zusammenhält. Sie zeigen euch nicht nur, wie man fällt, sondern wie man
-      sich gegenseitig hilft, Strategien entwickelt und Probleme löst,
-      <em>so wie im echten Leben</em>.
-    </p>
+    <form method="post" action="" accept-charset="UTF-8">
+      <label for="company">Name Firma</label>
+      <input type="text" id="company" name="company" required />
 
-    <h3>Kein Bouldern für alle?</h3>
-    <p>
-      Kein Drama. Wer nicht klettern will, kann sich am
-      <strong>Ping-Pong-Tisch</strong>, am <strong>Billard</strong> oder mit
-      <strong>Darts</strong> messen. Jeder findet seinen Platz, und alle sind
-      trotzdem Teil der Gruppe.
-    </p>
+      <label for="spokesperson">Ansprechperson</label>
+      <input type="text" id="last-name" name="last-name" required />
 
-    <h3>Essen & Relax</h3>
-    <p>
-      Nach der Action geht’s hoch. Wir reservieren euch exklusiv unsere
-      <strong>Indoor-Terrasse</strong> oder, bei gutem Wetter, unseren
-      <strong>Garten</strong>. Hier könnt ihr die Beine hochlegen, über die
-      „harten" Boulder lachen und gut essen.
-    </p>
-    <p>
-      Wir machen euch ein Apéro oder ein ganzes Catering auf Bestellung, so dass
-      ihr den Fokus auf <em>Gemeinschaft</em> legen könnt.
-    </p>
+      <label for="email">E-Mail</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="catering">
+        <span>mit Essen: ja/nein?</span>
+        <input
+          type="checkbox"
+          id="catering"
+          name="catering"
+          value="Ja"
+          checked
+        />
+      </label>
+
+      <input type="submit" value="Submit" />
+    </form>
   </section>
 
   <section>
-    <h2>Firmen-Jahresabo</h2>
+    <h2>Eintrittsmodelle für Firmen</h2>
     <p>
-      Der Allrounder für euer Team. Das Firmen-Jahresabo berechtigt zu einem
-      <strong>Eintritt pro Tag</strong> für jeden Mitarbeiter über ein ganzes
-      Jahr.
+      Wir bieten ein Firmen-Jahresabo oder ein monatliches Rabattmodell für
+      Einzeleintritte. Je nach Situation passt das eine oder andere Modell
+      besser zu euren Bedürfnissen
     </p>
 
     <h3>365 Tage am Stück</h3>
@@ -67,7 +55,7 @@
       nutzt.
     </p>
 
-    <h3>Zahlung & Bedingungen</h3>
+    <h4>Zahlung & Bedingungen</h4>
     <p>
       Die Bezahlung erfolgt bequem per Rechnung oder, auf Wunsch, direkt vor
       Ort. Bitte beachtet: Das Abo ist nicht zurückerstattbar, auch keine
@@ -79,35 +67,32 @@
       Ideal, wenn ihr euren Mitarbeitern einen festen, täglichen Zugang bieten
       wollt, ohne monatliche Abrechnungen.
     </p>
-  </section>
 
-  <section>
-    <h2>Eintritte mit monatlicher Abrechnung</h2>
+    <h3>Eintritte mit monatlicher Abrechnung</h3>
     <p>
       Flexibel und transparent. Firmen melden sich per E-Mail an
       <strong>info@boulder-baden.ch</strong> an und profitieren sofort von
       <strong>10% Rabatt</strong> auf die Eintrittspreise.
     </p>
 
-    <h3>Zentrale Abrechnung</h3>
+    <h4>Monatliche Abrechnung</h4>
     <p>
-      Ihr erhaltet eine zentrale Rechnung für alle Eintritte eurer Mitarbeiter.
-      Keine Einzelbelege, keine Verwirrung, einfach eine Übersicht für die
+      Ihr erhaltet eine zentrale, kumulierte Rechnung über alle Eintritte eurer
+      Mitarbeitenden. Keine Einzelbelege, kein Durcheinander für die
       Buchhaltung.
     </p>
 
-    <h3>Flexibilität & Transparenz</h3>
+    <h4>Flexibel und transparent</h4>
     <p>
-      Ihr bestimmt selbst, welche Einschränkungen gelten (z.B. nur Montag bis
-      Freitag). Zur Kontrolle erhaltet ihr zusätzlich zur Rechnung eine Liste
-      mit allen Besuchen inkl. Name, Datum und Uhrzeit. So seid ihr immer
-      sicher, was ihr bezahlt.
+      Ihr bestimmt selbst, wann eure Eintritte gelten (z.B. nur Montag-Freitag
+      zwischen 11 und 15 Uhr). Zur Kontrolle erhaltet ihr mit der Rechnung die
+      Liste mit den Personen (Name, Datum und Uhrzeit), für die ihr die
+      Eintritte bezahlt.
     </p>
 
     <p>
-      Diese Lösung ist perfekt, wenn eure Mitarbeiter gerne als Gruppe
-      gleichzeitig bouldern gehen oder ihr ein flexibles Modell ohne
-      Jahresbindung sucht.
+      Ideal, wenn eure Mitarbeitenden als Gruppe gleichzeitig bouldern gehen
+      oder ihr ein flexibles Modell ohne Jahresbindung sucht.
     </p>
   </section>
 </template>

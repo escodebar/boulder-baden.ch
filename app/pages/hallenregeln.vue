@@ -2,11 +2,10 @@
   <h1>Hallenregeln</h1>
 
   <p>
-    Wir sind hier, um Spass zu haben und gemeinsam zu wachsen. Damit jeder hier
-    glücklich bouldert, sicher fällt und gute Laune hat, gibt es ein paar
-    einfache Regeln. Sie dienen nicht dazu, euch zu ärgern, sondern um
-    sicherzustellen, dass die Matte für alle da ist und dass niemand auf dem
-    Kopf landet.
+    Wir sind hier, um Spass zu haben und gemeinsam zu wachsen. Damit alle
+    ungehindert bouldern und eine gute Zeit haben können, gibt es ein paar
+    einfache Regeln. Sie stellen sicher, dass die Matte ein sicherer Sturzraum
+    ist und dir niemand auf den Kopf fällt.
   </p>
 
   <section id="sicherheit">
@@ -24,16 +23,17 @@
       <li>Wärme dich vor dem Bouldern gut auf</li>
       <li>Renne nicht auf den Matten</li>
       <li>Top-Out ist nicht erlaubt</li>
+      <li>Lasse nichts auf der Matte liegen</li>
+      <li>Nehmt immer Rücksicht aufeinander</li>
     </ul>
   </section>
 
   <section id="sauberkeit">
-    <h2>Rücksicht & Sauberkeit</h2>
+    <h2>Sauberkeit</h2>
     <ul>
-      <li>Verteile nicht unnötig Magnesia in der Luft</li>
-      <li>Reinige verschmutze Griffe mit der Bürste</li>
-      <li>Nehmt immer Rücksicht aufeinander</li>
-      <li>Klettere nicht Barfuss</li>
+      <li>Kein unnötiges Verteilen von Magnesia in der Luft</li>
+      <li>Verschmutze Griffe mit der Bürste reinigen</li>
+      <li>Nicht Barfuss klettern</li>
     </ul>
   </section>
 
@@ -41,25 +41,24 @@
     <h2>Kinder & Aufsicht</h2>
     <ul>
       <li>
-        Benützung des Stangenpark und Fitnessbereich ist erst ab 14 Jahren
-        erlaubt
-      </li>
-      <li>
-        Kinder bis und mit 13 Jahren dürfen nur unter Beaufsichtigung einer
-        erwachsenen Person bouldern
-      </li>
-      <li>
         Eine erwachsene Person darf maximal drei Kinder und Jugendliche unter 14
         Jahren beaufsichtigen
       </li>
       <li>
-        Kinder unter 5 Jahren dürfen nur die Kurswand und den Kinderbereich
-        nutzen.
+        Die Begleitperson ist verpflichtet, die Kinder permanent zu
+        beaufsichtigen.
       </li>
       <li>
-        Kinder unter 5 Jahren, die dank einer Ausnahmebewilligung in der ganzen
-        Halle bouldern dürfen, dürfen sich nicht ohne direkte Aufsicht einer
-        erwachsenen Person aufhalten.
+        Benützung des Stangenparks und Fitnessbereichs ist erst ab 14 Jahren
+        erlaubt
+      </li>
+      <li>
+        Der Boulderbereich ist kein Spielbereich, dafür haben wir die
+        Kinderwelt.
+      </li>
+      <li>
+        Herumrennen ist im Boulderbereich verboten. Wiederholte Verstösse können
+        einen Hallenverweis zur Folge haben.
       </li>
     </ul>
   </section>
