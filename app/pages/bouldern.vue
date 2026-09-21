@@ -97,7 +97,13 @@
       Kurszeiten und Inhalten findest du auf der separaten Kurs-Seite).
     </p>
 
-    <NuxtLink class="button" :to="{ name: 'kurse' }"> Zu den Kursen </NuxtLink>
+    <a
+      href="https://gyms.vertical-life.info/boulder-baden/events/list"
+      class="button"
+      target="_blank"
+    >
+      Zu den Kursen
+    </a>
 
     <h3>Boardtraining</h3>
     <p>
