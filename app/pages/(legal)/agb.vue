@@ -409,6 +409,34 @@
   </section>
 
   <section>
+    <h2>Webseite und Dienstleistungen</h2>
+    <p>
+      Die Bouba AG und ihre Lieferanten sind bestrebt, dem Kunden einen nach dem
+      Stand der Technik möglichst reibungslosen und professionellen Service zu
+      bieten. Dazu bedient sich Bouba AG bewährter Technik sowie ausgewiesener
+      Fachleute und Lieferanten (zusammen: «Lieferanten»), unter Anwendung der
+      erforderlichen Sorgfalt. Dennoch kann Bouba AG keine Garantie für eine
+      feh- lerfreie oder unterbruchslose Erbringung der Dienstleistungen
+      übernehmen oder rechtswidrige Ein- griffe in das EDV-System oder eine
+      missbräuchliche Verwendung durch Unbefugte ausschliessen und lehnt jede
+      Haftung für allfällige Schäden daraus ab. Eine Haftung für Leistungen
+      Dritter wird im rechtlich zulässigen Umfang ausgeschlossen.
+    </p>
+
+    <p>
+      Der Kunde verwendet seine Hardware (inkl. Drucker), Betriebssoftware und
+      Telekommunikations- einrichtungen für die Inanspruchnahme von
+      Dienstleistungen auf eigene Gefahr und Kosten. Der Kunde anerkennt, dass
+      Bouba AG und seine Lieferanten/Lizenzgeber nicht verpflichtet sind,
+      bestimmte Software zu unterstützen oder zu erhalten oder bestimmte
+      Betriebsplattformen oder -systeme zu unterstützen oder deren Unterstützung
+      in Zukunft aufrecht zu erhalten. Bouba AG lehnt im Rahmen des gesetzlich
+      Zulässigen jede Haftung für Schäden am EDV-System des Kunden infolge
+      Benutzung der Website oder einer Inanspruchnahme von Dienstleistungen ab.
+    </p>
+  </section>
+
+  <section>
     <h2>Datenschutz</h2>
 
     <p>
@@ -447,48 +475,6 @@
       Guthaben, laufenden Abos, Kursgebühren und jeglicher weiterer Ar- ten
       bereits bezahlte Dienstleistungen und Angeboten ist ausgeschlossen.
     </p>
-  </section>
-
-  <section>
-    <h2>Boulderhalle</h2>
-
-    <section>
-      <h3>Allgemeines</h3>
-
-      <p>
-        Die Bouba AG und ihre Lieferanten sind bestrebt, dem Kunden einen nach
-        dem Stand der Technik möglichst reibungslosen und professionellen
-        Service zu bieten. Dazu bedient sich Bouba AG bewährter Technik sowie
-        ausgewiesener Fachleute und Lieferanten (zusammen: «Lieferanten»), unter
-        Anwendung der erforderlichen Sorgfalt. Dennoch kann Bouba AG keine
-        Garantie für eine feh- lerfreie oder unterbruchslose Erbringung der
-        Dienstleistungen übernehmen oder rechtswidrige Ein- griffe in das
-        EDV-System oder eine missbräuchliche Verwendung durch Unbefugte
-        ausschliessen und lehnt jede Haftung für allfällige Schäden daraus ab.
-        Eine Haftung für Leistungen Dritter wird im rechtlich zulässigen Umfang
-        ausgeschlossen.
-      </p>
-
-      <p>
-        Der Kunde verwendet seine Hardware (inkl. Drucker), Betriebssoftware und
-        Telekommunikations- einrichtungen für die Inanspruchnahme von
-        Dienstleistungen auf eigene Gefahr und Kosten. Der Kunde anerkennt, dass
-        Bouba AG und seine Lieferanten/Lizenzgeber nicht verpflichtet sind,
-        bestimmte Software zu unterstützen oder zu erhalten oder bestimmte
-        Betriebsplattformen oder -systeme zu unterstützen oder deren
-        Unterstützung in Zukunft aufrecht zu erhalten. Bouba AG lehnt im Rahmen
-        des gesetzlich Zulässigen jede Haftung für Schäden am EDV-System des
-        Kunden infolge Benutzung der Website oder einer Inanspruchnahme von
-        Dienstleistungen ab.
-      </p>
-    </section>
-
-    <section>
-      <h3>
-        Bedingungen für den Kletter-, Boulder – und Kursbetrieb sowie weitere
-        Verkäufe der Bouba AG
-      </h3>
-    </section>
   </section>
 </template>
 
