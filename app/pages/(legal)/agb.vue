@@ -164,31 +164,6 @@
         führen nicht zu Ersatzansprüchen der Nutzerinnen und Nutzer.
       </p>
 
-      <h4>6. Anforderungen, Verhalten und Haftung</h4>
-      <p>
-        Voraussetzung für die Nutzung der Boulderhalle BOUBA der Bouba AG ist
-        ein guter körperlicher wie auch geistiger Allgemeinzustand. Aktive und
-        passive Bewegungen müssen ohne körperliche Schä- den ausgeführt werden
-        können.
-      </p>
-
-      <p>
-        Bouldern ist eine gefährliche Sportart und mit einem Restrisiko
-        verbunden. Ein hohes Mass an Eigenverantwortung und Umsicht der
-        Nutzerinnen und Nutzer wird erwartet. Das Bouldern sowie der Aufenthalt
-        in den Räumlichkeiten der Boulderhalle BOUBA der Bouba AG erfolgt auf
-        eigene Gefahr. Die Bouba AG lehnt ausdrücklich jede Haftung ab. Es ist
-        unbedingt den Benutzungs- und Sicherheitsrichtlinien sowie dem Personal
-        Folge zu leisten.
-      </p>
-
-      <p>
-        Die Bouba AG empfiehlt Wertgegenstände sicher zu verstauen und nicht
-        unbeaufsichtigt zu lassen. Für Verluste von Wertsachen,
-        Kleidungsstücken, Fahrrädern etc. haftet die Bouba AG nicht, insbe-
-        sondere auch nicht für Verluste in den Garderobenkästen.
-      </p>
-
       <h4>7. Auswärtige Kurse</h4>
       <p>
         Auswärtige Leiter, Ausbildner und Betreuer tragen für ihre Teilnehmer
@@ -410,18 +385,27 @@
     <section>
       <h3>Sicherheitsrichtlinien</h3>
       <p>
+        Voraussetzung für die Nutzung der Boulderhalle BOUBA der Bouba AG ist
+        ein guter körperlicher wie auch geistiger Allgemeinzustand. Aktive und
+        passive Bewegungen müssen ohne körperliche Schäden ausgeführt werden
+        können.
+      </p>
+
+      <p>
         Bouldern ist eine gefährliche Sportart und mit einem Restrisiko
         verbunden. Ein hohes Mass an Eigenverantwortung und Umsicht der
         Nutzerinnen und Nutzer wird erwartet. Das Bouldern sowie der Aufenthalt
         in den Räumlichkeiten der Boulderhalle BOUBA der Bouba AG erfolgt auf
-        eigene Gefahr. Die Bouba AG lehnt ausdrücklich jede Haftung ab.
+        eigene Gefahr. Die Bouba AG lehnt ausdrücklich jede Haftung ab. Es ist
+        unbedingt den Benutzungs- und Sicherheitsrichtlinien sowie dem Personal
+        Folge zu leisten.
       </p>
 
       <p>
         Es ist zu beachten, dass Klettergriffe drehen oder abbrechen können.
         Mängel oder Schäden sind umgehend dem Hallenpersonal mitzuteilen.
-        Manipulationen an Griffen, Tritten oder Volumen erfol- gen
-        ausschliesslich durch das Hallenpersonal.
+        Manipulationen an Griffen, Tritten oder Volumen erfolgen ausschliesslich
+        durch das Hallenpersonal.
       </p>
 
       <p>
@@ -430,6 +414,13 @@
         Nuetzerinnen und Nutzer. Die Benützung des Stangenparks, der Kraftgeräte
         und jeder weiteren nutzbaren Infrastruktur auf dem Areal der Bouba AG
         erfolgt auf eigene Gefahr. Die Bouba AG lehnt jegliche Haftung ab.
+      </p>
+
+      <p>
+        Die Bouba AG empfiehlt Wertgegenstände sicher zu verstauen und nicht
+        unbeaufsichtigt zu lassen. Für Verluste von Wertsachen,
+        Kleidungsstücken, Fahrrädern etc. haftet die Bouba AG nicht, insbe-
+        sondere auch nicht für Verluste in den Garderobenkästen.
       </p>
 
       <p>
