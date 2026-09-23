@@ -129,21 +129,21 @@
       <h4>4. Abonnemente und Gutscheine</h4>
       <p>
         4.1 Jahresabonnemente (inkl. Zweijahres-, Halbjahres-, Dreimonats- und
-        Einmonatsabos) sind per- sönlich und nicht übertragbar. Die jeweilige
-        Gültigkeitsdauer beginnt ab dem Kaufdatum. Jahres- abonnemente (inkl.
+        Einmonatsabos) sind persönlich und nicht übertragbar. Die jeweilige
+        Gültigkeitsdauer beginnt ab dem Kaufdatum. Jahresabonnemente (inkl.
         Zweijahres-, Halbjahres-, Dreimonats- und Einmonatsabos) können in ihrer
         Laufzeit weder zurückgenommen, noch geändert oder übertragen werden.
       </p>
 
       <p>
         4.2 12er Karten sind übertragbar, können aber nicht einem Abonnement
-        angerechnet oder zurück- erstattet werden.
+        angerechnet oder zurückerstattet werden.
       </p>
 
       <p>
         4.3 Wenn du aufgrund von Krankheit, Unfall, Schwangerschaft oder Militär
         verhindert bist, kannst du gegen eine Gebühr von CHF 30.- und dem
-        Vorweisen eines Arztzeugnisses (100%-ige Sport- unfähigkeit) oder
+        Vorweisen eines Arztzeugnisses (100%-ige Sportunfähigkeit) oder
         Marschbefehls dein Abo unterbrechen lassen. Ferienabwesenheiten (auch
         längere Auslandaufenthalte) sind kein Unterbrechungsgrund. Die
         Mindestdauer der Unterbrechung beträgt 30 Tage bis maximal 180 Tage.
