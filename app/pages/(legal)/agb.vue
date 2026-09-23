@@ -251,7 +251,7 @@
         ten bereits bezahlte Dienstleistungen und Angeboten ist ausgeschlossen.
       </p>
 
-      <h4>12. Prepay</h4>
+      <h4>12. Zahlungen und Prepay</h4>
       <p>
         Auf das Kundenkonto kann Guthaben einbezahlt werden. Mit dem Guthaben
         kann in der Boulder- halle BOUBA der Bouba AG bargeldlose
@@ -269,7 +269,6 @@
         Karte übernimmt die Bouba AG keine Haftung.
       </p>
 
-      <h4>13. Kartenzahlungen</h4>
       <p>
         Für Zahlungen mittels Kreditkarten wird auf den ordentlichen Preis kein
         Zuschlag erhoben. Ist eine Kartenzahlung (inkl. Prepayzahlung) aus
