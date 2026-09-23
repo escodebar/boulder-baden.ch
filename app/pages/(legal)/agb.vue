@@ -91,15 +91,6 @@
         Absage der Veranstaltung ist eine Teil-Rückerstattung von maximal 80%
         gewährleistet.
       </p>
-
-      <p>
-        Sollte die Bouba AG die Boulderhalle wegen höherer Gewalt (Pandemie,
-        Gesetze, Warungsarbeiten) vorübergehend schliessen müssen, besteht kein
-        Anspruch auf Rückerstattung der Eintritte, 11-er Abos und
-        Jahresabonnemente. Ebenso ist die Bouba AG nicht verpflichtet, die
-        Laufzeit der Jahres- abonnemente um die Zeit der Schliessung zu
-        verlängern.
-      </p>
     </section>
 
     <section>
@@ -335,10 +326,13 @@
     <section>
       <h3>Höhere Gewalt</h3>
       <p>
-        Muss die Anlage wegen Faktoren höherer Gewalt (Naturkatastrophen, Brand,
-        Epidemie, Krieg etc.) vorübergehend schliessen, hat der Kunde kein Recht
-        auf Rückerstattung von Abo- und Kurskosten. Selbes gilt, wenn die
-        Kletterhalle in Folge höherer Gewalt in Konkurs geht.
+        Muss die Anlage wegen Faktoren höherer Gewalt (Brand, Epidemie, Gesetze,
+        Krieg, Naturkatastrophen, Wartungsarbeiten, etc.) vorübergehend
+        schliessen, besteht kein Anspruch auf Rückerstattung von Eintritte,
+        Mehrfachkarten, Abo- und Kurskosten. Selbes gilt, wenn die Kletterhalle
+        in Folge höherer Gewalt in Konkurs geht. Ebenso ist die Bouba AG nicht
+        verpflichtet, die Laufzeit der Jahres- abonnemente um die Zeit der
+        Schliessung zu verlängern.
       </p>
     </section>
 
