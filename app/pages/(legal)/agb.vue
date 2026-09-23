@@ -119,6 +119,12 @@
       vorzuweisen.
     </p>
 
+    <h3>Öffnungszeiten</h3>
+    <p>
+      Die Öffnungszeiten sind dem Aushang in der Boulderhalle und auf der
+      Homepage zu entnehmen.
+    </p>
+
     <h3>Betriebsunterbrüche, Sektorensperre und höhere Gewalt</h3>
     <p>
       Für ausserordentliche Veranstaltungen/Ereignisse (bspw. Wettkämpfe,
@@ -482,12 +488,6 @@
         Bedingungen für den Kletter-, Boulder – und Kursbetrieb sowie weitere
         Verkäufe der Bouba AG
       </h3>
-
-      <h4>3. Öffnungszeiten</h4>
-      <p>
-        Die Öffnungszeiten sind dem Aushang in der Boulderhalle und auf der
-        Homepage zu entnehmen.
-      </p>
     </section>
   </section>
 </template>
