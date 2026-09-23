@@ -170,7 +170,7 @@
         die volle Verantwortung.
       </p>
 
-      <h4>8. Garderobenkästen</h4>
+      <h4>8. Garderobenkästen und liegengelassene Gegenstände</h4>
       <p>
         Für die Nutzerinnen und Nutzer stehen eine begrenzte Anzahl
         Garderobenschränke, die mit einem persönlichen Vorhängeschloss
@@ -183,7 +183,13 @@
         nach Aufbruch des Schlosses in der Fundgrube aufbewahrt.
       </p>
 
-      <h4>9. Liegengelassene Gegenstände</h4>
+      <p>
+        Die Bouba AG empfiehlt Wertgegenstände sicher zu verstauen und nicht
+        unbeaufsichtigt zu lassen. Für Verluste von Wertsachen,
+        Kleidungsstücken, Fahrrädern etc. haftet die Bouba AG nicht, insbe-
+        sondere auch nicht für Verluste in den Garderobenkästen.
+      </p>
+
       <p>
         Auf dem Grundstück der Boulderhalle BOUBA der Bouba AG liegengelassene
         Gegenstände gelten nach drei Monaten als herrenlos. Die Bouba AG ist
@@ -412,13 +418,6 @@
         Nuetzerinnen und Nutzer. Die Benützung des Stangenparks, der Kraftgeräte
         und jeder weiteren nutzbaren Infrastruktur auf dem Areal der Bouba AG
         erfolgt auf eigene Gefahr. Die Bouba AG lehnt jegliche Haftung ab.
-      </p>
-
-      <p>
-        Die Bouba AG empfiehlt Wertgegenstände sicher zu verstauen und nicht
-        unbeaufsichtigt zu lassen. Für Verluste von Wertsachen,
-        Kleidungsstücken, Fahrrädern etc. haftet die Bouba AG nicht, insbe-
-        sondere auch nicht für Verluste in den Garderobenkästen.
       </p>
 
       <p>
