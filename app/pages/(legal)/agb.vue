@@ -2,6 +2,38 @@
   <h1>Allgemeine Geschäftsbedingungen</h1>
 
   <section>
+    <h2>Allgemeines</h2>
+
+    <h3>Geltungsbereich</h3>
+    <p>
+      Die jeweils aktuellen allgemeinen Geschäftsbedingungen werden Bestandteil
+      des Vertrages zwi- schen den Nutzerinnen und Nutzern der Boulderhalle
+      Bouba AG in Baden als Betreiberin dieser Boulderhalle.
+    </p>
+
+    <p>
+      Die Bouba AG ist berechtigt, vorliegende AGB sowie die Hallenordnung
+      jederzeit zu ändern. Die Änderungen werden mit der Aufschaltung auf der
+      Homepage der Bouba AG wirksam. Nutzerinnen und Nutzer können aus
+      Änderungen keine Rechte ableiten.
+    </p>
+
+    <h3>Vertragsabschluss</h3>
+    <p>
+      Ein Vertrag kommt zustande beim Kauf einer Eintrittskarte, der Buchung
+      eines Boulderkurses oder beim Kauf eines anderen Produkts. Die jeweils
+      aktuelle Preisliste ist der Homepage zu entnehmen.
+    </p>
+
+    <h3>Anwendbares Recht und Gerichtsstand</h3>
+    <p>
+      Streitigkeiten, die sich aus diesen AGB oder aus anderen Gründen ergeben
+      unterstehen schweizerischem Recht. Für alle Streitigkeiten gilt
+      ausschliesslich der Gerichtsstand Baden.
+    </p>
+  </section>
+
+  <section>
     <h2>Boulderhalle</h2>
 
     <section>
@@ -98,27 +130,6 @@
         Bedingungen für den Kletter-, Boulder – und Kursbetrieb sowie weitere
         Verkäufe der Bouba AG
       </h3>
-
-      <h4>1. Geltungsbereich</h4>
-      <p>
-        Die jeweils aktuellen allgemeinen Geschäftsbedingungen werden
-        Bestandteil des Vertrages zwi- schen den Nutzerinnen und Nutzern der
-        Boulderhalle Bouba AG in Baden als Betreiberin dieser Boulderhalle.
-      </p>
-
-      <p>
-        Die Bouba AG ist berechtigt, vorliegende AGB sowie die Hallenordnung
-        jederzeit zu ändern. Die Änderungen werden mit der Aufschaltung auf der
-        Homepage der Bouba AG wirksam. Nutzerinnen und Nutzer können aus
-        Änderungen keine Rechte ableiten.
-      </p>
-
-      <h4>2. Vertragsabschluss</h4>
-      <p>
-        Ein Vertrag kommt zustande beim Kauf einer Eintrittskarte, der Buchung
-        eines Boulderkurses oder beim Kauf eines anderen Produkts. Die jeweils
-        aktuelle Preisliste ist der Homepage zu entnehmen.
-      </p>
 
       <h4>3. Öffnungszeiten</h4>
       <p>
@@ -278,13 +289,6 @@
 
       <h4>14. Kurswesen</h4>
       <p>Für das Kurswesen können zusätzliche AGB gelten.</p>
-
-      <h4>15. Anwendbares Recht und Gerichtsstand</h4>
-      <p>
-        Streitigkeiten, die sich aus diesen AGB oder aus anderen Gründen ergeben
-        unterstehen schweize- rischem Recht. Für alle Streitigkeiten gilt
-        ausschliesslich der Gerichtsstand Baden.
-      </p>
     </section>
 
     <section>
