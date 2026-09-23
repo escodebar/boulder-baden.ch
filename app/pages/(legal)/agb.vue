@@ -155,13 +155,23 @@
         Vereinsmitgliedschaft etc.) vorzuweisen.
       </p>
 
-      <h4>5. Sektorensperre</h4>
+      <h4>5. Betriebsunterbrüche, Sektorensperre und höhere Gewalt</h4>
       <p>
         Für ausserordentliche Veranstaltungen/Ereignisse (bspw. Wettkämpfe,
-        Events, Routenbau, Revisio- nen, Kurse, Reinigungen etc.) können
-        Sektoren der Kletter- und Boulderhalle zeitweise für die freie Nutzung
-        gesperrt oder eingeschränkt werden. Diese Sperren oder Einschränkungen
-        führen nicht zu Ersatzansprüchen der Nutzerinnen und Nutzer.
+        Events, Routenbau, Revisionen, Kurse, Reinigungen etc.) können Sektoren
+        der Boulderhalle zeitweise für die freie Nutzung gesperrt oder
+        eingeschränkt werden. Diese Sperren oder Einschränkungen führen nicht zu
+        Ersatzansprüchen der Nutzerinnen und Nutzer.
+      </p>
+
+      <p>
+        Muss die Anlage wegen Faktoren höherer Gewalt (Brand, Epidemie, Gesetze,
+        Krieg, Naturkatastrophen, Wartungsarbeiten, etc.) vorübergehend
+        schliessen, besteht kein Anspruch auf Rückerstattung von Eintritte,
+        Mehrfachkarten, Abo- und Kurskosten. Selbes gilt, wenn die Kletterhalle
+        in Folge höherer Gewalt in Konkurs geht. Ebenso ist die Bouba AG nicht
+        verpflichtet, die Laufzeit der Jahres- abonnemente um die Zeit der
+        Schliessung zu verlängern.
       </p>
 
       <h4>7. Auswärtige Kurse</h4>
@@ -301,19 +311,6 @@
         willkommen und sicher fühlen kann. Bei Verstössen behalten wir uns das
         Recht vor, den Zutritt zur Halle zu verwehren oder die betroffene Person
         zum Verlassen aufzufordern.
-      </p>
-    </section>
-
-    <section>
-      <h3>Höhere Gewalt</h3>
-      <p>
-        Muss die Anlage wegen Faktoren höherer Gewalt (Brand, Epidemie, Gesetze,
-        Krieg, Naturkatastrophen, Wartungsarbeiten, etc.) vorübergehend
-        schliessen, besteht kein Anspruch auf Rückerstattung von Eintritte,
-        Mehrfachkarten, Abo- und Kurskosten. Selbes gilt, wenn die Kletterhalle
-        in Folge höherer Gewalt in Konkurs geht. Ebenso ist die Bouba AG nicht
-        verpflichtet, die Laufzeit der Jahres- abonnemente um die Zeit der
-        Schliessung zu verlängern.
       </p>
     </section>
 
