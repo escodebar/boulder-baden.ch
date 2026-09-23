@@ -403,6 +403,47 @@
   </section>
 
   <section>
+    <h2>Datenschutz</h2>
+
+    <p>
+      Der Kunde anerkennt und erklärt sich damit einverstanden, dass Bouba AG
+      und ihre Lieferanten im Zusammenhang mit Bereitstellung und Unterhalt der
+      Website und der Erbringung von Dienstleistun- gen Kenntnis von
+      Personendaten erhalten können. Bouba AG bemüht sich im gesetzlich
+      gebotenen und kommerziell vertretbaren Rahmen zur Gewährleistung der
+      Vertraulichkeit. Auf der Homepage (www.boulder-baden.ch) ist eine
+      ausführliche Datenschutzerklärung der Bouba AG hinterlegt.
+    </p>
+
+    <p>
+      Die Bouba AG kann während dem ordentlichen Betrieb und während Events
+      Fotos aufnehmen. Da- bei können Besucher abgebildet werden. Mit der
+      Akzeptierung dieser AGB erklärt sich der Kunde/ die Kundin damit
+      einverstanden, dass die Bilder zu Marketingzwecken verwendet und an Dritte
+      weitergegeben werden dürfen.
+    </p>
+
+    <p>
+      Die für die Benutzerverwaltung anfallenden Daten von Nutzerinnen und
+      Nutzern werden von der Bouba AG bearbeitet und registriert. Die Daten
+      werden grundsätzlich nur für eigene Zwecke ver- wendet, soweit für
+      Geschäftsbeziehungen erforderlich (insbesondere die Kassensoftware Boulde-
+      rado und die Kurssoftware Vertical-Life), können die Daten auch an Dritte
+      weitergegeben werden. Bei nicht gesetzeskonformen Handlungen
+      (Zahlungsrückstand, missbräuchliche Kartenverwendung etc.) durch
+      Nutzerinnen/Nutzer oder durch Dritte, wird der Polizei sowie den
+      gesetzlich vorgesehe- nen Stellen Meldung erstattet. Die Löschung der
+      persönlichen Daten kann jederzeit per E-Mail an info@boulder-baden.ch
+      beantragt werden. Während der Nutzung eines Angebots der Bouba AG wie zum
+      Beispiel aber nicht abschliessend der Benützung der Boulderanlage, eines
+      Kurses und weite- res, hat der Antrag auf Datenlöschung zur Folge, dass
+      das Angebot nicht weiter genutzt werden darf. Eine Rückerstattung von
+      Guthaben, laufenden Abos, Kursgebühren und jeglicher weiterer Ar- ten
+      bereits bezahlte Dienstleistungen und Angeboten ist ausgeschlossen.
+    </p>
+  </section>
+
+  <section>
     <h2>Boulderhalle</h2>
 
     <section>
@@ -446,44 +487,6 @@
       <p>
         Die Öffnungszeiten sind dem Aushang in der Boulderhalle und auf der
         Homepage zu entnehmen.
-      </p>
-
-      <h4>11. Datenschutz</h4>
-      <p>
-        Der Kunde anerkennt und erklärt sich damit einverstanden, dass Bouba AG
-        und ihre Lieferanten im Zusammenhang mit Bereitstellung und Unterhalt
-        der Website und der Erbringung von Dienstleistun- gen Kenntnis von
-        Personendaten erhalten können. Bouba AG bemüht sich im gesetzlich
-        gebotenen und kommerziell vertretbaren Rahmen zur Gewährleistung der
-        Vertraulichkeit. Auf der Homepage (www.boulder-baden.ch) ist eine
-        ausführliche Datenschutzerklärung der Bouba AG hinterlegt.
-      </p>
-
-      <p>
-        Die Bouba AG kann während dem ordentlichen Betrieb und während Events
-        Fotos aufnehmen. Da- bei können Besucher abgebildet werden. Mit der
-        Akzeptierung dieser AGB erklärt sich der Kunde/ die Kundin damit
-        einverstanden, dass die Bilder zu Marketingzwecken verwendet und an
-        Dritte weitergegeben werden dürfen.
-      </p>
-
-      <p>
-        Die für die Benutzerverwaltung anfallenden Daten von Nutzerinnen und
-        Nutzern werden von der Bouba AG bearbeitet und registriert. Die Daten
-        werden grundsätzlich nur für eigene Zwecke ver- wendet, soweit für
-        Geschäftsbeziehungen erforderlich (insbesondere die Kassensoftware
-        Boulde- rado und die Kurssoftware Vertical-Life), können die Daten auch
-        an Dritte weitergegeben werden. Bei nicht gesetzeskonformen Handlungen
-        (Zahlungsrückstand, missbräuchliche Kartenverwendung etc.) durch
-        Nutzerinnen/Nutzer oder durch Dritte, wird der Polizei sowie den
-        gesetzlich vorgesehe- nen Stellen Meldung erstattet. Die Löschung der
-        persönlichen Daten kann jederzeit per E-Mail an info@boulder-baden.ch
-        beantragt werden. Während der Nutzung eines Angebots der Bouba AG wie
-        zum Beispiel aber nicht abschliessend der Benützung der Boulderanlage,
-        eines Kurses und weite- res, hat der Antrag auf Datenlöschung zur Folge,
-        dass das Angebot nicht weiter genutzt werden darf. Eine Rückerstattung
-        von Guthaben, laufenden Abos, Kursgebühren und jeglicher weiterer Ar-
-        ten bereits bezahlte Dienstleistungen und Angeboten ist ausgeschlossen.
       </p>
     </section>
   </section>
