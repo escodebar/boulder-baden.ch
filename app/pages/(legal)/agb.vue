@@ -312,7 +312,7 @@
     </section>
 
     <section>
-      <h3>Benutzungsrichtlinien</h3>
+      <h3>Verhaltensregeln und Ausschlussbestimmungen</h3>
       <p>
         Der Kauf der Eintrittskarte und das Ausfüllen und Unterzeichnen des
         Registrierungsformulars sind Voraussetzungen für den Eintritt in die
@@ -327,11 +327,11 @@
 
       <p>
         Die Nutzerinnen und Nutzer werden vom Hallenpersonal nicht
-        beaufsichtigt. Um Unfälle zu vermei- den und eine grösstmögliche
-        Sicherheit zu erreichen sind Nutzerinnen und Nutzer angehalten auf-
-        einander Rücksicht zu nehmen und achtsam zu sein. Sie sind verpflichtet
-        bei Unregelmässigkeiten Meldung direkt bei den Betroffenen oder beim
-        Hallenpersonal zu erstatten.
+        beaufsichtigt. Um Unfälle zu vermeiden und eine grösstmögliche
+        Sicherheit zu erreichen sind Nutzerinnen und Nutzer angehalten
+        aufeinander Rücksicht zu nehmen und achtsam zu sein. Sie sind
+        verpflichtet bei Unregelmässigkeiten Meldung direkt bei den Betroffenen
+        oder beim Hallenpersonal zu erstatten.
       </p>
 
       <p>
@@ -342,7 +342,7 @@
 
       <p>
         Es gilt in sämtlichen Räumlichkeiten der Boulderhalle BOUBA der Bouba AG
-        Feuer- und Rauchver- bot. Bei Ausbruch eines Brandes sind die
+        Feuer- und Rauchverbot. Bei Ausbruch eines Brandes sind die
         Räumlichkeiten der Boulderhalle BOUBA der Bouba AG schnellstmöglich zu
         verlassen sowie die Feuerwehr zu alarmieren.
       </p>
@@ -356,23 +356,23 @@
 
       <p>
         Das Klettern/Bouldern unter Einfluss von Alkohol und/oder anderen Drogen
-        sowie unter bewusst- seins- und reaktionsvermindernden Medikamenten ist
-        strengstens verboten. Der Konsum von alko- holischen Getränken (im
-        Bistro) ist erst nach dem Training gestattet. Für den Alkoholausschank
-        gelten die gewerbepolizeilichen Richtlinien.
+        sowie unter bewusstseins- und reaktionsvermindernden Medikamenten ist
+        strengstens verboten. Der Konsum von alkoholischen Getränken (im Bistro)
+        ist erst nach dem Training gestattet. Für den Alkoholausschank gelten
+        die gewerbepolizeilichen Richtlinien.
       </p>
 
       <p>
         Die Absprungmatten im Boulderbereich dürfen nicht als Liege- oder
-        Spielflächen verwendet wer- den. Erziehungsberechtigte, Betreuende und
+        Spielflächen verwendet werden. Erziehungsberechtigte, Betreuende und
         Kursleitende sind für Ihre Kinder bzw. Teilnehmenden verantwortlich. Das
         Abspringen muss geübt werden und stets kontrolliert erfolgen.
         Gegenseitige Rücksichtnahme ist unabdingbar.
       </p>
 
       <p>
-        Den Anweisungen der Mitarbeitenden der Boulderhalle BOUBA der Bouba AG
-        ist Folge zu leisten. Wer gegen vorliegende Hallenordnung und/oder
+        Den Benutzungs- und Sicherheitsrichtlinien sowie dem Personal ist
+        umbedingt Folge zu leisten. Wer gegen vorliegende Hallenordnung und/oder
         Anweisungen des Personals verstösst, kann von der Benützung der Anlage
         ausgeschlossen werden. Bei Widerrechtlichen Handlungen durch Nutze-
         rinnen und Nutzer ist das Personal verpflichtet, Anzeige zu erstatten.
@@ -396,9 +396,7 @@
         verbunden. Ein hohes Mass an Eigenverantwortung und Umsicht der
         Nutzerinnen und Nutzer wird erwartet. Das Bouldern sowie der Aufenthalt
         in den Räumlichkeiten der Boulderhalle BOUBA der Bouba AG erfolgt auf
-        eigene Gefahr. Die Bouba AG lehnt ausdrücklich jede Haftung ab. Es ist
-        unbedingt den Benutzungs- und Sicherheitsrichtlinien sowie dem Personal
-        Folge zu leisten.
+        eigene Gefahr. Die Bouba AG lehnt ausdrücklich jede Haftung ab.
       </p>
 
       <p>
