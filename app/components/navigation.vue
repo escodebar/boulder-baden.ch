@@ -44,7 +44,6 @@ const navItems = useNavigation("navigation");
   .ul {
     display: flex;
     flex-direction: row;
-    list-style: none;
     padding: 0;
     margin: 0;
     gap: 0;

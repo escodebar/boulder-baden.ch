@@ -10,7 +10,7 @@
       <a href="tel:+41566101717">+41 56 610 17 17</a>
     </address>
 
-    <nav>
+    <nav class="navigation">
       <ul>
         <li v-for="route in footerItems" :key="route.name">
           <NuxtLink :to="{ name: route.name }">
@@ -66,6 +66,27 @@ footer > * {
   margin: 20px 70px;
 }
 
+footer a[href="/neu-hier"] {
+  border-left: 5px solid var(--color-neu-hier);
+  padding-left: 2px;
+}
+footer a[href="/bouldern"] {
+  border-left: 5px solid var(--color-bouldern);
+  padding-left: 2px;
+}
+footer a[href="/trainieren"] {
+  border-left: 5px solid var(--color-trainieren);
+  padding-left: 2px;
+}
+footer a[href="/spielen"] {
+  border-left: 5px solid var(--color-spielen);
+  padding-left: 2px;
+}
+footer a[href="/geniessen"] {
+  border-left: 5px solid var(--color-geniessen);
+  padding-left: 2px;
+}
+
 address {
   text-align: left;
 }
@@ -88,6 +109,7 @@ ul {
 ul li {
   break-inside: avoid;
   text-align: left;
+  list-style: none;
 }
 
 ul li a {
@@ -133,6 +155,12 @@ ul li a {
   footer > * {
     border: none;
     margin: 20px 20px;
+  }
+
+  .navigation {
+    border: 1px solid var(--color-text);
+    border-style: none solid;
+    padding: 0 30px;
   }
 
   .social {

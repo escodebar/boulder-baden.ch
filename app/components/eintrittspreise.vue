@@ -42,9 +42,6 @@
         </tbody>
       </template>
     </table>
-    <figcaption>
-      Studierende bis 28 Jahre zahlen den Tarif der 18 bis 20-Jährigen.
-    </figcaption>
   </figure>
 </template>
 
@@ -72,7 +69,7 @@ const allAlterstufen = [
 
 const erläuterung = ref({
   Erwachsen: "Ab 21 Jahre",
-  Ermässigt: "18 bis 20 Jahre",
+  Ermässigt: "18 bis 20 Jahre & Student:innen bis 28",
   Jugend: "11 bis 17 Jahre",
   Kinder: "5 bis 10 Jahre",
   Mini: "1 bis 4 Jahre",
@@ -178,9 +175,15 @@ thead th {
   text-align: right;
 }
 
+thead th,
+thead td {
+  vertical-align: top;
+}
+
 th,
 td {
   padding: 0.25em 0.5em;
+  max-width: 10em;
 }
 
 th {

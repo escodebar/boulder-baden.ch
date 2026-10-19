@@ -30,6 +30,11 @@ defineProps<{
 </script>
 
 <style scoped>
+ul,
+ul > li {
+  list-style: none;
+}
+
 @media (min-width: 768px) {
   ul {
     display: grid;

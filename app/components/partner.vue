@@ -39,6 +39,7 @@ ul {
 li {
   width: 100%;
   height: auto;
+  list-style: none;
   position: relative;
 }
 

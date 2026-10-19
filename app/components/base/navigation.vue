@@ -36,3 +36,10 @@ defineProps<{
   isHidden?: boolean;
 }>();
 </script>
+
+<style scoped>
+ul,
+ul > li {
+  list-style: none;
+}
+</style>

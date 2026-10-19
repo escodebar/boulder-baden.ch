@@ -1,11 +1,13 @@
 <template>
-  <dl>
+  <dl :class="classes.dl">
     <template v-for="item in items">
-      <dt>
-        <strong v-if="item.date">{{ item.date }}</strong>
-        <span>{{ item.name }}</span>
+      <dt :class="classes.dt">
+        <strong :class="classes.strong" v-if="item.date">{{
+          item.date
+        }}</strong>
+        <span :class="classes.span">{{ item.name }}</span>
       </dt>
-      <dd>{{ item.time }}</dd>
+      <dd :class="classes.dd">{{ item.time }}</dd>
     </template>
   </dl>
 </template>
@@ -13,6 +15,13 @@
 <script setup lang="ts">
 defineProps<{
   items: OpeningTimeItem[];
+  classes: Partial<{
+    dl: string;
+    dt: string;
+    dd: string;
+    strong: string;
+    span: string;
+  }>;
 }>();
 </script>
 
@@ -36,15 +45,6 @@ dd {
   margin: 0;
   text-align: right;
   padding-left: 1rem;
-}
-
-dt,
-dd {
-  border-bottom: 0.5px solid var(--color-text);
-}
-dt:last-of-type,
-dd:last-of-type {
-  border-bottom: 0;
 }
 
 strong {

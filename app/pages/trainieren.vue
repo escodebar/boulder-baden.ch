@@ -177,6 +177,11 @@ const links = ref([
 </script>
 
 <style scoped>
+ul,
+ul > li {
+  list-style: none;
+}
+
 @media (max-width: 767px) {
   h1 {
     font-size: clamp(var(--font-size-h2), calc(21vw), var(--font-size-h1));

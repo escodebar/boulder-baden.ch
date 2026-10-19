@@ -2,17 +2,14 @@
   <Logo class="hero" />
   <Navigation />
 
-  <section>
+  <section id="oeffnungszeiten">
     <h2>Öffnungszeiten & Eintrittspreise</h2>
-    <OeffnungszeitenRegulaer />
+    <Oeffnungszeiten :items="openingTimes" :classes="$style" />
 
     <hr />
 
-    <NuxtLink
-      class="button"
-      :to="{ name: 'oeffnungszeiten', hash: '#besonders' }"
-    >
-      Spezielle Öffnungszeiten
+    <NuxtLink class="button" :to="{ name: 'oeffnungszeiten' }">
+      Besondere Öffnungszeiten
     </NuxtLink>
 
     <NuxtLink class="button" :to="{ name: 'preise', hash: '#eintrittspreise' }">
@@ -20,7 +17,7 @@
     </NuxtLink>
   </section>
 
-  <section>
+  <section id="standort">
     <h2>Standort</h2>
 
     <p>
@@ -34,12 +31,25 @@
     </address>
 
     <hr />
+
     <Map />
   </section>
 
-  <section>
+  <section id="kontakt">
     <h2>Kontakt</h2>
-    <Kontakt />
+    <address>
+      Hast du eine spezielle Anfrage oder möchtest du sonst etwas wissen?
+      Kontaktiere uns unkompliziert:<br />
+      <br />
+      <a href="mailto:info@boulder-baden.ch">info@boulder-baden.ch</a><br />
+      <a href="tel:+41566101717">+41 (0)56 610 17 17</a><br />
+      <br />
+      Bleibe up to date, folge uns auf
+      <a href="https://www.instagram.com/bouba_boulderbaden/">
+        Insta
+        <span class="icon instagram"></span>
+      </a>
+    </address>
   </section>
 
   <section>
@@ -66,15 +76,63 @@
   </section>
 </template>
 
+<script setup lang="ts">
+const openingTimes = ref<OpeningTimeItem[]>([
+  {
+    name: "Montag bis Freitag",
+    time: "von 11 bis 23",
+  },
+  {
+    name: "Samstag & Sonntag",
+    time: "von 10 bis 19",
+  },
+] as OpeningTimeItem[]);
+</script>
+
 <style scoped>
+#oeffnungszeiten {
+  padding-bottom: 0;
+}
+
+#standort hr {
+  margin-top: var(--font-size-h2);
+  margin-bottom: var(--font-size-h2);
+}
+
+#kontakt {
+  padding-bottom: 0;
+}
+
+#kontakt address {
+  margin-bottom: var(--font-size-h2);
+}
+
+* {
+  text-align: center;
+}
+
 .button {
   display: block;
+}
+
+.instagram {
+  background-image: url("@/assets/instagram.svg");
+  height: 21px;
+  width: 21px;
 }
 
 address,
 p {
   font-size: var(--font-size-h4);
   margin-top: var(--font-size-h4);
-  margin-bottom: calc(var(--font-size-h4) / 2);
+  margin-bottom: var(--font-size-h4);
+}
+</style>
+
+<style module>
+.dl {
+  font-size: var(--font-size-h4);
+  margin: var(--font-size-h2) auto;
+  line-height: 3rem;
 }
 </style>

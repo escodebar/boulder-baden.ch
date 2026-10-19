@@ -119,6 +119,8 @@ button[aria-expanded="true"] {
   header {
     top: 0;
     margin: 0 auto;
+    border-bottom: 1px solid var(--color-text);
+    height: calc(var(--appbar-height) + 1px);
   }
 
   button {
