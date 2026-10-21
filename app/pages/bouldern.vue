@@ -72,7 +72,7 @@
       >.
     </p>
 
-    <img src="/schwierigkeitsgrade.png" alt="Bewertungen im BOUBA" />
+    <Schwierigkeitsgrade />
   </section>
 
   <section>

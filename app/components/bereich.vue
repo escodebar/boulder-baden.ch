@@ -8,19 +8,19 @@ div {
 }
 
 div.gesamt {
-  background-image: url("@/assets/bereiche/gesamt.webp");
+  background-image: url("@/assets/bereiche/gesamt.svg");
 }
 div.bouldern {
-  background-image: url("@/assets/bereiche/bouldern.webp");
+  background-image: url("@/assets/bereiche/bouldern.svg");
 }
 div.spielen {
-  background-image: url("@/assets/bereiche/spielen.webp");
+  background-image: url("@/assets/bereiche/spielen.svg");
 }
 div.trainieren {
-  background-image: url("@/assets/bereiche/trainieren.webp");
+  background-image: url("@/assets/bereiche/trainieren.svg");
 }
 div.geniessen {
-  background-image: url("@/assets/bereiche/geniessen.webp");
+  background-image: url("@/assets/bereiche/geniessen.svg");
 }
 
 @media (max-width: 767px) {
