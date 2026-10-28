@@ -44,6 +44,11 @@
     <h2>Q&A</h2>
   </section>
 
+  <section>
+    <h2>BOUBA</h2>
+    <Bereich class="gesamt" />
+  </section>
+
   <Impressionen :images="images" />
 </template>
 
