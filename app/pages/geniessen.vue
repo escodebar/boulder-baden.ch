@@ -24,6 +24,8 @@
 
     <Bereich class="geniessen" />
   </section>
+
+  <Impressionen :images="images" />
 </template>
 
 <script setup lang="ts">
@@ -35,4 +37,11 @@ definePageMeta({
 });
 
 const name = "geniessen";
+
+const images = Object.values(
+  import.meta.glob<{ default: string }>("@/assets/impressionen/home/*.webp", {
+    eager: true,
+    import: "default",
+    query: "?url",
+  }),
 </script>
