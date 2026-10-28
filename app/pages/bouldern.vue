@@ -105,6 +105,8 @@
       Zum Firmenangebot
     </NuxtLink>
   </section>
+
+  <Impressionen :images="images" />
 </template>
 
 <script setup lang="ts">
@@ -114,6 +116,17 @@ definePageMeta({
   order: 10,
   title: "Bouldern",
 });
+
+const images = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/bouldern/*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
 </script>
 
 <style scoped>
