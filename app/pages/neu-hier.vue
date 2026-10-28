@@ -43,6 +43,8 @@
   <section>
     <h2>Q&A</h2>
   </section>
+
+  <Impressionen :images="images" />
 </template>
 
 <script setup lang="ts">
@@ -52,6 +54,17 @@ definePageMeta({
   order: 0,
   title: "Neu Hier?",
 });
+
+const images = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/neu_hier/*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
 </script>
 
 <style scoped>
