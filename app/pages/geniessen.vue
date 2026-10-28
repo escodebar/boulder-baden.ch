@@ -36,12 +36,14 @@ definePageMeta({
   title: "Geniessen",
 });
 
-const name = "geniessen";
-
 const images = Object.values(
-  import.meta.glob<{ default: string }>("@/assets/impressionen/home/*.webp", {
-    eager: true,
-    import: "default",
-    query: "?url",
-  }),
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/geniessen/*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
 </script>
