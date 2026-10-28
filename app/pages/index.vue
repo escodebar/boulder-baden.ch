@@ -57,18 +57,7 @@
     <Bereich class="gesamt" />
   </section>
 
-  <Impressionen
-    :images="[
-      '/impressionen/home/1.png',
-      '/impressionen/home/2.png',
-      '/impressionen/home/3.png',
-      '/impressionen/home/4.png',
-      '/impressionen/home/5.png',
-      '/impressionen/home/6.png',
-      '/impressionen/home/7.png',
-      '/impressionen/home/8.png',
-    ]"
-  />
+  <Impressionen :images="images" />
 
   <section>
     <h2>Unsere Partner</h2>
@@ -87,6 +76,14 @@ const openingTimes = ref<OpeningTimeItem[]>([
     time: "von 10 bis 19",
   },
 ] as OpeningTimeItem[]);
+
+const images = Object.values(
+  import.meta.glob<{ default: string }>("@/assets/impressionen/home/*.webp", {
+    eager: true,
+    import: "default",
+    query: "?url",
+  }),
+);
 </script>
 
 <style scoped>
