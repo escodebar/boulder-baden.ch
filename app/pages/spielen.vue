@@ -97,9 +97,7 @@
       sich mit Freunden zu treffen, strategisch zu denken und die nächsten
       Boulderrouten zu besprechen.
     </p>
-  </section>
 
-  <section id="darts">
     <h2>Darts</h2>
     <p>
       Wer trifft das Zentrum? Darts ist die perfekte Mischung aus Konzentration
@@ -107,6 +105,8 @@
       wer der beste Schütze in der Gruppe ist.
     </p>
   </section>
+
+  <Impressionen :images="images" />
 </template>
 
 <script setup lang="ts">
@@ -124,6 +124,17 @@ const links = ref([
   { to: { name, hash: "#pingpong" }, name: "Ping Pong" },
   { to: { name, hash: "#weitere-spiele" }, name: "Weitere Spiele" },
 ]);
+
+const images = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/spielen/*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
 </script>
 
 <style scoped>
