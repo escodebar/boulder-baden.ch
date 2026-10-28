@@ -56,17 +56,6 @@
     </ul>
   </section>
 
-  <Carousel
-    :images="[
-      '/impressionen/home/2.png',
-      '/impressionen/home/3.png',
-      '/impressionen/home/4.png',
-      '/impressionen/home/6.png',
-      '/impressionen/home/7.png',
-      '/impressionen/home/8.png',
-    ]"
-  />
-
   <section id="moonboard">
     <h2>Moonboard</h2>
 
@@ -154,6 +143,8 @@
       Calisthenics-Übungen.
     </p>
   </section>
+
+  <Impressionen :images="images" />
 </template>
 
 <script setup lang="ts">
@@ -174,6 +165,17 @@ const links = ref([
   { to: { name, hash: "#fitnessbereich" }, name: "Fitnessbereich" },
   { to: { name, hash: "#stangenpark" }, name: "Stangenpark" },
 ]);
+
+const images = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/trainieren/*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
 </script>
 
 <style scoped>
