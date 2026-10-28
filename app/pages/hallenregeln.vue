@@ -41,12 +41,12 @@
     <h2>Kinder & Aufsicht</h2>
     <ul>
       <li>
-        Eine erwachsene Person darf maximal drei Kinder und Jugendliche unter 14
-        Jahren beaufsichtigen
+        Eine erwachsene Person darf <strong>maximal drei</strong> Kinder und
+        Jugendliche unter 14 Jahren beaufsichtigen
       </li>
       <li>
-        Die Begleitperson ist verpflichtet, die Kinder permanent zu
-        beaufsichtigen.
+        Die Begleitperson ist verpflichtet, die Kinder und Jugendliche
+        <strong>permanent</strong> zu beaufsichtigen.
       </li>
       <li>
         Benützung des Stangenparks und Fitnessbereichs ist erst ab 14 Jahren
@@ -57,8 +57,9 @@
         Kinderwelt.
       </li>
       <li>
-        Herumrennen ist im Boulderbereich verboten. Wiederholte Verstösse können
-        einen Hallenverweis zur Folge haben.
+        <strong>Herumrennen ist</strong> im Boulderbereich
+        <strong>verboten</strong>. Wiederholte Verstösse können einen
+        Hallenverweis zur Folge haben.
       </li>
     </ul>
   </section>
