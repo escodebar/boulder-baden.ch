@@ -36,26 +36,10 @@
 
     <Carousel :images="kilterboard" />
 
-    <ul>
-      <li>
-        <a
-          class="button"
-          href="https://apps.apple.com/us/app/kilter-board-climbing-wall-app/id6755110303"
-          target="_blank"
-        >
-          Kilter im Apple Store
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="button"
-          href="https://play.google.com/store/apps/details?id=com.kiltergrips.kilter_board_app"
-        >
-          Kilter im Google Play Store
-        </a>
-      </li>
-    </ul>
+    <Stores
+      apple="https://apps.apple.com/us/app/kilter-board-climbing-wall-app/id6755110303"
+      android="https://play.google.com/store/apps/details?id=com.kiltergrips.kilter_board_app"
+    />
   </section>
 
   <section id="moonboard">
@@ -70,25 +54,10 @@
 
     <Carousel :images="moonboard" />
 
-    <ul>
-      <li>
-        <a
-          class="button"
-          href="https://apps.apple.com/us/app/moon-board/id6446842142"
-        >
-          Mooboard im Apple Store
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="button"
-          href="https://play.google.com/store/apps/details?id=com.trainingboard.moon"
-        >
-          Moonboard im Google Play Store
-        </a>
-      </li>
-    </ul>
+    <Stores
+      apple="https://apps.apple.com/us/app/moon-board/id6446842142"
+      android="https://play.google.com/store/apps/details?id=com.trainingboard.moon"
+    />
   </section>
 
   <section id="spraywall">
@@ -101,25 +70,10 @@
 
     <Carousel :images="spraywall" />
 
-    <ul>
-      <li>
-        <a
-          class="button"
-          href="https://apps.apple.com/de/app/retro-flash-climbing/id1519582483"
-        >
-          Retro Flash im Apple Store
-        </a>
-      </li>
-
-      <li>
-        <a
-          class="button"
-          href="https://play.google.com/store/apps/details?id=com.arcadebouldering.system_wall"
-        >
-          Retro Flash im Google Play Store
-        </a>
-      </li>
-    </ul>
+    <Stores
+      apple="https://apps.apple.com/de/app/retro-flash-climbing/id1519582483"
+      android="https://play.google.com/store/apps/details?id=com.arcadebouldering.system_wall"
+    />
   </section>
 
   <section id="campus-hangboard">
@@ -227,36 +181,9 @@ const fitness = Object.values(
 </script>
 
 <style scoped>
-ul,
-ul > li {
-  list-style: none;
-}
-
 @media (max-width: 767px) {
   h1 {
     font-size: clamp(var(--font-size-h2), calc(21vw), var(--font-size-h1));
-  }
-}
-
-@media (min-width: 768px) {
-  ul {
-    display: grid;
-    gap: 20px;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  ul.angebot {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-
-  a.button {
-    width: clamp(300px, 40vw, 360px);
-  }
-
-  #kilterboard .button,
-  #moonboard .button,
-  #spraywall .button {
-    display: none;
   }
 }
 </style>
