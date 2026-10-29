@@ -58,8 +58,6 @@ const props = defineProps<{
   };
 }>();
 
-const container = ref<HTMLElement | null>(null);
-
 function randomProp(obj) {
   if (!obj) {
     return undefined;
@@ -72,31 +70,25 @@ function randomProp(obj) {
     : undefined;
 }
 
-function size() {
-  const s = randomProp(props.classes.size);
-
-  return s ? s : "";
-}
-
-function position() {
-  const vertical = props.classes.position?.vertical;
-  const horizontal = props.classes.position?.horizontal;
-
-  if (!vertical && !horizontal) {
-    return [];
-  }
-
-  return [randomProp(vertical), randomProp(horizontal)].filter(Boolean);
-}
-
-const items = computed(() =>
-  toValue(props.images).map((src, index) => ({
+function makeItems(images) {
+  return images.map((src, index) => ({
     id: index,
     src,
-    position: position(),
-    size: size(),
-  })),
-);
+    position: [
+      randomProp(props.classes.position?.vertical),
+      randomProp(props.classes.position?.horizontal),
+    ].filter(Boolean),
+    size: randomProp(props.classes.size) ?? "",
+  }));
+}
+
+const container = ref<HTMLElement | null>(null);
+const stateKey = `gallery-${useId()}`;
+const items = useState(stateKey, () => makeItems(props.images));
+
+onMounted(() => {
+  items.value = makeItems(props.images);
+});
 
 const { next, previous, canScrollNext, canScrollPrevious } = useImageGallery(
   props.images,
