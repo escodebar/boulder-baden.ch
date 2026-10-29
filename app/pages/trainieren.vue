@@ -34,6 +34,8 @@
       Schwierigkeitsgraden, Ausdauertraining, Campus etc.
     </p>
 
+    <Carousel :images="kilterboard" />
+
     <ul>
       <li>
         <a
@@ -66,6 +68,8 @@
       Voraussetzungen für ambitionierte Boulderinnen und Boulderer.
     </p>
 
+    <Carousel :images="moonboard" />
+
     <ul>
       <li>
         <a
@@ -94,6 +98,8 @@
       An unserer Spraywall mit 42° Neigung sind deiner Kreativität keine Grenzen
       gesetzt. Boulderkreationen von anderen findest du in der Retro Flash App.
     </p>
+
+    <Carousel :images="spraywall" />
 
     <ul>
       <li>
@@ -133,6 +139,8 @@
       Langhanteln und diverse Zuggeräte. Dazu ein Rudergerät, Trainingsmatten
       für Bodenübungen, Terrabänder, Stabilisationsgeräte und mehr.
     </p>
+
+    <Carousel :images="fitness" />
   </section>
 
   <section id="stangenpark">
@@ -142,9 +150,9 @@
       Der Stangenpark bietet unzählige Möglichkeiten für Bodyweight- oder
       Calisthenics-Übungen.
     </p>
-  </section>
 
-  <Impressionen :images="images" />
+    <Carousel :images="stangenpark" />
+  </section>
 </template>
 
 <script setup lang="ts">
@@ -166,9 +174,49 @@ const links = ref([
   { to: { name, hash: "#stangenpark" }, name: "Stangenpark" },
 ]);
 
-const images = Object.values(
+const kilterboard = Object.values(
   import.meta.glob<{ default: string }>(
-    "@/assets/impressionen/trainieren/*.webp",
+    "@/assets/impressionen/trainieren/*kilter*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
+const moonboard = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/trainieren/*moon*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
+const spraywall = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/trainieren/*spraywall*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
+const stangenpark = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/trainieren/*stangenpark*.webp",
+    {
+      eager: true,
+      import: "default",
+      query: "?url",
+    },
+  ),
+);
+const fitness = Object.values(
+  import.meta.glob<{ default: string }>(
+    "@/assets/impressionen/trainieren/*fitness*.webp",
     {
       eager: true,
       import: "default",
