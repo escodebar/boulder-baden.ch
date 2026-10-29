@@ -19,7 +19,7 @@ const props = defineProps<{
 
     margin: var(--font-size-h2) 0 0;
     padding: 0;
-    width: 100vw;
+    width: 90vw;
   }
 
   button {
