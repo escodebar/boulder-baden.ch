@@ -46,7 +46,7 @@
 
   <section>
     <h2>BOUBA</h2>
-    <Bereich class="gesamt" />
+    <BereichGesamt />
   </section>
 
   <Impressionen :images="images" />
