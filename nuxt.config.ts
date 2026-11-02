@@ -20,8 +20,8 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   vite: {
     server: {
-      hmr: {
-        protocol: "ws",
+      ws: {
+        protocol: "wss",
       },
     },
   },
