@@ -58,14 +58,7 @@ const props = withDefaults(
   },
 );
 
-const allAlterstufen = [
-  "Erwachsen",
-  "Ermässigt",
-  "Jugend",
-  "Kinder",
-  "Mini",
-  "Firmen",
-];
+const allAlterstufen = ["Erwachsen", "Ermässigt", "Jugend", "Kinder", "Mini"];
 
 const erläuterung = ref({
   Erwachsen: "Ab 21 Jahre",
@@ -139,15 +132,6 @@ const eintrittspreise = ref({
     "12-er Abo": "100",
     Zweijahresabo: "",
     Jahresabo: "",
-    Halbjahresabo: "",
-    "3 Monate": "",
-    "1 Monat": "",
-  },
-  Firmen: {
-    Einzeleintritt: "",
-    "12-er Abo": "",
-    Zweijahresabo: "",
-    Jahresabo: "1900",
     Halbjahresabo: "",
     "3 Monate": "",
     "1 Monat": "",
