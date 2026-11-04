@@ -77,7 +77,6 @@ const erläuterung = ref({
 
 const allAbos = [
   "Einzeleintritt",
-  "Familieneintritt",
   "12-er Abo",
   "Zweijahresabo",
   "Jahresabo",
@@ -101,7 +100,6 @@ const Abos = computed(() =>
 const eintrittspreise = ref({
   Erwachsen: {
     Einzeleintritt: "24",
-    Familieneintritt: "20",
     "12-er Abo": "264",
     Zweijahresabo: "1720",
     Jahresabo: "940",
@@ -111,7 +109,6 @@ const eintrittspreise = ref({
   },
   Ermässigt: {
     Einzeleintritt: "20",
-    Familieneintritt: "",
     "12-er Abo": "220",
     Zweijahresabo: "1320",
     Jahresabo: "730",
@@ -121,7 +118,6 @@ const eintrittspreise = ref({
   },
   Jugend: {
     Einzeleintritt: "20",
-    Familieneintritt: "",
     "12-er Abo": "220",
     Zweijahresabo: "1200",
     Jahresabo: "630",
@@ -131,7 +127,6 @@ const eintrittspreise = ref({
   },
   Kinder: {
     Einzeleintritt: "14",
-    Familieneintritt: "10",
     "12-er Abo": "154",
     Zweijahresabo: "820",
     Jahresabo: "440",
@@ -141,7 +136,6 @@ const eintrittspreise = ref({
   },
   Mini: {
     Einzeleintritt: "10",
-    Familieneintritt: "5",
     "12-er Abo": "100",
     Zweijahresabo: "",
     Jahresabo: "",
