@@ -73,6 +73,7 @@ const allAbos = [
   "12-er Abo",
   "Zweijahresabo",
   "Jahresabo",
+  "SAC Lägern",
   "Halbjahresabo",
   "3 Monate",
   "1 Monat",
@@ -96,6 +97,7 @@ const eintrittspreise = ref({
     "12-er Abo": "264",
     Zweijahresabo: "1720",
     Jahresabo: "940",
+    "SAC Lägern": "810",
     Halbjahresabo: "710",
     "3 Monate": "370",
     "1 Monat": "185",
@@ -105,6 +107,7 @@ const eintrittspreise = ref({
     "12-er Abo": "220",
     Zweijahresabo: "1320",
     Jahresabo: "730",
+    "SAC Lägern": "620",
     Halbjahresabo: "560",
     "3 Monate": "320",
     "1 Monat": "145",
@@ -114,6 +117,7 @@ const eintrittspreise = ref({
     "12-er Abo": "220",
     Zweijahresabo: "1200",
     Jahresabo: "630",
+    "SAC Lägern": "530",
     Halbjahresabo: "470",
     "3 Monate": "260",
     "1 Monat": "125",
@@ -123,6 +127,7 @@ const eintrittspreise = ref({
     "12-er Abo": "154",
     Zweijahresabo: "820",
     Jahresabo: "440",
+    "SAC Lägern": "380",
     Halbjahresabo: "340",
     "3 Monate": "200",
     "1 Monat": "90",
@@ -131,7 +136,8 @@ const eintrittspreise = ref({
     Einzeleintritt: "10",
     "12-er Abo": "100",
     Zweijahresabo: "",
-    Jahresabo: "",
+    Jahresabo: "320",
+    "SAC Lägern": "",
     Halbjahresabo: "",
     "3 Monate": "",
     "1 Monat": "",
@@ -198,6 +204,12 @@ tbody tr:last-child td {
     position: sticky;
     left: 0;
     z-index: var(--layer-hover);
+  }
+
+  tbody th[scope="row"],
+  thead td[scope="col"] {
+    white-space: normal;
+    overflow-wrap: break-word;
   }
 
   thead th:last-child,

@@ -13,22 +13,18 @@
 
     <h4>Familienrabatt</h4>
     <p>
-      Spare 10% Rabatt, wenn du zwei Abos ab 21 Jahren und ein Abo ab 5 Jahren
-      kombinierst. Für alleinerziehende gilt der Rabatt bereits bei einem Abo ab
-      21 Jahren und einem Abo ab 5 Jahren. Diese Vergünstigung gilt auf das
-      Halbjahresabo, Jahresabo und Zweijahresabo.
-    </p>
-    <h4>SAC-Lägern-Vergünstigung</h4>
-    <p>
-      Profitiere als SAC-Lägern-Mitglied von einer Vergünstigung auf das
-      Jahreabo.
+      Mindestens ein Elternteil und eigene Kinder bis und mit 17 Jahre erhalten
+      beim gleichzeitigen gemeinsamen Kauf von Jahresabos 10% Rabatt.
     </p>
 
-    <h4>Gruppenvergünstigung</h4>
+    <h4>Gruppenrabatt</h4>
     <p>
-      Vorangemeldete Gruppen ab 10 Personen profitieren von einem Rabatt von 10%
-      auf die Einzeleintrittspreise.
+      10% Rabatt auf die Einzeleintrittspreise für vorangemeldete Gruppen ab 10
+      Personen. Nicht kletternde Leiter sind kostenlos.
     </p>
+
+    <h4>Mietpreise</h4>
+    <p>Kletterschuhe können für CHF 6 am Empfang gemietet werden.</p>
   </section>
 </template>
 
