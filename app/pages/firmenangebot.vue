@@ -28,11 +28,12 @@
 
     <hr />
 
-    <h3>365 Tage am Stück</h3>
+    <h3>1 mal pro Tag, 365 Tage am Stück</h3>
     <p>
-      Das Abo ist ab Ausstellungsdatum 365 Tage am Stück gültig. Es kann nicht
-      unterbrochen werden und läuft automatisch durch, egal wie oft ihr es
-      nutzt.
+      An jedem Tag steht ein Tageseintritt zur Verfügung, der einem
+      Mitarbeitenden gewährt wird. Das Abo ist ab Ausstellungsdatum 365 Tage am
+      Stück gültig. Es kann nicht unterbrochen werden und läuft automatisch
+      durch, egal wie oft ihr es nutzt.
     </p>
 
     <h4>Zahlung & Bedingungen</h4>
@@ -40,7 +41,7 @@
       Die Bezahlung erfolgt bequem per Rechnung oder, auf Wunsch, direkt vor
       Ort. Bitte beachtet: Das Abo ist nicht zurückerstattbar, auch keine
       Teilrückzahlung ist ausgeschlossen. Das gilt unabhängig davon, wie viele
-      Tage das Abo tatsächlich genutzt wird.
+      Tage das Abo tatsächlich genutzt wird. Preis: CHF 1900.-
     </p>
 
     <p>

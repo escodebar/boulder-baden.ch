@@ -2,10 +2,9 @@
   <h1>Bouldern</h1>
 
   <p>
-    BOUBA, das heisst BOUldern in BAden. Der Name ist bei uns Programm und der
-    Spass am Bouldern steht im Mittelpunkt. Dazu findest du im BOUBA Wände von
-    sehr steil bis schön plattig, mit Boulderproblemen von leicht bis schwer in
-    unterschiedlichen Stilen. Von der technisch kniffligen Slab über
+    Der Spass am Bouldern steht bei uns im Mittelpunkt. Dazu findest du im BOUBA
+    Wände von sehr steil bis schön plattig, mit Boulderproblemen von leicht bis
+    schwer in unterschiedlichen Stilen. Von der technisch kniffligen Slab über
     koordinative Sprünge bis hin zu physisch fordernden Bouldern bieten wir dir
     alles an. Bei den ca. 200 Bouldern findet jede und jeder die passenden
     Herausforderungen.
@@ -43,9 +42,9 @@
         >Kinderwelt</NuxtLink
       >
       auf dem Dach des Bistrogebäudes. Hier findet der Nachwuchs nicht nur
-      Kids-Boulder mit extra kleinen Griffen, sondern auch weitere Aktivitäten
-      zum Erforschen, Spielen und sich austoben. Für die Kleinsten hat es zudem
-      eine gemütliche Spielecke.
+      Kids-Boulder mit extra kleinen Griffabständen, sondern auch weitere
+      Aktivitäten zum Erforschen, Spielen und sich austoben. Für die Kleinsten
+      hat es zudem eine gemütliche Spielecke.
     </p>
   </section>
 

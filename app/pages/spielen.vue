@@ -2,19 +2,20 @@
   <h1>Spiel und Spass</h1>
 
   <p>
-    Brauchst du eine Pause? Möchtest du deine Freunde auf eine Runde Billard
-    einladen? Oder mal die Slackline testen? Wir haben vorgesorgt. Auch für die
-    Kleinsten: da gibt es eine Kinderwelt in der sie sich sicher austoben
-    können. Denn warum soll der Spass beim Bouldern aufhören?
+    Möchtest du mit deinen Freunden eine Runde Ping-Pong spielen? Oder mal die
+    Slackline testen? Wir haben vorgesorgt. Auch für die Kleinsten: da gibt es
+    eine Kinderwelt in der sie sich austoben können. Denn warum soll der Spass
+    beim Bouldern aufhören?
   </p>
 
   <section>
     <h2>Angebot</h2>
 
     <p>
-      Eine separate Kinderwelt zum Austoben, Slackline für die Balance und
-      Konzentration, einen Ping Pong Tisch, Billard, einen Basketballkorb und
-      mehr: wir haben für alle etwas!
+      Eine separate Kinderwelt mit einer Rutschbahn und Kinder-Routen um die
+      Kleinen zu Fordern, Slackline für die Balance und Konzentration, einen
+      Ping Pong Tisch, Billard, einen Basketballkorb und mehr: wir haben für
+      alle etwas!
     </p>
 
     <Bereich class="spielen" />
@@ -55,15 +56,16 @@
     <h2>Kinderwelt</h2>
     <p>
       Für die kleinen Boulderer haben wir ein eigenes „Spielparadies"
-      geschaffen. Hier können Kids sicher toben, klettern und spielen, während
-      die Eltern im Bistro verweilen oder selbst bouldern.
+      geschaffen. Hier können Kids sicher spielen, klettern und neue Bewegungen
+      meistern, während die Eltern entspannt zuschauen. Nehmt gerne ein Kaffee
+      aus dem Bistro mit.
     </p>
 
     <p>
       <strong>Wichtig:</strong> Die Kinderwelt wird nicht betreut. Die
       Aufsichtspflicht liegt bei den Eltern oder Begleitpersonen. Aber keine
       Sorge: Der Bereich ist sicher, kindgerecht gestaltet und bietet genug
-      Platz für wildes Toben.
+      Platz für Spielereien.
     </p>
   </section>
 
@@ -71,8 +73,8 @@
     <h2>Ping Pong</h2>
     <p>
       Schnelle Reflexe und taktisches Denken – das bringt Ping Pong mit. Wir
-      bieten dir eine professionelle Tischtennisplatte, um dich mit Freunden zu
-      messen oder einfach ein paar Bälle zu schlagen.
+      bieten dir eine Tischtennisplatte, um dich mit Freunden zu messen oder
+      einfach ein paar Bälle zu schlagen.
     </p>
   </section>
 
@@ -81,28 +83,29 @@
     <p>
       Willst du deine Koordination testen? Unsere Slacklines laden dich ein, das
       Gleichgewicht zu suchen. Egal, ob du gerade erst den ersten Schritt wagst
-      oder schon akrobatische Tricks zeigst. Hier ist Platz für deinen Flow.
+      oder schon akrobatische Tricks zeigst. Du findest sie im Garten hinter der
+      Halle.
     </p>
 
     <h2>Basketball</h2>
     <p>
       Zwischendurch mal ein paar Würfe? Unser Basketballkorb ist für schnelle
-      Duelle oder entspannte Wurfsessions da. Perfekt, um die Arme zu dehnen und
-      den Kopf frei zu bekommen.
+      Duelle oder entspannte Wurfsessions da. Bälle erhälst du beim
+      Bistropersonal.
     </p>
 
     <h2>Billard</h2>
     <p>
-      Der Klassiker zum Abschalten. Unser Billardtisch ist der perfekte Ort, um
-      sich mit Freunden zu treffen, strategisch zu denken und die nächsten
-      Boulderrouten zu besprechen.
+      Bei unserem Billiardtisch kannst du dich mit deinen Freunden treffen.
+      Spiele eine Runde Billiard um dich nach deiner Session noch in Feinmotorik
+      zu üben.
     </p>
 
     <h2>Darts</h2>
     <p>
-      Wer trifft das Zentrum? Darts ist die perfekte Mischung aus Konzentration
-      und Entspannung. Probier deine Präzision an unseren Dartscheiben und sieh,
-      wer der beste Schütze in der Gruppe ist.
+      Wer trifft das Zentrum? Darts ist eine gute Mischung aus Konzentration und
+      Entspannung. Probier unsere Dartscheibe und sieh, wer der beste Schütze in
+      der Gruppe ist.
     </p>
   </section>
 

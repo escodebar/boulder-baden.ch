@@ -2,7 +2,7 @@
   <h1>Trainieren</h1>
 
   <p>
-    Bouldern ist an sich ein idealer Sport, um den ganzen Körper zu stärken. Ein
+    Bouldern ist ein idealer Sport, um den ganzen Körper zu stärken. Ein
     Krafttraining bietet auch für Boulderinnen und Boulderer viele Vorteile und
     ist vor allem zur Verletzungsprävention oder für den Kraftaufbau essentiell.
     Deshalb haben wir einen Fitnessbereich, einen Calisthenicspark und mehrere
