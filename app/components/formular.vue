@@ -1,5 +1,9 @@
 <template>
-  <form method="post" action="" accept-charset="UTF-8">
+  <form
+    method="post"
+    action="https://submit-form.com/VIUcRiz1T"
+    accept-charset="UTF-8"
+  >
     <label for="company">Name Firma</label>
     <input type="text" id="company" name="company" required />
 
