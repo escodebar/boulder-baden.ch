@@ -41,10 +41,6 @@
   </section>
 
   <section>
-    <h2>Q&A</h2>
-  </section>
-
-  <section>
     <h2>BOUBA</h2>
     <BereichGesamt />
   </section>
